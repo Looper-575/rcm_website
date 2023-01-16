@@ -1,0 +1,482 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: inherit;
+}
+body{
+    font-size: 22px;
+}
+:root {
+    --bg_blue: #1166e1;
+    --seafoam-blue: #4ac8ca;
+    --seafoam-light: #5dbcbd;
+    --light:#fff;
+    --grey: #959595
+}
+.text-blue  {
+    color: var(--bg_blue);
+}
+.text-light  {
+    color: var(--light);
+}
+.text-grey  {
+    color: var(--grey);
+}
+.text-seafoam  {
+    color: var(--seafoam-light);
+}
+
+
+p{
+    font-size: 18px;
+    line-height: 1.6rem;
+}
+
+
+
+
+/*****************Atlantis Navbar**********************/
+.atlantis_rcm_nav{
+    z-index: 1030;
+}
+.atlantis_rcm_nav .navbar-brand > img  {
+    width: 200px;
+    margin-top: 15px;
+}
+
+
+.atlantis_rcm_nav li.nav-item {
+    margin: 0px 10px;
+    height: 40px;
+    padding: 10px 5px;
+    font-size: 18px;
+}
+
+.atlantis_rcm_nav li.nav-item a {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 1px 10px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+}
+.atlantis_rcm_nav li.nav-item > .active , .atlantis_rcm_nav li.nav-item a:hover {
+    background-color: var(--seafoam-blue);
+    color: white;
+    border: 2px solid white;
+}
+
+/*****************Atlantis Home Page Style Start**********************/
+
+.header_home {
+    background-image : url("../img/home/img-header.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+    margin-top: -80px;
+}
+
+.layer_1 {
+    background-image: url("../img/home/header-layer-1.png");
+    width: 100%;
+    background-size: cover;
+    transition:all 1.5s ease-in-out;
+    /*
+    transform: translateX(-100%);
+    */
+}
+.header_home:hover .layer_1{
+    transition:all 1.5s ease-in-out;
+    transform: translateX(0%);
+}
+
+.home-section-1{
+    background-color:  var(--bg_blue);
+}
+.home-section-2{
+    background-image: url(../img/home/section2bg.png);
+}
+.home-section-2 p{
+    color: var(--grey);
+}
+
+
+
+
+/*Section What we do*/
+
+.what_we_section {
+    background-color: var(--bg_blue);
+}
+.what_home_head p {
+    font-size: 22px;
+    margin-top: 10px;
+}
+.what_service {
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 8px;
+    width: 20%;
+    text-align: center;
+    border: 2px solid #fff;
+    transition: all .6s ease-in-out ;
+    cursor: pointer;
+}
+.what_we_section .svg_process .process_active {
+    background-color: var(--seafoam-blue);
+    transition: all .6s ease-in-out
+}
+.what_we_section .svg_process .process_active > p {
+    color: var(--light);
+}
+.what_service:hover {
+    background-color: var(--seafoam-blue);
+    transition: all .6s ease-in-out
+}
+.what_service:hover p {
+    color: var(--light);
+    transition: all .6s ease-in-out
+}
+.what_service p {
+    margin: 0;
+}
+.detail_process .process_active {
+    display: block;
+}
+.detail_process .process_inactive {
+    display: none;
+}
+
+
+.tag_what_we {
+    margin: 0;
+    font-weight: 700;
+}
+
+.text_process_c {
+    text-align: justify;
+    width: 80%;
+}
+
+/*************Section Services Home**********/
+.services-sec-home .vector {
+    width: 55px;
+    height: 62px;
+    margin: 0 0 0 57px;
+}
+.services-sec-home .card{
+    width: 239px;
+    height: 197px;
+    margin: 0px 44px 22px 36px;
+    padding: 22px 22px 24px 36px;
+    border-radius: 9px;
+    box-shadow: 0px 3px 7px 0 rgba(0, 0, 0, 0.35);
+    border: solid 2px #fff;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.services-sec-home .button-card{
+    width: 90px;
+    height: 25px;
+    margin: 12px 23px 0 40px;
+    padding: 0px 12px 0 16px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px 0 rgba(93, 95, 97, 0.35);
+    border: solid 2px #fff;
+    background-color: #fff;
+    color: #5dbcbd;
+    font-size: 16px;
+    z-index: 1030;
+
+}
+.services-sec-home .card p {
+    font-size: 18px;
+    margin: 16px 0 11px;
+    line-height: 23px;
+}
+.services-sec-home .content{
+    position: absolute;
+    background-color:#5dbcbd;
+    height: 100%;
+    transition: all 0.5s;
+    top: 0;
+    left: -100%;
+    padding: 20px;
+    width: 100%;
+    margin: 0 0 24px;
+    font-family: Poppins;
+    font-size: 14px;
+    letter-spacing: 0.64px;
+    text-align: left;
+    color: #fff;
+    border-radius: 9px;
+
+}
+.services-sec-home .card:hover .content{
+    left: 0;
+    background-color: #4ac8ca;
+}
+
+/****************Corresponding section Home *******************/
+
+.corresponding_section {
+    background-color: var(--bg_blue);
+}
+.corresponding_section .what_service {
+    height: 197px;
+    padding: 15px 10px;
+}
+.corresponding_section .corrsponding_icons {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+    background-color: #fff;
+    padding-top: 10px;
+}
+.corresponding_section .corrsponding_icons > img {
+    width: 45px;
+}
+.corresponding_section .svg_process .process_active {
+    background-color: var(--seafoam-blue);
+    transition: all .6s ease-in-out
+}
+.corresponding_section .svg_process .process_active > p {
+    color: var(--light);
+}
+.text_crrspnding_blck {
+    width: 80%;
+    line-height: 2;
+}
+
+
+/*****************connect us section home**********************/
+
+.Connect-Us{
+    background-image: url(../img/home/section2bg.png);
+}
+.Connect-Us col-7 , .Connect-Us col-5 {
+    padding: 0;
+}
+.Connect-head{
+    letter-spacing: -0.54px;
+}
+.Connect-para{
+    line-height: normal;
+    letter-spacing: 0.72px;
+}
+.seven-form{
+    width:100%;
+    height: 100%;
+    padding: 53px 51px 52px;
+    box-shadow: 0px 2px 3px 0 #000;
+    background-image: linear-gradient(to top, #1166e1, #4ac8ca);
+}
+
+.seven-icon{
+    width: 23px;
+    height: 23px;
+    margin-right: 21px;
+    padding: 3px;
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 10px;
+}
+.form-control {
+    font-size: 14px;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border: none;
+}
+.btn-7{
+    width: 229px;
+    height: 36px;
+    margin: 0px 0px 0 44px;
+    border-radius: 9px;
+    border: solid 2px #fff;
+    background-color: #4ac8ca;
+    font-size: 14px;
+}
+.required{
+    width: 188px;
+    height: 15px;
+    margin: 10px 157px 18px 0;
+    font-size: 14px;
+    letter-spacing: 0.56px;
+    color: #fff;
+}
+.app-hea{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    color: #fff;
+}
+.foam-para{
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    color: #fff;
+}
+
+/*****************testimonial section home**********************/
+
+.home-testimonial-section{
+    background-color:  var(--bg_blue);
+}
+.text-light  {
+    color: var(--light);
+}
+.carousel-control-prev{
+    width: 30px;
+}
+.carousel-control-next{
+    width: 30px;
+}
+
+.main_testimonial{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 40px;
+    width: 90%;
+    margin-left: 55px;
+}
+.testimonial_content:hover{
+    color: var(--light);
+    background-color: var(--seafoam-blue);
+    border: 2px solid white;
+}
+.testimonial_slide{
+    width: 40%;
+}
+
+.testimonial_content{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 9px;
+    height: 200px;
+}
+.testemonial_user{
+    padding-left: 35px;
+    margin-top: -13px;
+}
+
+.testemonial_user img {
+    border-radius: 35px;
+}
+#slide_button{
+    border-top: 0;
+    border-bottom: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+}
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    border: solid 2px;
+    border-radius: 100px;
+}
+
+
+/*****************Recent News**********************/
+
+
+.col-md-4{
+    position: relative;
+}
+.eight-img-para{
+    margin-top: 17px;
+    font-weight: 600;
+}
+.btn-card{
+    width: 138px;
+    height: 33px;
+    border-radius: 9px;
+    border: solid 2px #fff;
+    background-color: #fff0;
+    color: white;
+    font-size: 16px;
+}
+
+.overlay {
+    position: absolute;
+    background: rgba(74, 200, 202,63%);
+    opacity: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+}
+.recent_news_block {
+    position: relative;
+    max-width: 95%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.recent_news_block > .recent_news_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid var(--seafoam-blue);
+}
+.overlay:hover{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.btn-card:hover{
+    background-color: #4ac8ca;
+}
+/*****************Atlantis Home Page Style End**********************/
+
+
+/*****************Atlantis Patient Experience Page Style Start**********************/
+.header_patient_exp {
+    background-image: url("../img/patienteXp/patient_exp_hd.png");
+    height: 776px;
+}
+
+
+
+/*****************Atlantis Patient Experience Page Style End**********************/
+
+
+
+/*****************Atlantis RCM Footer**********************/
+.footer_contact {
+    background-image: url("../img/footer/0-10-footer-section.png");
+    background-size: cover;
+    height: 450px;
+}
+
+.copyright_line {
+    background-color: var(--seafoam-blue);
+}
+.copyright_line p {
+    font-size: 12px;
+    margin: 0;
+}
