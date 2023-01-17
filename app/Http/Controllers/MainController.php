@@ -10,4 +10,9 @@ class MainController extends Controller
     {
         return view('frontend.index');
     }
+
+    public function patient_experience()
+    {
+        return view('frontend.patient_experience');
+    }
 }

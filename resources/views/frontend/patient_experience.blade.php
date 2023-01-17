@@ -1,7 +1,5 @@
-<?php
-include ('templates/header.php')
-?>
-
+@extends('frontend.layout.master')
+@section('content')
 <section class="header_home header_patient_exp">
     <div class="layer_1 h-100">
         <div class="container h-100">
@@ -20,9 +18,4 @@ include ('templates/header.php')
         </div>
     </div>
 </section>
-
-
-
-<?php
-include ('templates/footer.php')
-?>
+@endsection

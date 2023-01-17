@@ -22,10 +22,6 @@ Route::get('/route-cache', function() {
 
 
 Route::get('/', [App\Http\Controllers\MainController::class,'index'])->name('home');
-
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-
+Route::get('/patient_experience', [App\Http\Controllers\MainController::class,'patient_experience'])->name('patient_experience');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
