@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{url('/public/frontend/assets/bootstrap-5.2.3-dist/css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{url('/public/frontend/assets/css/style.css')}}">
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"
+    ></script>
     <script src="{{url('/frontend/assets/bootstrap-5.2.3-dist/js/bootstrap.bundle.js')}}"></script>
     <link rel="shortcut icon" type="image/x-icon" href="{{url('/public/frontend/assets/img/fav_icon_1x_16x16_.png')}}"/>
     <title>Atlantis RCM</title>

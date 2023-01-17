@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('/route-cache', function() {
+    Cache::flush();
+    Route::clearResolvedInstances();
+    return 'Routes cache cleared';
+});
+
 
 Route::get('/', [App\Http\Controllers\MainController::class,'index'])->name('home');
 
