@@ -1,18 +1,20 @@
 @extends('frontend.layout.master')
 @section('content')
     <section class="header_home">
-        <div class="layer_1 h-100">
+        <div class="h-100" id="layer_1">
             <div class="container h-100">
                 <div class="d-flex flex-column justify-content-center h-100">
-                    <h1 class="text-light">Helping<br> Healthcare Providers</h1>
-                    <h3 class="text-light my-3">Improvement Patient Experience</h3>
-                    <p class="text-light my-2">At Atlantis RCM, we organize your revenue cycle<br>
-                        so you, and your patients can enjoy a better experience.
-                    </p>
-                    <div class="hdr_btn d-flex">
-                        <button class="btn strtBtn">
+                    <div class="header_content">
+                        <h1 class="text-light">Helping<br> Healthcare Providers</h1>
+                        <h3 class="text-light my-3">Improvement Patient Experience</h3>
+                        <p class="text-light my-2">At Atlantis RCM, we organize your revenue cycle<br>
+                            so you, and your patients can enjoy a better experience.
+                        </p>
+                        <div class="hdr_btn d-flex">
+                            <button class="btn strtBtn">
 
-                        </button>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -429,25 +431,28 @@
                             <h3 class=" app-hea text-center">Make An Appointment</h3>
                             <p class=" foam-para text-center">Fill the form and send me</p>
                             <div class="form-group">
-
                                 <input type="text" class="form-control text-grey" id="name" placeholder="Name">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control text-grey" id="name" placeholder="Choose Services ">
+                                <select name="services" class="w-100" id="choose-service">
+                                    <option value="volvo">Volvo</option>
+                                    <option value="saab">Saab</option>
+                                    <option value="mercedes">Mercedes</option>
+                                    <option value="audi">Audi</option>
+                                </select>
+{{--
                                 <img class="seven-icon" src="{{url('/public/frontend/assets/img/home/0-6-icon-choose-service.png')}}" alt="Image 1">
+--}}
                             </div>
                             <div class="form-group">
-
-                                <input type="text" class="form-control text-grey" id="contact-details" placeholder="Contact Details">
+                                <input type="number" class="form-control text-grey" id="contact-details" placeholder="Contact Details">
                                 <img class="seven-icon" src="{{url('/public/frontend/assets/img/home/0-6-icon-contact-details.png')}}" alt="Image 1">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control text-grey" id="date" placeholder="Choose Date">
-                                <img class="seven-icon" src="{{url('/public/frontend/assets/img/home/0-6-icon-choose-date.png')}}" alt="Image 1">
+                                <input type="date" class="form-control text-grey" id="date" placeholder="Choose Date">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control text-grey" id="time"  placeholder="Choose Time">
-                                <img class="seven-icon" src="{{url('/public/frontend/assets/img/home/0-6-icon-choose-time.png')}}" alt="Image 1">
+                                <input type="time" class="form-control text-grey" id="time"  placeholder="Choose Time">
                             </div>
                             <p class=" required mt-2">All the fields are required</p>
                             <button class="btn-7 text-light  text-center mt-1" type="button">Submit</button>
@@ -687,5 +692,8 @@
             current_process = e;
             next_process()
         }
+
+
+
     </script>
 @endsection

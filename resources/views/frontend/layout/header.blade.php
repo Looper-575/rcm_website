@@ -12,14 +12,14 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous"
     ></script>
-    <script src="{{url('public/frontend/assets/bootstrap-5.2.3-dist/js/bootstrap.bundle.js')}}"></script>
+    <script src="{{url('/frontend/assets/bootstrap-5.2.3-dist/js/bootstrap.bundle.js')}}"></script>
     <link rel="shortcut icon" type="image/x-icon" href="{{url('/public/frontend/assets/img/fav_icon_1x_16x16_.png')}}"/>
     <title>Atlantis RCM</title>
 </head>
 <body>
 <nav class="navbar atlantis_rcm_nav navbar-expand-lg bg-transparent container">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="{{url('public/frontend/assets/img/home/head_logo.png')}}" alt=""></a>
+        <a class="navbar-brand" href="#"><img src="{{url('/frontend/assets/img/home/head_logo.png')}}" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
