@@ -1,59 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,400;1,500;1,700;1,800&display=swap');
 html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
-a:hover{
+
+a:hover {
     color: inherit;
 }
-body{
+
+body {
     font-size: 22px;
 }
+
 :root {
     --bg_blue: #1166e1;
     --seafoam-blue: #4ac8ca;
     --seafoam-light: #5dbcbd;
-    --light:#fff;
+    --light: #fff;
     --grey: #959595
 }
-.text-blue  {
+
+.text-blue {
     color: var(--bg_blue);
 }
-.text-light  {
+
+.text-light {
     color: var(--light);
 }
-.text-grey  {
+
+.text-grey {
     color: var(--grey);
 }
-.text-seafoam  {
+
+.text-seafoam {
     color: var(--seafoam-light);
 }
 
 
-p{
+p {
     font-size: 18px;
     line-height: 1.6rem;
 }
 
 
-
-
 /*****************Atlantis Navbar**********************/
-.atlantis_rcm_nav{
+.atlantis_rcm_nav {
     z-index: 1030;
 }
-.atlantis_rcm_nav .navbar-brand > img  {
+
+.atlantis_rcm_nav .navbar-brand > img {
     width: 200px;
     margin-top: 15px;
 }
@@ -75,7 +84,8 @@ p{
     border-radius: 8px;
     border: 2px solid transparent;
 }
-.atlantis_rcm_nav li.nav-item > .active , .atlantis_rcm_nav li.nav-item a:hover {
+
+.atlantis_rcm_nav li.nav-item > .active, .atlantis_rcm_nav li.nav-item a:hover {
     background-color: var(--seafoam-blue);
     color: white;
     border: 2px solid white;
@@ -84,7 +94,7 @@ p{
 /*****************Atlantis Home Page Style Start**********************/
 
 .header_home {
-    background-image : url("../img/home/img-header.png");
+    background-image: url("../img/home/img-header.png");
     height: 100vh;
     background-size: cover;
     background-position: top;
@@ -95,27 +105,28 @@ p{
     background-image: url("../img/home/header-layer-1.png");
     width: 100%;
     background-size: cover;
-    transition:all 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
     /*
     transform: translateX(-100%);
     */
 }
-.header_home:hover .layer_1{
-    transition:all 1.5s ease-in-out;
+
+.header_home:hover .layer_1 {
+    transition: all 1.5s ease-in-out;
     transform: translateX(0%);
 }
 
-.home-section-1{
-    background-color:  var(--bg_blue);
+.home-section-1 {
+    background-color: var(--bg_blue);
 }
-.home-section-2{
+
+.home-section-2 {
     background-image: url(../img/home/section2bg.png);
 }
-.home-section-2 p{
+
+.home-section-2 p {
     color: var(--grey);
 }
-
-
 
 
 /*Section What we do*/
@@ -123,10 +134,12 @@ p{
 .what_we_section {
     background-color: var(--bg_blue);
 }
+
 .what_home_head p {
     font-size: 22px;
     margin-top: 10px;
 }
+
 .what_service {
     background-color: white;
     padding: 5px 8px;
@@ -134,30 +147,37 @@ p{
     width: 20%;
     text-align: center;
     border: 2px solid #fff;
-    transition: all .6s ease-in-out ;
+    transition: all .6s ease-in-out;
     cursor: pointer;
 }
+
 .what_we_section .svg_process .process_active {
     background-color: var(--seafoam-blue);
     transition: all .6s ease-in-out
 }
+
 .what_we_section .svg_process .process_active > p {
     color: var(--light);
 }
+
 .what_service:hover {
     background-color: var(--seafoam-blue);
     transition: all .6s ease-in-out
 }
+
 .what_service:hover p {
     color: var(--light);
     transition: all .6s ease-in-out
 }
+
 .what_service p {
     margin: 0;
 }
+
 .detail_process .process_active {
     display: block;
 }
+
 .detail_process .process_inactive {
     display: none;
 }
@@ -179,7 +199,8 @@ p{
     height: 62px;
     margin: 0 0 0 57px;
 }
-.services-sec-home .card{
+
+.services-sec-home .card {
     width: 239px;
     height: 197px;
     margin: 0px 44px 22px 36px;
@@ -191,7 +212,8 @@ p{
     position: relative;
     overflow: hidden;
 }
-.services-sec-home .button-card{
+
+.services-sec-home .button-card {
     width: 90px;
     height: 25px;
     margin: 12px 23px 0 40px;
@@ -205,14 +227,16 @@ p{
     z-index: 1030;
 
 }
+
 .services-sec-home .card p {
     font-size: 18px;
     margin: 16px 0 11px;
     line-height: 23px;
 }
-.services-sec-home .content{
+
+.services-sec-home .content {
     position: absolute;
-    background-color:#5dbcbd;
+    background-color: #5dbcbd;
     height: 100%;
     transition: all 0.5s;
     top: 0;
@@ -228,7 +252,8 @@ p{
     border-radius: 9px;
 
 }
-.services-sec-home .card:hover .content{
+
+.services-sec-home .card:hover .content {
     left: 0;
     background-color: #4ac8ca;
 }
@@ -238,10 +263,12 @@ p{
 .corresponding_section {
     background-color: var(--bg_blue);
 }
+
 .corresponding_section .what_service {
     height: 197px;
     padding: 15px 10px;
 }
+
 .corresponding_section .corrsponding_icons {
     width: 85px;
     height: 85px;
@@ -251,16 +278,20 @@ p{
     background-color: #fff;
     padding-top: 10px;
 }
+
 .corresponding_section .corrsponding_icons > img {
     width: 45px;
 }
+
 .corresponding_section .svg_process .process_active {
     background-color: var(--seafoam-blue);
     transition: all .6s ease-in-out
 }
+
 .corresponding_section .svg_process .process_active > p {
     color: var(--light);
 }
+
 .text_crrspnding_blck {
     width: 80%;
     line-height: 2;
@@ -269,34 +300,39 @@ p{
 
 /*****************connect us section home**********************/
 
-.Connect-Us{
+.Connect-Us {
     background-image: url(../img/home/section2bg.png);
 }
-.Connect-Us col-7 , .Connect-Us col-5 {
+
+.Connect-Us col-7, .Connect-Us col-5 {
     padding: 0;
 }
-.Connect-head{
+
+.Connect-head {
     letter-spacing: -0.54px;
 }
-.Connect-para{
+
+.Connect-para {
     line-height: normal;
     letter-spacing: 0.72px;
 }
-.seven-form{
-    width:100%;
+
+.seven-form {
+    width: 100%;
     height: 100%;
     padding: 53px 51px 52px;
     box-shadow: 0px 2px 3px 0 #000;
     background-image: linear-gradient(to top, #1166e1, #4ac8ca);
 }
 
-.seven-icon{
+.seven-icon {
     width: 23px;
     height: 23px;
     margin-right: 21px;
     padding: 3px;
 }
-.form-group{
+
+.form-group {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -304,13 +340,15 @@ p{
     background-color: white;
     margin-top: 10px;
 }
+
 .form-control {
     font-size: 14px;
     border-radius: 0.25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     border: none;
 }
-.btn-7{
+
+.btn-7 {
     width: 229px;
     height: 36px;
     margin: 0px 0px 0 44px;
@@ -319,7 +357,8 @@ p{
     background-color: #4ac8ca;
     font-size: 14px;
 }
-.required{
+
+.required {
     width: 188px;
     height: 15px;
     margin: 10px 157px 18px 0;
@@ -327,14 +366,16 @@ p{
     letter-spacing: 0.56px;
     color: #fff;
 }
-.app-hea{
+
+.app-hea {
     font-size: 18px;
     font-weight: bold;
     line-height: normal;
     letter-spacing: 0.72px;
     color: #fff;
 }
-.foam-para{
+
+.foam-para {
     font-size: 14px;
     line-height: normal;
     letter-spacing: 0.56px;
@@ -343,20 +384,23 @@ p{
 
 /*****************testimonial section home**********************/
 
-.home-testimonial-section{
-    background-color:  var(--bg_blue);
+.home-testimonial-section {
+    background-color: var(--bg_blue);
 }
-.text-light  {
+
+.text-light {
     color: var(--light);
 }
-.carousel-control-prev{
-    width: 30px;
-}
-.carousel-control-next{
+
+.carousel-control-prev {
     width: 30px;
 }
 
-.main_testimonial{
+.carousel-control-next {
+    width: 30px;
+}
+
+.main_testimonial {
     flex-wrap: wrap;
     justify-content: space-evenly;
     display: flex;
@@ -364,22 +408,25 @@ p{
     width: 90%;
     margin-left: 55px;
 }
-.testimonial_content:hover{
+
+.testimonial_content:hover {
     color: var(--light);
     background-color: var(--seafoam-blue);
     border: 2px solid white;
 }
-.testimonial_slide{
+
+.testimonial_slide {
     width: 40%;
 }
 
-.testimonial_content{
+.testimonial_content {
     background-color: #fff;
     padding: 30px;
     border-radius: 9px;
     height: 200px;
 }
-.testemonial_user{
+
+.testemonial_user {
     padding-left: 35px;
     margin-top: -13px;
 }
@@ -387,14 +434,16 @@ p{
 .testemonial_user img {
     border-radius: 35px;
 }
-#slide_button{
+
+#slide_button {
     border-top: 0;
     border-bottom: 0;
     height: 10px;
     width: 10px;
     border-radius: 100px;
 }
-.carousel-control-prev-icon , .carousel-control-next-icon{
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
     border: solid 2px;
     border-radius: 100px;
 }
@@ -403,14 +452,16 @@ p{
 /*****************Recent News**********************/
 
 
-.col-md-4{
+.col-md-4 {
     position: relative;
 }
-.eight-img-para{
+
+.eight-img-para {
     margin-top: 17px;
     font-weight: 600;
 }
-.btn-card{
+
+.btn-card {
     width: 138px;
     height: 33px;
     border-radius: 9px;
@@ -422,7 +473,7 @@ p{
 
 .overlay {
     position: absolute;
-    background: rgba(74, 200, 202,63%);
+    background: rgba(74, 200, 202, 63%);
     opacity: 0;
     top: 0;
     width: 100%;
@@ -430,6 +481,7 @@ p{
     border-radius: 15px;
     transition: all 0.5s ease-in-out;
 }
+
 .recent_news_block {
     position: relative;
     max-width: 95%;
@@ -437,6 +489,7 @@ p{
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 .recent_news_block > .recent_news_img {
     width: 100%;
     height: 100%;
@@ -444,13 +497,16 @@ p{
     border-radius: 12px;
     border: 2px solid var(--seafoam-blue);
 }
-.overlay:hover{
+
+.overlay:hover {
     opacity: 1;
     transition: opacity 0.5s;
 }
-.btn-card:hover{
+
+.btn-card:hover {
     background-color: #4ac8ca;
 }
+
 /*****************Atlantis Home Page Style End**********************/
 
 
@@ -461,9 +517,7 @@ p{
 }
 
 
-
 /*****************Atlantis Patient Experience Page Style End**********************/
-
 
 
 /*****************Atlantis RCM Footer**********************/
@@ -476,6 +530,7 @@ p{
 .copyright_line {
     background-color: var(--seafoam-blue);
 }
+
 .copyright_line p {
     font-size: 12px;
     margin: 0;

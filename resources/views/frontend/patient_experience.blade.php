@@ -11,11 +11,14 @@
                 </p>
                 <div class="hdr_btn d-flex">
                     <button class="btn strtBtn">
-
                     </button>
                 </div>
             </div>
         </div>
     </div>
 </section>
+@include('frontend.nimra.patientsec2')
+@include('frontend.umar.patient_sec4')
+@include('frontend.nimra.patientsec5')
+
 @endsection

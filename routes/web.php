@@ -23,5 +23,6 @@ Route::get('/route-cache', function() {
 
 Route::get('/', [App\Http\Controllers\MainController::class,'index'])->name('home');
 Route::get('/patient_experience', [App\Http\Controllers\MainController::class,'patient_experience'])->name('patient_experience');
-
+Route::get('/medical_billing', [App\Http\Controllers\MainController::class,'medical_billing'])->name('medical_billing');
+Route::get('/workforce', [App\Http\Controllers\MainController::class,'workforce'])->name('workforce');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
