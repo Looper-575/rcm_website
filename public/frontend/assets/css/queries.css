@@ -5,6 +5,10 @@
     .seven-form {
         height: 99.2%;
     }
+
+    .footer_solutions_side a , .footer_quick_side a  {
+        letter-spacing: 1.2px;
+    }
 }
 @media only screen and (min-width: 1201px) and (max-width:1399px) {
     .seven-form {

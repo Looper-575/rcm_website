@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-6 py-3 order-1 order-md-0">
                     <div class="footer_solutions_side">
-                        <h3 class="text-light fw-bold">
+                        <h3 class="text-light fw-bold my-3">
                             Solutions
                         </h3>
                         <div class="row">
@@ -32,7 +32,7 @@
                     <div class="footer_quick_side">
                         <div class="row mx-lg-4">
                             <div class="col-sm-6 mt-4 mt-md-0">
-                                <h3 class="text-light fw-bold">
+                                <h3 class="text-light fw-bold my-3">
                                     Quick Links
                                 </h3>
                                 <a href="{{url('/')}}" class="p-1 text-light d-block">Atlantis RCM</a>
@@ -42,7 +42,7 @@
                                 <a href="{{url('contact_us')}}" class="p-1 text-light d-block">Contact us</a>
                             </div>
                             <div class="col-sm-6 mt-4 mt-md-0 ">
-                                <h3 class="text-light fw-bold">
+                                <h3 class="text-light fw-bold my-3">
                                     Get in Touch
                                 </h3>
                                 <a href="tel:+1 518 730 1875" class="p-1 text-light d-flex align-items-center getintouch"><i class="fas fa-phone socil m-2"></i>+1 518 730 1875</a>
@@ -105,13 +105,12 @@
     success: function (msg) {
         Swal.fire({
 
+
             icon: 'success',
             text: "Thank you for your consideration. We will get back to you as soon as we can.",
-
+            confirmButtonColor: '#4ac8ca',
 
         })
-    console.log(msg)
-    $('#contact_form_id')[0].reset();
     }});
     });
 </script>
