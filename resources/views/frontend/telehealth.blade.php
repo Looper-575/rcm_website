@@ -138,8 +138,7 @@
                             <li class="nav-item  pb-xl-4 pb-md-4 pb-3 position-relative" role="presentation">
                                 <button class="nav-link pro_active_button" id="Primary-tab" data-bs-toggle="tab"
                                         data-bs-target="#Primary"
-                                        type="button" role="tab" aria-controls="Primary" aria-selected="false">Text
-                                    Messaging
+                                        type="button" role="tab" aria-controls="Primary" aria-selected="false">Text Messaging
                                 </button>
                                 <img class="pE_pro_arr_active"
                                      src="{{url('public/frontend/assets/img/patient_experience/polygon-1.png')}}">
@@ -148,8 +147,7 @@
                             <li class="nav-item  pb-xl-4 pb-md-4 pb-3 position-relative" role="presentation">
                                 <button class="nav-link pro_active_button" id="CAQH-tab" data-bs-toggle="tab"
                                         data-bs-target="#CAQH"
-                                        type="button" role="tab" aria-controls="CAQH" aria-selected="false">Social Media
-                                    Channels
+                                        type="button" role="tab" aria-controls="CAQH" aria-selected="false">Social Media Channels
                                 </button>
                                 <img class="pE_pro_arr_active"
                                      src="{{url('public/frontend/assets/img/patient_experience/polygon-1.png')}}">
@@ -164,6 +162,7 @@
                             <div class="">
                                 <img class="img-fluid"
                                      src="{{url('public/frontend/assets/img/telehealth/slider_email_alert.jpg')}}">
+                                <h5 class="text-light my-2 my-md-0 pt-xl-4">Email Alerts</h5>
                                 <p class="text-white pt-md-4">Patients eligible for our email alerts receive information
                                     about upcoming appointments and other important updates every week. This method is
                                     also used to remind patients about upcoming appointments when they have not
@@ -174,6 +173,7 @@
                             <div class="">
                                 <img class="img-fluid"
                                      src="{{url('public/frontend/assets/img/telehealth/slider_texting.jpg')}}">
+                                <h5 class="text-light my-2 my-md-0 pt-xl-4">Text Messaging</h5>
                                 <p class="text-white pt-xl-4">Our platform allows you to manage your text messages from
                                     a single location, allowing you to send automated messages and reminders about
                                     upcoming appointments, and more. We can also help you create surveys or other
@@ -186,6 +186,7 @@
                             <div class="">
                                 <img class="img-fluid"
                                      src="{{url('public/frontend/assets/img/telehealth/slider_social_media.jpg')}}">
+                                <h5 class="text-light my-2 my-md-0 pt-xl-4">Social Media Channels</h5>
                                 <p class="text-white pt-xl-4">Our team of experts will help you set up a Facebook
                                     page,Twitter,
                                     instagram, or any other social media channel that works best for your
@@ -240,7 +241,7 @@
                     <p class="headng mt-md-1 text-grey">Easily Accessible</p>
                 </div>
             </div>
-            <div class="detail_process">
+            <div class="detail_process telhealth">
                 <div class="process-detail-contant process_inactive text-light slide_content_1">
                     <div class="row px-3">
                         <div class="col-lg-6">

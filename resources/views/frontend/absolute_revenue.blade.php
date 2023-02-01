@@ -26,16 +26,15 @@
 
     <section class="Scnd-sec-PE py-5">
         <div class="container">
-            <div class="row d-flex justify-content-center ">
-                <div class="col-sm-4">
-                    <div class="card Scnd-sec-PE-card">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-4">
+                    <div class="card Scnd-sec-PE-card my-3 my-md-0">
                         <div class="PE-2-asset d-flex align-items-center justify-content-center">
                             <img src="{{url('public/frontend/assets/img/patient_experience/vector-smart-object-expereince1.png')}}"
                                  class="PE-2-img-active" alt="Image 1">
                             <img src="{{url('public/frontend/assets/img/patient_experience/icn_perfection@3x copy.png')}}"
                                  class="PE-2-img-inactive" alt="Image 2">
                         </div>
-
                         <div class="card-body">
                             <h3 class="Scnd-sec-PE-card-hea text-center text-light">Improved Cash Flow</h3>
                             <p class="Scnd-sec-PE-card-para text-center text-light m-0">Streamlining payables processes
@@ -46,8 +45,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="card  Scnd-sec-PE-card">
+                <div class="col-md-4">
+                    <div class="card  Scnd-sec-PE-card my-3 my-md-0">
                         <div class="PE-2-asset  d-flex align-items-center justify-content-center">
                             <img src="{{url('public/frontend/assets/img/patient_experience/icon_customization_inactive.png')}}"
                                  class="PE-2-img-active" alt="Image 1">
@@ -65,8 +64,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="card  Scnd-sec-PE-card">
+                <div class="col-md-4">
+                    <div class="card  Scnd-sec-PE-card my-3 my-md-0">
                         <div class="PE-2-asset  d-flex align-items-center justify-content-center">
                             <img src="{{url('public/frontend/assets/img/patient_experience/vector-smart-object-exp-1.png')}}"
                                  class="PE-2-img-active  " alt="Image 3">
@@ -260,7 +259,7 @@
 
     {{--********************************Absolute_Rev_Sec_start_claim*************************************--}}
 
-    <section class="what_we_section py-lg-5 py-3 AR_sec_start_claim">
+    <section class="what_we_section py-lg-5 py-3">
         <div class="container w-lg-75">
             <div class="d-flex flex-row flex-wrap svg_process mb-md-5">
                 <div class=" what_service service_hd slide_1 start_claim_btn" onclick="active_service(1)">

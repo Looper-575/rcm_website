@@ -24,17 +24,23 @@
         <div class="container">
             <div class="row py-5">
                 <div class="col-md-6">
-                    <h2 class="text-light"><span class=" text-seafoam-blue">Atlantis Revenue Cycle</span> Management, in
+                    <h2 class="text-light"><span class="text-seafoam">Atlantis Revenue Cycle</span> Management, in
                         that case, helps in managing</h2>
                 </div>
                 <div class="col-md-6">
                     <div class="row mt-3 mt-md-0">
-                        <div class="col-4 text-end"><img
-                                    src="{{url('/public/frontend/assets/img/home/claim-icon.png')}}" alt=""></div>
-                        <div class="col-4 text-center"><img
-                                    src="{{url('/public/frontend/assets/img/home/payment-icon.png')}}" alt=""></div>
-                        <div class="col-4"><img src="{{url('/public/frontend/assets/img/home/billing-icon.png')}}"
-                                                alt=""></div>
+                        <div class="col-4 text-end">
+                            <img src="{{url('/public/frontend/assets/img/home/claim-icon.png')}}" alt="">
+                            <h5 class="text-light m-3">Claims</h5>
+                        </div>
+                        <div class="col-4 text-center">
+                            <img src="{{url('/public/frontend/assets/img/home/payment-icon.png')}}" alt="">
+                            <h5 class="text-light m-3">Payment</h5>
+                        </div>
+                        <div class="col-4">
+                            <img src="{{url('/public/frontend/assets/img/home/billing-icon.png')}}" alt="">
+                            <h5 class="text-light m-3">Billing</h5>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -629,7 +635,7 @@
             </div>
         </div>
     </section>
-    <section class="Recent-News my-5">
+    <section class="Recent-News my-5 d-none">
         <div class="container">
             <h2 class=" text-blue mb-5">Recent News</h2>
             <div class="row">

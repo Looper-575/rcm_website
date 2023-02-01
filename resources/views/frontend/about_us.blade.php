@@ -145,7 +145,7 @@
                 </div>
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner py-lg-5">
-                        <div class="carousel-item active py-lg-5">
+                        <div class="carousel-item active py-5">
                             <div class="cus_love_main_testimonial">
                                 <div class="Cus_love_testimonial_slide">
                                     <div class="Cus_love_testimonial_content">
@@ -156,7 +156,6 @@
                                         <div class="Cus_love_testimonial_user">
                                             <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}" alt="">
                                             <span class="text-white">Dr. Shaun Daniel</span>
-                                            <span class="text-white">Institute of Cardiology</span>
                                         </div>
                                     </div>
                                 </div>
@@ -173,7 +172,6 @@
                                         <div class="Cus_love_testimonial_user">
                                             <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}" alt="">
                                             <span class="text-white">Dr. Shaun Daniel</span>
-                                            <span class="text-white">Institute of Cardiology</span>
                                         </div>
                                     </div>
                                 </div>

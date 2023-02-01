@@ -27,8 +27,8 @@
         <section class="Scnd-sec-PE py-5">
             <div class="container">
                 <div class="row d-flex justify-content-center ">
-                    <div class="col-sm-4">
-                        <div class="card Scnd-sec-PE-card">
+                    <div class="col-md-4">
+                        <div class="card Scnd-sec-PE-card my-2 my-md-0">
                             <div class="PE-2-asset d-flex align-items-center justify-content-center">
                                 <img src="{{url('public/frontend/assets/img/patient_experience/vector-smart-object-expereince1.png')}}" class="PE-2-img-active" alt="Image 1">
                                 <img src="{{url('public/frontend/assets/img/patient_experience/icn_perfection@3x copy.png')}}" class="PE-2-img-inactive" alt="Image 2" >
@@ -42,8 +42,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="card  Scnd-sec-PE-card">
+                    <div class="col-md-4">
+                        <div class="card  Scnd-sec-PE-card my-2 my-md-0">
                             <div class="PE-2-asset  d-flex align-items-center justify-content-center">
                                 <img src="{{url('public/frontend/assets/img/patient_experience/icon_customization_inactive.png')}}" class="PE-2-img-active" alt="Image 1">
                                 <img src="{{url('public/frontend/assets/img/patient_experience/vector-smart-object-exp.png')}}" class="PE-2-img-inactive" alt="Image 2" >
@@ -57,8 +57,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="card  Scnd-sec-PE-card">
+                    <div class="col-md-4">
+                        <div class="card  Scnd-sec-PE-card my-2 my-md-0">
                             <div class="PE-2-asset  d-flex align-items-center justify-content-center">
                                 <img src="{{url('public/frontend/assets/img/patient_experience/vector-smart-object-exp-1.png')}}" class="PE-2-img-active  " alt="Image 3">
                                 <img src="{{url('public/frontend/assets/img/patient_experience/icn_promptness@2x copy.png')}}" class="PE-2-img-inactive" alt="Image 2" >
