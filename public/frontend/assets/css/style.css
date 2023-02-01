@@ -4,6 +4,14 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
 }
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 
 *{
     margin: 0px;
@@ -17,9 +25,7 @@ a {
 a:hover{
     color: inherit;
 }
-body{
-    font-size: 22px;
-}
+
 :root {
     --bg_blue: #1166e1;
     --seafoam-blue: #4ac8ca;
@@ -49,16 +55,46 @@ p{
 
 
 
+/*****************Atlantis RCM 404 Page**********************/
+.error_img img {
+    width: 70%;
+    margin: 0 auto;
+}
+.btn_home_404 {
+    width: fit-content;
+    padding: 10px 35px;
+    background-color: var(--seafoam-blue);
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    border: 2px solid var(--seafoam-blue);
+    transition: all 0.4s ease-in-out;
+}
+.btn_home_404:hover {
+    background-color: white;
+    color: var(--seafoam-blue);
+    transition: all 0.4s ease-in-out;
+}
+
+
 /*****************Atlantis Navbar**********************/
 .atlantis_rcm_nav{
     z-index: 1030;
+    background: transparent;
 }
+
+.atlantis_rcm_nav_bg {
+    background: var(--seafoam-blue) !important;
+}
+
 .atlantis_rcm_nav .navbar-brand > img  {
     width: 200px;
     margin-top: 15px;
 }
 
-
+.atlantis_rcm_nav button.navbar-toggler:focus {
+    box-shadow: none;
+}
 .atlantis_rcm_nav li.nav-item {
     margin: 0px 10px;
     height: 40px;
@@ -66,7 +102,7 @@ p{
     font-size: 18px;
 }
 
-.atlantis_rcm_nav li.nav-item a {
+.atlantis_rcm_nav li.nav-item > a {
     color: white;
     font-size: 18px;
     letter-spacing: 1px;
@@ -75,19 +111,112 @@ p{
     border-radius: 8px;
     border: 2px solid transparent;
 }
-.atlantis_rcm_nav li.nav-item > .active , .atlantis_rcm_nav li.nav-item a:hover {
+.atlantis_rcm_nav li.nav-item > .active , .atlantis_rcm_nav li.nav-item > a:hover {
     background-color: var(--seafoam-blue);
     color: white;
     border: 2px solid white;
 }
 
+#solution_menu {
+    position: relative;
+    transition: all 1s ease-in-out;
+}
+#solution_menu > a > i.angle-up {
+    transform-style: preserve-3d;
+    transform: rotateZ(180deg);
+}
+
+.sub_menu_solution {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1030;
+    top: 50px;
+    width: 900px;
+    right: -422px;
+    border-radius: 15px;
+    height: 400px;
+    transition: all 0.6s ease-in-out;
+}
+#solution_menu:hover .sub_menu_solution {
+    visibility: unset;
+    opacity: 1;
+    top: 65px;
+    transition: all 0.6s ease-in-out;
+}
+.sub_menu_solution_active {
+    visibility: visible;
+    opacity: 1;
+    top: 75px;
+    transition: all 0.6s ease-in-out;
+}
+
+.bg-sol-sb-menu {
+    position: relative;
+    background: url('../img/menu/img_menu_bg.jpg');
+    border-radius: 15px;
+}
+.bg-sol-sb-menu .polygon_arrow {
+    position: absolute;
+    top: -28px;
+    right: 480px;
+}
+.sub_menu_title {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.sub_menu_descrip {
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+
+.sb_menu_view_all_sol {
+    background-color: var(--seafoam-blue);
+    color: white;
+    width: 50%;
+    padding: 5px 20px;
+    margin-left: 25px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+}
+.grey_article_sb_menu p.sub_menu_descrip {
+    margin-left: 20px !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+
+.btn_mbl_drpdown {
+    color: #fff !important;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 1px 10px;
+    border-radius: 8px;
+}
+.btn_mbl_drpdown:active ,  .btn_mbl_drpdown:focus {
+    border: 2px solid #fff !important;
+    background-color: var(--seafoam-blue);
+    color: white;
+}
+.btn_mbl_drpdown_active {
+    border: 2px solid #fff !important;
+    background-color: var(--seafoam-blue) !important;
+    color: white;
+}
+
 /*****************Atlantis Home Page Style Start**********************/
 
 .header_home {
-    background-image : url("../img/home/img-header.png");
+    background-image : url("../img/home/img-header.jpg");
     height: 100vh;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     margin-top: -80px;
 }
 
@@ -97,6 +226,7 @@ p{
     background-size: cover;
     transition:all 1.5s ease-in-out;
     transform: translateX(-100%);
+    background-position: center;
 }
 .layer_1_active {
     transition:all 1.5s ease-in-out !important;
@@ -104,6 +234,25 @@ p{
 }
 .header_content {
     display: none;
+}
+.hdr_hme_txt_bg {
+    width: fit-content;
+    padding:  8px;
+    font-weight: 700;
+    text-shadow: 0px 1px 1px rgba(42, 125, 184, 0.88);
+    background: linear-gradient(90deg, rgba(17,102,225,1) 0%, rgba(74,200,202,1) 37%, rgba(68,190,204,0) 100%);
+}
+.strtBtn_home button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: all 0.3s ease-in-out  ;
+}
+.strtBtn_home button:hover {
+    color: white;
+    background-color: var(--seafoam-blue);
+    border: 2px solid white;
+    transition: all 0.3s ease-in-out  ;
 }
 
 .home-section-1{
@@ -125,7 +274,6 @@ p{
     background-color: var(--bg_blue);
 }
 .what_home_head p {
-    font-size: 22px;
     margin-top: 10px;
 }
 .what_service {
@@ -177,8 +325,7 @@ p{
 /*************Section Services Home**********/
 .services-sec-home .vector {
     width: 55px;
-    height: 62px;
-    margin: 0 0 0 57px;
+    margin: 0 auto;
 }
 .services-sec-home .card{
     width: 239px;
@@ -203,7 +350,7 @@ p{
     background-color: #fff;
     color: #5dbcbd;
     font-size: 16px;
-    z-index: 1030;
+    z-index: 1029;
 
 }
 .services-sec-home .card p {
@@ -221,7 +368,6 @@ p{
     padding: 20px;
     width: 100%;
     margin: 0 0 24px;
-    font-family: Poppins;
     font-size: 14px;
     letter-spacing: 0.64px;
     text-align: left;
@@ -285,19 +431,20 @@ p{
 }
 .seven-form{
     width:100%;
-    height: 100%;
+    height: 99.2%;
     padding: 53px 51px 52px;
     box-shadow: 0px 2px 3px 0 #000;
     background-image: linear-gradient(to top, #1166e1, #4ac8ca);
 }
 
+
 .seven-icon{
     width: 23px;
     height: 23px;
-    margin-right: 21px;
+    margin-right: 10px;
     padding: 3px;
 }
-.form-group{
+.seven-form .form-group{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -305,16 +452,19 @@ p{
     background-color: white;
     margin-top: 10px;
 }
-.form-control {
+.seven-form .form-control {
     font-size: 14px;
     border-radius: 0.25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     border: none;
+    padding: 12px;
 }
-.btn-7{
-    width: 229px;
+.seven-form .form-control:focus {
+    box-shadow: none;
+}
+.seven-form .btn-7{
+    width: 230px;
     height: 36px;
-    margin: 0px 0px 0 44px;
     border-radius: 9px;
     border: solid 2px #fff;
     background-color: #4ac8ca;
@@ -323,7 +473,6 @@ p{
 .required{
     width: 188px;
     height: 15px;
-    margin: 10px 157px 18px 0;
     font-size: 14px;
     letter-spacing: 0.56px;
     color: #fff;
@@ -467,17 +616,40 @@ p{
 /*****************Atlantis RCM Footer**********************/
 
 .footer_contact {
-    background-image: url("../img/footer/0-10-footer-section.png");
+    background-image: url("../img/footer/footer-bg-image.jpg");
     background-size: cover;
-    height: 450px;
 }
-
+.footer_contact > div > div.row {
+    border-bottom: 1px solid #fff;
+}
+.footer_contact > div > div > div.border_left {
+    border-left: 1px solid #fff;
+}
 .copyright_line {
     background-color: var(--seafoam-blue);
 }
 .copyright_line p {
     font-size: 12px;
     margin: 0;
+}
+.contact_us_footer {
+    padding: 10px 25px;
+    background-color: var(--seafoam-blue);
+    border-radius: 25px;
+    border: 2px solid #fff;
+    width: fit-content;
+    transition: background-color 0.5s ;
+    cursor: pointer;
+}
+.contact_us_footer:hover {
+   background-color: transparent;
+}
+.contact_us_footer a{
+    color: #fff;
+}
+a.getintouch:hover {
+    color: var(--seafoam-blue) !important;
+    transition:all 0.4s ease-in-out;
 }
 
 /*****************Atlantis RCM Footer**********************/
@@ -487,75 +659,69 @@ p{
 /*********************************Patient-Experience-proactive *******************/
 .patient_exp_proactive{
     background-color:  var(--bg_blue);
-    height: 400px;
 }
 .proactive_title h2{
     font-size: 36px;
 }
-.proactive_description p{
-    font-size: 13px;
-    line-height: 1.3rem;
-}
 .proactive_description img{
-    width: 60px;
+    width: 80px;
 }
-.proactive_visit{
+.pro_active{
+    border: none;
+    width: 100%;
+    display: unset;
+}
+.pro_active_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: white;
-    height: 160px;
+    height: fit-content;
     border-radius: 10px;
-    width: 95%;
     box-shadow: rgb(0 0 0 / 19%) 0px 10px 20px, rgb(0 0 0 / 23%) 0px 6px 6px;
 }
-.proactive_visit .nav-tabs{
-    border-bottom: none;
-    display: grid;
-    text-align: center;
-    padding: 10px;
-    grid-gap: 25px;
-}
-.proactive_visit .nav .nav-item p{
-    background-color: #f1f1f1;
-    color: var(--grey);
-}
-.proactive_visit .nav .nav-item p:hover{
-    background-color: var(--seafoam-blue);
-    transition: all .6s ease-in-out;
-    color: white;
-    cursor: pointer;
-}
-.proactive_visit .nav .nav-item> .active{
-    background-color: var(--seafoam-blue);
-    transition: all .6s ease-in-out;
-    color: white;
+
+.pro_active_button.active{
+    color: white !important;
+    background-color: var(--seafoam-blue) !important;
 }
 
-.nav-item {
-    position: relative;
-}
 .pE_pro_arr_active {
+    display: none;
     position: absolute;
     width: 10px;
     top: 15px;
-    right: -12px;
+    right: -1px;
 }
+
+.active + img.pE_pro_arr_active{
+    display: block !important;
+}
+.pro_active_button{
+    margin: auto;
+    color: var(--grey) !important;
+    background-color: #f1f1f1 !important;
+    width: 95%;
+
+}
+
 /****************************Patient-Experience-customers-love css**************************************/
 
 .patient_exp_cus_love{
     background-color:  var(--bg_blue);
-    height: 500px;
 }
 .cus_love_main_testimonial {
     display: flex;
     padding-top: 40px;
-    margin-left: 140px;
     width: 75%;
-    height: 250px;
+    margin: 0 auto;
 }
+
 .Cus_love_testimonial_content {
     background-color: #fff;
-    padding: 30px;
+    padding: 20px;
     border-radius: 9px;
-    height: 160px;
+    height: fit-content;
     border: 2px solid #fff;
     transition: all .6s ease-in-out;
     box-shadow: rgb(0 0 0 / 19%) 0px 10px 20px, rgb(0 0 0 / 23%) 0px 6px 6px;
@@ -565,9 +731,10 @@ p{
     background-color: var(--seafoam-blue);
     border: 2px solid white;
 }
-.Cus_love_testimonial_user{
-    text-align: right;
-    margin-top: 35px;
+.Cus_love_testimonial_user {
+    position: absolute;
+    bottom: 0px;
+    right: 180px;
 }
 .Cus_love_testimonial_user img {
     border-radius: 35px;
@@ -583,14 +750,13 @@ p{
     background-color: var(--bg_blue);
 }
 .Scnd-sec-PE-card{
-    width: 360px;
-    margin: 0 12px 0 0;
     padding: 16px 12px 40px 10px;
     border-radius: 9px;
     box-shadow: 0px 3px 7px 0 rgba(0, 0, 0, 0.35);
     border: solid 2px #fff;
     background-image: linear-gradient(to top, #1166e1, var(--seafoam-blue));
     transition: all 0.6s ease-in;
+    height: 100%;
 }
 .PE-2-asset{
     width: 60px;
@@ -636,10 +802,6 @@ p{
 .thrd-sec-PE{
     background-image:url('../img/patient_experience/section2bg.png');
     background-size: cover;
-    padding: 137px 0 137px;
-}
-.thrd-sec-PE-data{
-    padding: 54px 62px 0 0;
 }
 
 .thrd-sec-PE-img{
@@ -676,4 +838,97 @@ p{
 
 
 /* #######################              Patient-experience Style End       #######################################*/
+
+
+/* #######################              Medical-billing Style End       #######################################*/
+
+
+
+/*****************Atlantis Medical-Biling Page Style Start**********************/
+.header_Medical_Biling{
+    background-image: url("../img/medical_billing/img_header.jpg");
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.strtBtn1 {
+    background: transparent;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:5px;
+    border: 2px solid white;
+
+}
+.strtBtn1:hover {
+    background-color: var(--seafoam-blue);
+    border: 2px solid white;
+    color: white;
+}
+
+
+/* #######################              Second-section-Medical-Biling-Page        #######################################*/
+.Scnd-sec-PE-card:hover{
+    background-image: linear-gradient(to top, var(--seafoam-blue), #0363ef)  ;
+    transition: all .6s ease-in-out;
+}
+/* #######################              Four-section-Medical-Billing-Page       #######################################*/
+.four-sec-MB-standrd{
+    background-color: var(--bg_blue);
+}
+
+.home-testimonial-section{
+    background-color:  var(--bg_blue) !important;
+}
+
+.med_bil_sec5 {
+    background-image:url('../img/patient_experience/section2bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.med_bil_sec5 .what_service {
+    height: 197px;
+    padding: 15px 10px;
+    width: 16%;
+}
+
+.med_bil_sec5 .svg_process .process_active {
+    background-color: var(--seafoam-blue);
+    transition: all .6s ease-in-out;
+}
+.med_bil_sec5 .corrsponding_icons {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+    background-color: #fff;
+    padding-top: 10px;
+}
+.med_bil_sec5 .corrsponding_icons img {
+    width: 45px;
+}
+.med_bil_sec5 .svg_process .process_active > p {
+    color: var(--light);
+}
+/* #######################              Medical Billing Style End       #######################################*/
+
+
+
+
+
+/* #######################              Unyeild Commitment Style Start       #######################################*/
+
+
+.header_unyeild {
+    background-image: url(../img/Unyeild_commit/img-header.png);
+    height: 776px;
+}
+
+.unyeild-4th-sec {
+    background: var(--bg_blue);
+}
+
+
 
