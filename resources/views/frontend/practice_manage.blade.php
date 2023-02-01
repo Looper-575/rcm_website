@@ -5,11 +5,13 @@
             <div class="container h-100">
                 <div class="d-flex flex-column justify-content-center h-100">
                     <div class="header_content">
-                        <h1 class="text-light Sec1-MB-hea1 fw-bold fs-2">Fix revenue leaks–<br>Ensure smooth operations</h1>
+                        <h1 class="text-light Sec1-MB-hea1 fw-bold fs-2">Ensure smooth operations-<br>Fix revenue leaks!</h1>
                         <div class="hdr_btn my-3 strtBtn_home">
-                            <button class="btn">
-                                Get Started
-                            </button>
+                            <a href="#connectUs">
+                                <button class="btn">
+                                    Get Started
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -107,7 +109,7 @@
 
     <!-- #####################################    Four-section-Medical-Billing-Page  #############################-->
 
-    <section class="patient_exp_proactive AR_Accelerating_Patients">
+    <section class="patient_exp_proactive py-5">
         <div class="container">
             <div class="proactive_title">
                 <h2 class="text-white pt-md-4">Patient Engagement Through Revenue Cycle Management</h2>
@@ -116,7 +118,7 @@
             </div>
             <div class="row  pt-xl-3">
                 <div class="col-12 col-md-6">
-                    <div class="pro_active_card py-4" style="height: 350px">
+                    <div class="pro_active_card py-4">
                         <ul class="nav nav-tabs pro_active" id="myTab" role="tablist">
                             <li class="nav-item pb-xl-4 pb-md-4 pb-3 position-relative" role="presentation">
                                 <button class="pro_active_button nav-link active" id="home-tab" data-bs-toggle="tab"
@@ -161,7 +163,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 my-4 my-md-0">
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                             <div class="">
@@ -364,7 +366,7 @@
     <section class="home-testimonial-section py-5">
         <div class="container">
             <div class="cus_love-title">
-                <h2 class="text-light pt-5">Why Ours Customers Loves Us</h2>
+                <h2 class="text-light pt-5">Why Our Customers Loves Us</h2>
                 <p class="text-light pt-3 fs-5">During the course of the handling of my case by Atlantis RCM, I was extremely satisfied with their approach. Throughout the entire process, they were professional and efficient, and most importantly, they helped me go through it in a painless and quick manner.</p>
             </div>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -418,7 +420,7 @@
         </div>
     </section>
 
-    <section class="Connect-Us py-xl-5 pt-3">
+    <section class="Connect-Us py-xl-5 pt-3" id="connectUs">
         <div class="container">
             <div>
                 <h2 class="Connect-head text-blue ">Improve profitability of your practice through analysis and innovation</h2>

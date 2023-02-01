@@ -22,9 +22,9 @@
             <div class="form-group">
                 <input type="time" class="form-control text-grey" id="time_id" name="time" placeholder="Choose Time" required>
             </div>
-            <p class=" required mt-2">All the fields are required</p>
+            <p class="required mt-2">All the fields are required</p>
             <div class="d-flex justify-content-center">
-                <button class="btn-7 text-light  text-center mt-1" type="submit">Submit</button>
+                <button class="btn-7 text-light  text-center mt-1" id="frm_smt_alrt" type="submit">Submit</button>
             </div>
         </form>
     </div>

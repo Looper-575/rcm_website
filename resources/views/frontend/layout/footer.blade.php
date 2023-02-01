@@ -103,14 +103,9 @@
     beforeSend: function (msg) {
     },
     success: function (msg) {
-        Swal.fire({
-
-
-            icon: 'success',
-            text: "Thank you for your consideration. We will get back to you as soon as we can.",
-            confirmButtonColor: '#4ac8ca',
-
-        })
+        $('#frm_smt_alrt').html("Submitted!");
+        $('#frm_smt_alrt').css({"background-color": '#1166e1'});
+        $('#contact_form_id')[0].reset();
     }});
     });
 </script>

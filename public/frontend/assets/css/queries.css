@@ -22,6 +22,9 @@
         font-size: 15px;
         letter-spacing: 0.5px;
     }
+    .telhealth .what_we_img img {
+        width: 100%;
+    }
 
 }
 @media only screen and (max-width: 1200px)  {
@@ -88,6 +91,9 @@
     .what_we_img {
         display: none;
     }
+    .solutions_card {
+        width: 85%;
+    }
 
 }
 @media only screen and (max-width: 768px) {
@@ -147,6 +153,9 @@
     }
     .sec-5-patExper-card {
         margin: auto;
+    }
+    .Scnd-sec-PE-card {
+        height: unset;
     }
 }
 @media screen and (max-width: 576px) {

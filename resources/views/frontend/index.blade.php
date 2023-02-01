@@ -24,17 +24,23 @@
         <div class="container">
             <div class="row py-5">
                 <div class="col-md-6">
-                    <h2 class="text-light"><span class=" text-seafoam-blue">Atlantis Revenue Cycle</span> Management, in
+                    <h2 class="text-light"><span class="text-seafoam">Atlantis Revenue Cycle</span> Management, in
                         that case, helps in managing</h2>
                 </div>
                 <div class="col-md-6">
                     <div class="row mt-3 mt-md-0">
-                        <div class="col-4 text-end"><img
-                                    src="{{url('/public/frontend/assets/img/home/claim-icon.png')}}" alt=""></div>
-                        <div class="col-4 text-center"><img
-                                    src="{{url('/public/frontend/assets/img/home/payment-icon.png')}}" alt=""></div>
-                        <div class="col-4"><img src="{{url('/public/frontend/assets/img/home/billing-icon.png')}}"
-                                                alt=""></div>
+                        <div class="col-4 text-end">
+                            <img src="{{url('/public/frontend/assets/img/home/claim-icon.png')}}" alt="">
+                            <h5 class="text-light m-3">Claims</h5>
+                        </div>
+                        <div class="col-4 text-center">
+                            <img src="{{url('/public/frontend/assets/img/home/payment-icon.png')}}" alt="">
+                            <h5 class="text-light m-3">Payment</h5>
+                        </div>
+                        <div class="col-4">
+                            <img src="{{url('/public/frontend/assets/img/home/billing-icon.png')}}" alt="">
+                            <h5 class="text-light m-3">Billing</h5>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -469,21 +475,10 @@
             </div>
         </div>
     </section>
-    <section class="Connect-Us py-5" id="connectSec">
-        <div class="container">
-            <div>
-                <h2 class="Connect-head text-blue ">Connect with Us</h2>
-                <p class="Connect-para text-grey">Our mission is to eliminate repetitive administrative tasks in
-                    healthcare organizations and individual practices so that
-                    they can exceed revenue and growth. </p>
-                @include('frontend.contactUs.contact_us_form')
-            </div>
-        </div>
-    </section>
     <section class="home-testimonial-section pb-5">
         <div class="container">
             <div>
-                <h2 class="text-light pt-5">Why Ours Customers Loves Us</h2>
+                <h2 class="text-light pt-5">Why Our Customers Loves Us</h2>
                 <p class="text-light pt-3 fs-5">With more than a decade of industry-leading experience, Atlantis has
                     been
                     continually recognized for exceptional performance, customer service, employee training, and
@@ -629,7 +624,21 @@
             </div>
         </div>
     </section>
-    <section class="Recent-News my-5">
+
+    <section class="Connect-Us py-5" id="connectSec">
+        <div class="container">
+            <div>
+                <h2 class="Connect-head text-blue ">Connect with Us</h2>
+                <p class="Connect-para text-grey">Our mission is to eliminate repetitive administrative tasks in
+                    healthcare organizations and individual practices so that
+                    they can exceed revenue and growth. </p>
+                @include('frontend.contactUs.contact_us_form')
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Recent-News my-5 d-none">
         <div class="container">
             <h2 class=" text-blue mb-5">Recent News</h2>
             <div class="row">

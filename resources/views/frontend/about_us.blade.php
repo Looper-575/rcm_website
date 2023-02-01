@@ -25,10 +25,8 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12 py-3 py-md-4 py-xl-5">
                         <div class="the_charges_content">
-                            <h3 class="text-light py-2">The charges for the Health of your Family are Never Ending.</h3>
-                            <p class="text-light">What if you could save a little? Lower your expenses, but still get the
-                                care you want with
-                                our expert medical billing services.</p>
+                            <h3 class="text-light py-2">Family Health Care Cost are Never-Ending!</h3>
+                            <p class="text-light">What if you could save a little but still get the care you expect?</p>
                         </div>
                     </div>
                 </div>
@@ -42,8 +40,7 @@
                 <div class="row py-lg-5">
                     <div class="col-lg-6 col-sm-12">
                         <div class="thrd-sec-PE-data pt-lg-5">
-                            <h3 class="text-blue thrd-sec-PE-hea">With our help, healthcare practices
-                                can reduce administrative overhead costs by 60% or more.</h3>
+                            <h3 class="text-blue thrd-sec-PE-hea">Health Care practices are able to reduce administrative over head cost by 60% or more with our help.</h3>
                             <p class="text-grey thrd-sec-PE-para pt-lg-3">Atlantis provides experience, expertise, and
                                 technology to help you be
                                 successful for years to come!</p>
@@ -140,12 +137,12 @@
         <section class="home-testimonial-section py-3">
             <div class="container">
                 <div class="cus_love-title">
-                    <h2 class="text-light pt-lg-5">Why Ours Customers Loves Us</h2>
+                    <h2 class="text-light pt-lg-5">Why Our Customers Loves Us</h2>
                     <p class="text-light pt-3 fs-5">During the course of the handling of my case by Atlantis RCM, I was extremely satisfied with their approach. Throughout the entire process, they were professional and efficient, and most importantly, they helped me go through it in a painless and quick manner.</p>
                 </div>
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner py-lg-5">
-                        <div class="carousel-item active py-lg-5">
+                        <div class="carousel-item active py-5">
                             <div class="cus_love_main_testimonial">
                                 <div class="Cus_love_testimonial_slide">
                                     <div class="Cus_love_testimonial_content">
@@ -156,7 +153,6 @@
                                         <div class="Cus_love_testimonial_user">
                                             <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}" alt="">
                                             <span class="text-white">Dr. Shaun Daniel</span>
-                                            <span class="text-white">Institute of Cardiology</span>
                                         </div>
                                     </div>
                                 </div>
@@ -173,7 +169,6 @@
                                         <div class="Cus_love_testimonial_user">
                                             <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}" alt="">
                                             <span class="text-white">Dr. Shaun Daniel</span>
-                                            <span class="text-white">Institute of Cardiology</span>
                                         </div>
                                     </div>
                                 </div>

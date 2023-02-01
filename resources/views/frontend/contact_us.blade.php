@@ -67,10 +67,10 @@
                             @csrf
                             <h3 class=" app-hea text-center mb-2">Make An Appointment</h3>
                             <div class="form-group">
-                                <input type="text" class="form-control text-grey" name="name" id="name_id" placeholder="Name" required>
+                                <input type="text" class="form-control text-grey" name="name" id="name_id" placeholder="Your Name" required>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control text-grey" name="service" id="service_id" placeholder="Enter Service" required>
+                                <input type="text" class="form-control text-grey" name="service" id="service_id" placeholder="Your Specialty" required>
                             </div>
                             <div class="form-group">
                                 <input type="number" class="form-control text-grey" name="phone_number" id="phone_number_id" placeholder="Phone Number" required>
@@ -84,7 +84,7 @@
                             </div>
                             <p class=" required mt-2">All the fields are required</p>
                             <div class="d-flex justify-content-center">
-                                <button class="btn-7 text-light  text-center mt-1" type="submit">Submit</button>
+                                <button class="btn-7 text-light  text-center mt-1" id="frm_smt_alrt" type="submit">Submit</button>
                             </div>
                         </form>
                     </div>
