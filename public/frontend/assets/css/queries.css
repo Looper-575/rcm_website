@@ -1,0 +1,157 @@
+@media only screen and (min-width: 1400px) {
+    .header_content {
+        width: 40%;
+    }
+    .seven-form {
+        height: 99.2%;
+    }
+}
+@media only screen and (min-width: 1201px) and (max-width:1399px) {
+    .seven-form {
+        height: 97.1%;
+    }
+    .header_content {
+        width: 50%;
+    }
+    .atlantis_rcm_nav li.nav-item > a {
+        color: white;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+
+}
+@media only screen and (max-width: 1200px)  {
+    .atlantis_rcm_nav .navbar-brand > img {
+        width: 175px;
+    }
+    .atlantis_rcm_nav li.nav-item > a {
+        font-size: 12px;
+    }
+    .header_content {
+        width: 70%;
+    }
+    .what_we_img img {
+        width: 100%;
+    }
+    .services-sec-home .card {
+        width: 200px;
+        height: 200px;
+        padding: 10px 15px;
+        margin: 10px;
+    }
+    .testimonial_content {
+        height: 235px;
+    }
+    .seven-form {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .atlantis_rcm_nav li.nav-item {
+        margin: 0px 4px;
+    }
+
+}
+@media only screen and (max-width: 992px)  {
+    .atlantis_rcm_nav li.nav-item > a {
+        color: white;
+        font-size: 18px;
+    }
+    .header_content {
+        width: 90%;
+    }
+    .home-section-2 img {
+        width: 100%;
+    }
+    .services-sec-home .card {
+        margin: 10px auto;
+    }
+    .text_process_c {
+        width: 100%;
+    }
+    .corresponding_section .what_service {
+        height: 114px;
+        padding: 15px 10px;
+    }
+    .text_crrspnding_blck {
+        width: 100%;
+    }
+    .testimonial_content {
+        height: 301px;
+    }
+    .med_bil_sec5 .what_service {
+        width: 20%;
+    }
+    .what_we_img {
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    .header_content {
+        width: 100%;
+    }
+    .med_bil_sec5 .corrsponding_icons {
+        display: none;
+    }
+    .med_bil_sec5 .what_service {
+        height: unset;
+        width: 25%;
+        margin: 5px;
+    }
+    .testimonial_content {
+        height: fit-content;
+        padding: 15px;
+    }
+
+    .footer_contact > div > div > div.border_left {
+        border-left: none;
+    }
+
+}
+@media only screen and (max-width: 720px) {
+    .what_service {
+        width: 100%;
+        margin: 10px;
+    }
+    .corresponding_section .what_service {
+        height: fit-content;
+    }
+    .home-section-1 img {
+        width: 65px;
+    }
+    .seven-form {
+        width: -webkit-fill-available;
+        height: 99.2%;
+        padding: 30px 15px 45px;
+        margin: 10px;
+    }
+
+    .main_testimonial {
+        margin-left: 20px;
+    }
+    .testimonial_slide {
+        width: 75%;
+    }
+    .med_bil_sec5 .what_service {
+        height: fit-content;
+        padding: 8px;
+        width: 100%;
+    }
+    .med_bil_sec5 .corrsponding_icons {
+        width: 70px;
+        height: 70px;
+    }
+    .sec-5-patExper-card {
+        margin: auto;
+    }
+}
+@media screen and (max-width: 576px) {
+   /* .process-detail-contant img {
+        display: none;
+    }*/
+    .Cus_love_testimonial_user {
+     right: 10%;
+    }
+}
+
+

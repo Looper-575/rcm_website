@@ -1,0 +1,161 @@
+
+
+/*{{--***************************************Telehealth_header_home*******************************--}}*/
+.TH_HT_imroves{
+    height: 650px;
+}
+.header_telehealth{
+    background-image: url("../img/telehealth/img-header.png");
+    background-size: cover;
+    height: 80vh;
+}
+.header_telehealth h1{
+    font-size: 35px;
+    line-height: 1.52;
+}
+
+/*{{--******************Telehealth_Sec_How_Technology_improves******************--}}*/
+.TH_HT_imroves_dscrptn img{
+    width: 100%;
+    height: 300px;
+    border: 2px solid #fff;
+}
+.TH_HT_imroves_visit{
+    height: 300px;
+}
+
+/*{{--***************************************Absolute_Revenue_Page*******************************************--}}*/
+
+/*{{--******************Absolute_Rev_header_home******************--}}*/
+.header_absolute_Rev{
+    background-image: url("../img/absolute_revenue/absolute_rev_headr_home.png");
+    background-size: cover;
+    height: 80vh;
+}
+/*{{--******************Absolute_Rev_sec_accelerating_patient******************--}}*/
+
+.AR_Aclrtng_patient_visit{
+    height: 440px;
+}
+.AR_sec_start_claim{
+    background-image:  url("../img/absolute_revenue/Absolute_Rev_sec_start_claim_bg.png");
+    background-size: cover;
+}
+.start_claim_btn{
+    width: 30%;
+    padding: 10px 10px;
+    margin-right: 20px;
+}
+
+/*{{--***************************************About_Us_Page*******************************************--}}*/
+
+/*{{--******************About_Us_header_home******************--}}*/
+.header_about_us{
+    background-image: url("../img/About_Us/img-header_about_us.png");
+    background-size: cover;
+    height: 80vh;
+}
+/*{**********************About_Us_sec_the_charges****************--}}*/
+.AU_the_charges{
+    background-color: var(--bg_blue);
+}
+.the_charges_content{
+    text-align: -webkit-center;
+}
+/*{{--***************************************About_Us_sec_our_values*******************************--}}*/
+.our_values_content h6{
+    font-weight: 900;
+}
+.our_values_content p{
+    font-size: initial;
+}
+
+/*{{--***************************************contact_us_Us_sec_header*******************************--}}*/
+
+.header_contact_us{
+    background-image: url("../img/contact_us/contact_us_header_bg.png");
+    background-size: cover;
+    height: 80vh;
+}
+
+/*{{--***************************************medical_credentialing_sec_header*******************************--}}*/
+
+.header_medical_credentialing{
+    background-image: url("../img/medical_credentialing/medical_cred_header_bg.png");
+    background-size: cover;
+    height: 80vh;
+}
+
+
+/*{{--    ********************************laboratory_sevices****************************--}}*/
+.header_laboratory{
+    background-image: url("../img/laboratory_services/gradient-fill-1.png");
+    background-size: cover;
+    height: 80vh;
+}
+.lab_services{
+    background-color: var(--bg_blue);
+}
+.Speciality_Solution{
+    border: solid 1px #eee;
+}
+.Speciality_Solution ul li{
+    list-style: none;
+}
+.Speciality_Solution ul li:hover{
+    background-color: var(--seafoam-blue);
+    color: white;
+}
+.lab_servc_sec_1 h4{
+    font-size: 22px;
+    font-weight: bold;
+    color: #666;
+}
+.lab_servc_dscrptn .line{
+    width: 6%;
+    color: var(--bg_blue);
+}
+@media only screen and (max-width: 992px) {
+    .lab_srvc_sec_img img {
+        width: -webkit-fill-available;
+    }
+}
+
+/***********************************Responsive_for_Absolute_Revenue_Page***************************/
+@media only screen and (max-height: 820px){
+    .Scnd-sec-PE-card {
+        height: 383px;
+    }
+}
+
+
+
+/************************for_tablets**************************************/
+@media only screen and (max-width: 992px) {
+    .thrd-sec-PE-img, .AU_the_charges img {
+        width: -webkit-fill-available;
+    }
+}
+@media only screen and (max-width: 720px){
+    .thrd-sec-PE img {
+        width: -webkit-fill-available;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .thrd-sec-PE img {
+        width: -webkit-fill-available;
+    }
+
+    .thrd-sec-PE-img {
+        min-width: -webkit-fill-available;
+    }
+
+    .Connect-Us img {
+        display: none;
+    }
+    .our_values_img img{
+        width: 100%;
+    }
+}
+
