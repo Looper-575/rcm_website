@@ -94,7 +94,7 @@
                             services to the healthcare industry, improving patient experience, and reducing
                             revenue loss. </p>
                     </div>
-                    <div class="col-12 col-md-6 col-sm-12">
+                    <div class="col-12 col-md-6 col-sm-12 pt-md-5">
                         <img src="{{url('public/frontend/assets/img/medical_billing/img_section_2_build_trust.jpg')}}" alt=image class=" thrd-sec-PE-img">
                     </div>
                 </div>

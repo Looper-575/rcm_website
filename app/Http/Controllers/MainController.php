@@ -66,7 +66,7 @@ class MainController extends Controller
     }
     public function about_us()
     {
-        $data['title']= 'About Us';
+        $data['title']= 'Atlantis | About Us';
         $data['meta_description']= '';
         $data['meta_tags']= '';
         return view('frontend.about_us', $data);
@@ -87,14 +87,14 @@ class MainController extends Controller
     }
     public function all_solutions()
     {
-        $data['title']= 'RCM | All Solutions';
+        $data['title']= 'Atlantis RCM | All Solutions';
         $data['meta_description']= '';
         $data['meta_tags']= '';
         return view('frontend.all_solutions', $data);
     }
     public function medical_credentialing()
     {
-        $data['title']= 'RCM | Medical Credentialing';
+        $data['title']= 'Atlantis RCM | Medical Credentialing';
         $data['meta_description']= '';
         $data['meta_tags']= '';
         return view('frontend.medical_credentialing', $data);
@@ -108,10 +108,17 @@ class MainController extends Controller
     }
     public function contact_us()
     {
-        $data['title']= 'Contac Us';
+        $data['title']= 'Atlantis | Contact Us';
         $data['meta_description']= '';
         $data['meta_tags']= '';
         return view('frontend.contact_us', $data);
+    }
+    public function comming_soon()
+    {
+        $data['title']= 'Atlantis RCM';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.comming_soon', $data);
     }
     public function error_404()
     {

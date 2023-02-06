@@ -50,7 +50,7 @@
         <div class="container">
             <div class="row py-5">
                 <div class="col-md-6">
-                    <h2 class="text-blue">Who Are We?</h2>
+                    <h2 class="text-blue">Why Choose Atlantis RCM?</h2>
                     <div class="py-4">
                         <p>In the business of healthcare, every day counts and
                             it’s difficult to maintain and sustain an efficient and positive
@@ -80,10 +80,10 @@
     <section class="what_we_section py-5 mb-5">
         <div class="container">
             <div class="what_home_head">
-                <h2 class="text-light">What We Do?</h2>
+                <h2 class="text-light">Round The Clock Service Support?</h2>
                 <p class="text-light">When you are on the road to success, you need to have the right gear. With us,
                     you're guaranteed to have the most qualified
-                    workforce with the relevent skills.We have gathered an expert team to enable you to same time and
+                    workforce with the relevent skills.We have gathered an expert team to enable you to save time and
                     money while driving growth.</p>
             </div>
             <div class="d-flex flex-wrap flex-row svg_process my-5">
@@ -118,7 +118,7 @@
                                     for the healthcare professionals. Atlantis RCM has a
                                     team of professional industry experts to ensure eligibility
                                     and verification. Further, as part of our commitment
-                                    to keeping track of any changes in your patient's insurance
+                                    to keep track of any changes in your patient's insurance
                                     coverage, we verify insurance eligibility and benefits
                                     monthly and yearly to make sure the
                                     insurance plan covers the service you provide.
@@ -475,10 +475,22 @@
             </div>
         </div>
     </section>
+
+    <section class="Connect-Us py-5" id="connectSec">
+        <div class="container">
+            <div>
+                <h2 class="Connect-head text-blue ">Connect with Us</h2>
+                <p class="Connect-para text-grey">Our mission is to eliminate repetitive administrative tasks in
+                    healthcare organizations and individual practices so that
+                    they can exceed revenue and growth. </p>
+                @include('frontend.contactUs.contact_us_form')
+            </div>
+        </div>
+    </section>
     <section class="home-testimonial-section pb-5">
         <div class="container">
             <div>
-                <h2 class="text-light pt-5">Why Our Customers Loves Us</h2>
+                <h2 class="text-light pt-5">Why Our Customers Trust Us</h2>
                 <p class="text-light pt-3 fs-5">With more than a decade of industry-leading experience, Atlantis has
                     been
                     continually recognized for exceptional performance, customer service, employee training, and
@@ -518,8 +530,10 @@
                                 </div>
                             </div>
                             <div class="testimonial_slide">
-                                <div class="testimonial_content"><a href="#"><p>The team from Atlantis RCm did a
-                                            great job generating high-quality backlinks for our blog.</p></a>
+                                <div class="testimonial_content"><a href="#"><p>During the course of the handling of my case by Atlantis RCM, I was extremely
+                                            satisfied with their approach. Throughout the entire process, they were professional,
+                                            efficient, and most importantly, they helped me go through it in a painless and quick
+                                            manner.</p></a>
                                 </div>
                                 <div class="testemonial_user"><img
                                             src="{{url('/public/frontend/assets/img/home/img-0-8-v-2.png')}}" alt="">
@@ -545,8 +559,10 @@
                                 </div>
                             </div>
                             <div class="testimonial_slide  d-none d-md-block">
-                                <div class="testimonial_content"><a href="#"><p>The team from Atlantis RCm did a
-                                            great job generating high-quality backlinks for our blog.</p></a>
+                                <div class="testimonial_content"><a href="#"><p>During the course of the handling of my case by Atlantis RCM, I was extremely
+                                            satisfied with their approach. Throughout the entire process, they were professional,
+                                            efficient, and most importantly, they helped me go through it in a painless and quick
+                                            manner.</p></a>
                                 </div>
                                 <div class="testemonial_user"><img
                                             src="{{url('/public/frontend/assets/img/home/img-0-8-v-2.png')}}" alt="">
@@ -572,8 +588,10 @@
                                 </div>
                             </div>
                             <div class="testimonial_slide">
-                                <div class="testimonial_content"><a href="#"><p>The team from Atlantis RCm did a
-                                            great job generating high-quality backlinks for our blog.</p></a>
+                                <div class="testimonial_content"><a href="#"><p>During the course of the handling of my case by Atlantis RCM, I was extremely
+                                            satisfied with their approach. Throughout the entire process, they were professional,
+                                            efficient, and most importantly, they helped me go through it in a painless and quick
+                                            manner.</p></a>
                                 </div>
                                 <div class="testemonial_user"><img
                                             src="{{url('/public/frontend/assets/img/home/img-0-8-v-2.png')}}" alt="">
@@ -599,8 +617,10 @@
                                 </div>
                             </div>
                             <div class="testimonial_slide">
-                                <div class="testimonial_content"><a href="#"><p>The team from Atlantis RCm did a
-                                            great job generating high-quality backlinks for our blog.</p></a>
+                                <div class="testimonial_content"><a href="#"><p>During the course of the handling of my case by Atlantis RCM, I was extremely
+                                            satisfied with their approach. Throughout the entire process, they were professional,
+                                            efficient, and most importantly, they helped me go through it in a painless and quick
+                                            manner.</p></a>
                                 </div>
                                 <div class="testemonial_user"><img
                                             src="{{url('/public/frontend/assets/img/home/img-0-8-v-2.png')}}" alt="">
@@ -625,22 +645,11 @@
         </div>
     </section>
 
-    <section class="Connect-Us py-5" id="connectSec">
-        <div class="container">
-            <div>
-                <h2 class="Connect-head text-blue ">Connect with Us</h2>
-                <p class="Connect-para text-grey">Our mission is to eliminate repetitive administrative tasks in
-                    healthcare organizations and individual practices so that
-                    they can exceed revenue and growth. </p>
-                @include('frontend.contactUs.contact_us_form')
-            </div>
-        </div>
-    </section>
 
 
-    <section class="Recent-News my-5 d-none">
+    <section class="Recent-News my-5 ">
         <div class="container">
-            <h2 class=" text-blue mb-5">Recent News</h2>
+            <h2 class=" text-blue mb-5">Blogs</h2>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="recent_news_block">
@@ -649,7 +658,7 @@
                              alt="image1">
 
                         <div class="overlay d-flex align-items-center justify-content-center">
-                            <button type="button" class="btn-card btn-outline">Read More</button>
+                            <a href="{{url('comming_soon')}}"><button type="button" class="btn-card btn-outline">Read More</button></a>
                         </div>
                     </div>
                     <p class=" eight-img-para text-grey text-center">Kaiser Health News Insurance 2022</p>
@@ -661,7 +670,7 @@
                              alt="image2">
 
                         <div class="overlay d-flex align-items-center justify-content-center">
-                            <button type="button" class="btn-card btn-outline">Read More</button>
+                            <a href="{{url('comming_soon')}}"><button type="button" class="btn-card btn-outline">Read More</button></a>
                         </div>
                     </div>
                     <p class=" eight-img-para text-grey text-center mt-3">Take Command Health Blog</p>
@@ -673,7 +682,7 @@
                              alt="image3">
 
                         <div class="overlay d-flex align-items-center justify-content-center">
-                            <button type="button" class="btn-card btn-outline">Read More</button>
+                            <a href="{{url('comming_soon')}}"><button type="button" class="btn-card btn-outline">Read More</button></a>
                         </div>
                     </div>
                     <p class=" eight-img-para text-grey text-center mt-3">Healthcare Economist</p>
@@ -684,7 +693,7 @@
                              src="{{url('/public/frontend/assets/img/home/handsome-doctor-portrait-background.png')}}"
                              alt="image4">
                         <div class="overlay d-flex align-items-center justify-content-center">
-                            <button type="button" class="btn-card btn-outline">Read More</button>
+                            <a href="{{url('comming_soon')}}"><button type="button" class="btn-card btn-outline">Read More</button></a>
                         </div>
                     </div>
                     <p class=" eight-img-para text-grey text-center mt-3">We engaged Atlantis 2022</p>
@@ -696,7 +705,7 @@
                              alt="image5">
 
                         <div class="overlay d-flex align-items-center justify-content-center">
-                            <button type="button" class="btn-card btn-outline">Read More</button>
+                            <a href="{{url('comming_soon')}}"><button type="button" class="btn-card btn-outline">Read More</button></a>
                         </div>
                     </div>
                     <p class=" eight-img-para text-grey text-center mt-3">Medical software development needs</p>
@@ -707,7 +716,7 @@
                              src="{{url('/public/frontend/assets/img/home/woman-doctor-wearing-lab-coat-with-stethoscope-isolated.png')}}"
                              alt="image6">
                         <div class="overlay d-flex align-items-center justify-content-center">
-                            <button type="button" class="btn-card btn-outline">Read More</button>
+                            <a href="{{url('comming_soon')}}"><button type="button" class="btn-card btn-outline">Read More</button></a>
                         </div>
                     </div>
                     <p class=" eight-img-para text-grey text-center mt-3">Contribution has helped us 2022</p>

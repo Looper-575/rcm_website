@@ -324,7 +324,9 @@
         <div class="container">
             <div class="cus_love-title">
                 <h2 class="text-light pt-5">Why Our Customers Loves Us</h2>
-                <p class="text-light pt-3 fs-5">   With more than a decade of industry-leading experience, Atlantis has been continually recognized for exceptional performance, customer service, employee training, and stringent cybersecurity standards. However, the greatest recognition we receive is the satisfaction of our customers.</p>
+                <p class="text-light pt-3 fs-5">With more than a decade of industry-leading experience,
+                    Atlantis has been continually recognized for exceptional performance, customer service, employee training,
+                    and stringent cybersecurity standards. However, the greatest recognition we receive is the satisfaction of our customers.</p>
             </div>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner py-5">

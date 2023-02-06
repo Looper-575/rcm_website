@@ -193,7 +193,11 @@
             $(".atlantis_rcm_nav").addClass("atlantis_rcm_nav_bg");
         }
     });
-
+    $(document).ready(function() {
+        if(window.location.href.match('/comming_soon')){
+            $(".atlantis_rcm_nav").addClass("atlantis_rcm_nav_bg");
+        }
+    });
 
     $(document).ready(function(){
         $('#solution_menu a').click(function(){
