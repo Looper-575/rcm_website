@@ -149,7 +149,7 @@ class MainController extends Controller
         $data['title']= '';
         $data['meta_description']= '';
         $data['meta_tags']= '';
-        return view('frontend.laboratry', $data);
+        return view('frontend.taxonomies.laboratory', $data);
     }
 
 }

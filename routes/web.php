@@ -39,15 +39,12 @@ Route::get('/contact_us', [App\Http\Controllers\MainController::class,'contact_u
 Route::post('/contact_us_form', [App\Http\Controllers\MainController::class,'contact_us_form'])->name('contact_us_form');
 
 
-
+// taxonomy pages //
 Route::get('/laboratry', [App\Http\Controllers\MainController::class,'laboratry'])->name('laboratry');
 
 Route::get('/comming_soon', [App\Http\Controllers\MainController::class,'comming_soon'])->name('comming_soon');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-
-
 
 Route::get('/404', function () {
     $data['title']= 'Page Not Found - Atlantis RCM';
