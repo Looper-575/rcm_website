@@ -56,8 +56,14 @@
     .atlantis_rcm_nav li.nav-item {
         margin: 0px 4px;
     }
+    .sub_menu_solution {
+        right: -490px;
+    }
+    .bg-sol-sb-menu .polygon_arrow {
+        right : 250px;
+    }
 
-}
+    }
 @media only screen and (max-width: 992px)  {
     .atlantis_rcm_nav li.nav-item > a {
         color: white;

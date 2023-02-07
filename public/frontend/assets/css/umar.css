@@ -102,7 +102,14 @@
 .Speciality_Solution ul li{
     list-style: none;
 }
+.Speciality_Solution ul li a {
+    display: block;
+}
 .Speciality_Solution ul li:hover{
+    background-color: var(--seafoam-blue);
+    color: white;
+}
+.tex_li_active {
     background-color: var(--seafoam-blue);
     color: white;
 }

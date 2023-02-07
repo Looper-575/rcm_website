@@ -252,7 +252,7 @@
     border: none;
 }
 .gasterology-line{
-    width: 53px;
+    width: 25%;
     height: 8px;
     background-color: var(--bg_blue);
     color: var(--bg_blue);
