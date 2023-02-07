@@ -41,6 +41,32 @@ Route::post('/contact_us_form', [App\Http\Controllers\MainController::class,'con
 
 // taxonomy pages //
 Route::get('/laboratry', [App\Http\Controllers\MainController::class,'laboratry'])->name('laboratry');
+Route::get('/gastroentrology', [App\Http\Controllers\MainController::class,'gastroentrology'])->name('gastroentrology');
+Route::get('/g_surgery', [App\Http\Controllers\MainController::class,'g_surgery'])->name('g_surgery');
+Route::get('/neurology', [App\Http\Controllers\MainController::class,'neurology'])->name('neurology');
+Route::get('/internalMedicine', [App\Http\Controllers\MainController::class,'internalMedicine'])->name('internalMedicine');
+Route::get('/nephrology', [App\Http\Controllers\MainController::class,'nephrology'])->name('nephrology');
+Route::get('/dermatology', [App\Http\Controllers\MainController::class,'dermatology'])->name('dermatology');
+Route::get('/familyPractice', [App\Http\Controllers\MainController::class,'familyPractice'])->name('familyPractice');
+Route::get('/ophthalmology', [App\Http\Controllers\MainController::class,'ophthalmology'])->name('ophthalmology');
+Route::get('/endocrinology', [App\Http\Controllers\MainController::class,'endocrinology'])->name('endocrinology');
+Route::get('/chiropractic', [App\Http\Controllers\MainController::class,'chiropractic'])->name('chiropractic');
+Route::get('/cardiology', [App\Http\Controllers\MainController::class,'cardiology'])->name('cardiology');
+Route::get('/allergy', [App\Http\Controllers\MainController::class,'allergy'])->name('allergy');
+Route::get('/orthopedics', [App\Http\Controllers\MainController::class,'orthopedics'])->name('orthopedics');
+Route::get('/painManagement', [App\Http\Controllers\MainController::class,'painManagement'])->name('painManagement');
+Route::get('/dmeProviders', [App\Http\Controllers\MainController::class,'dmeProviders'])->name('dmeProviders');
+Route::get('/podiatry', [App\Http\Controllers\MainController::class,'podiatry'])->name('podiatry');
+Route::get('/urgentCare', [App\Http\Controllers\MainController::class,'urgentCare'])->name('urgentCare');
+Route::get('/radiology', [App\Http\Controllers\MainController::class,'radiology'])->name('radiology');
+Route::get('/physicaltherapy', [App\Http\Controllers\MainController::class,'physicaltherapy'])->name('physicaltherapy');
+Route::get('/gyn', [App\Http\Controllers\MainController::class,'gyn'])->name('gyn');
+Route::get('/urology', [App\Http\Controllers\MainController::class,'urology'])->name('urology');
+Route::get('/homehealth', [App\Http\Controllers\MainController::class,'homehealth'])->name('homehealth');
+Route::get('/otolaryngology', [App\Http\Controllers\MainController::class,'otolaryngology'])->name('otolaryngology');
+Route::get('/rheumatology', [App\Http\Controllers\MainController::class,'rheumatology'])->name('rheumatology');
+
+
 
 Route::get('/comming_soon', [App\Http\Controllers\MainController::class,'comming_soon'])->name('comming_soon');
 

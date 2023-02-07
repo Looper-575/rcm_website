@@ -12,11 +12,11 @@
                             to learn how we serve<br>
                             Nearly Every Specialty <br>
                         </h1>
-                        <div class="hdr_btn d-flex">
+                        {{--<div class="hdr_btn d-flex">
                             <button class="btn strtBtn1 mt-2">
                                 Get Started
                             </button>
-                        </div>
+                        </div>--}}
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                             <p class="text-grey text-center pt-4">Internet Medicine</p>
                             <div class="content">
                                 <p class="text-center">We built our solution to provide effective care with minimal administrative burden.</p>
-                                <button class="button-cards" ><a href="">Explore</a></button>
+                                <a href="{{url('internalMedicine')}}"><button class="button-cards" >Explore</button></a>
                             </div>
                         </div>
 
@@ -82,7 +82,7 @@
                             <p class="text-grey text-center pt-4">General Surgery</p>
                             <div class="content">
                                 <p class="text-center">General surgeons need access to integrated patient information, labs, and imaging.</p>
-                                <button class="button-cards" >Explore</button>
+                                <a href="{{url('g_surgery')}}"><button class="button-cards" >Explore</button></a>
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                             <p class=" text-grey text-center pt-4">Gastroenterology</p>
                             <div class="content">
                                 <p class="text-center">We developed a comprehensive solution to make your practice more efficient.</p>
-                                <button class="button-cards" >Explore</button>
+                                <a href="{{url('gastroentrology')}}"><button class="button-cards" >Explore</button></a>
                             </div>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                             <p class=" text-grey text-center pt-4">Neurology</p>
                             <div class="content">
                                 <p class="text-center">Our services assist neurologists both in their consulting and primary care roles.</p>
-                                <button class="button-cards" >Explore</button>
+                                <a href="{{url('neurology')}}"><button class="button-cards" >Explore</button></a>
                             </div>
                         </div>
                     </div>
@@ -111,10 +111,10 @@
                     <div class="col-lg-3 col-sm-6 col-md-6 pt-md-4 pt-lg-0">
                         <div class="card text justify-content-center d-flex flex-column  align-items-center mx-auto card-tailored">
                             <img class="vector-tailored"  src="{{url('public/frontend/assets/img/pagesolutions-tailored/pain-management-icon.png')}}" alt="Image 5">
-                            <p class="text-grey text-center pt-4">Pain Management </p>
+                            <p class="text-grey text-center pt-4">Pain Management</p>
                             <div class="content">
                                 <p class="text-center">We enable practices to provide greater service and flexibility through PXM.</p>
-                                <button class="button-cards" >Explore</button>
+                                <a href="{{url('painManagement')}}"><button class="button-cards" >Explore</button></a>
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                             <p class="text-grey text-center pt-4">Orthopedics</p>
                             <div class="content">
                                 <p class="text-center">US's orthopedic practices rely on Atlantis RCM's long term and profitable solutions. </p>
-                                <button class="button-cards" >Explore</button>
+                                <a href="{{url('orthopedics')}}"><button class="button-cards" >Explore</button></a>
                             </div>
                         </div>
                     </div>
@@ -134,7 +134,7 @@
                             <p class="text-grey text-center pt-4">Allergy/Immunology</p>
                             <div class="content">
                                 <p class="text-center">We make patch test results easy to reference, unlike traditional solutions. </p>
-                                <button class="button-cards" >Explore</button>
+                                <a href="{{url('allergy')}}"><button class="button-cards" >Explore</button></a>
                             </div>
                         </div>
                     </div>
@@ -144,7 +144,7 @@
                             <p class="text-grey text-center pt-4">Cardiology</p>
                             <div class="content">
                                 <p class="text-center">Customized EHR, practice management, and medical billing solutions for cardiology.</p>
-                                <button class="button-cards" >Explore</button>
+                                <a href="{{url('cardiology')}}"><button class="button-cards" >Explore</button></a>
                             </div>
                         </div>
                     </div>
@@ -157,17 +157,17 @@
                         <p class="text-grey text-center pt-4">Chiropractic</p>
                         <div class="content">
                             <p class="text-center">With a high copay ratio, we designed our solution to be flexible and profitable.</p>
-                            <button class="button-cards" >Explore</button>
+                            <a href="{{url('chiropractic')}}"><button class="button-cards" >Explore</button></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-md-6 py-4 py-lg-0 pt-md-4">
                     <div class="card  justify-content-center d-flex flex-column  align-items-center mx-auto card-tailored">
                         <img class="vector-tailored"  src="{{url('public/frontend/assets/img/pagesolutions-tailored/endocrinology-icon.png')}}" alt="Image 6">
-                        <p class="text-grey text-center pt-4">Endocrinology </p>
+                        <p class="text-grey text-center pt-4">Endocrinology</p>
                         <div class="content">
                             <p class="text-center">Scalable endocrinology practice management, EHR and billing solutions. </p>
-                            <button class="button-cards" >Explore</button>
+                            <a href="{{url('endocrinology')}}"><button class="button-cards" >Explore</button></a>
                         </div>
                     </div>
                 </div>
@@ -177,7 +177,7 @@
                         <p class="text-grey text-center pt-4">Ophthalmology</p>
                         <div class="content">
                             <p class="text-center">Ophthalmologists can automate visits and increase profitability with our solutions. </p>
-                            <button class="button-cards" >Explore</button>
+                            <a href="{{url('ophthalmology')}}"><button class="button-cards" >Explore</button></a>
                         </div>
                     </div>
                 </div>
@@ -187,7 +187,7 @@
                         <p class="text-grey text-center pt-4">Family Practice </p>
                         <div class="content">
                             <p class="text-center">Patients get faster service, documentation, and payment with the platform.</p>
-                            <button class="button-cards" >Explore</button>
+                            <a href="{{url('familyPractice')}}"><button class="button-cards" >Explore</button></a>
                         </div>
                     </div>
                 </div>
@@ -200,19 +200,18 @@
                         <p class="text-grey text-center pt-4">Dermatology</p>
                         <div class="content">
                             <p class="text-center">Modern, easy-to-use, and efficient to meet your patients' and staff's needs.</p>
-                            <button class="button-cards" >Explore</button>
+                            <a href="{{url('dermatology')}}"><button class="button-cards" >Explore</button></a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="col-lg-3 col-sm-6 col-md-6 py-4 py-lg-0 pt-md-4">
                     <div class="card justify-content-center d-flex flex-column  align-items-center mx-auto card-tailored">
                         <img class="vector-tailored"  src="{{url('public/frontend/assets/img/pagesolutions-tailored/nephrology-icon-1.png')}}" alt="Image 2">
-                        <p class="text-grey text-center pt-4">Nephrology </p>
+                        <p class="text-grey text-center pt-4">Nephrology</p>
                         <div class="content">
                             <p class="text-center">With our flexible and scalable solution, you can treat patients at home.</p>
-                            <button class="button-cards" >Explore</button>
+                            <a href="{{url('nephrology')}}"><button class="button-cards" >Explore</button></a>
                         </div>
                     </div>
                 </div>
@@ -222,7 +221,7 @@
                         <p class=" text-grey text-center pt-4">Podiatry</p>
                         <div class="content">
                             <p class="text-center">We help podiatrists document faster, get paid more, and navigate regulations.</p>
-                            <button class="button-cards" >Explore</button>
+                            <a href="{{url('podiatry')}}"><button class="button-cards" >Explore</button></a>
                         </div>
                     </div>
                 </div>
@@ -232,7 +231,7 @@
                         <p class=" text-grey text-center pt-4">Urology </p>
                         <div class="content">
                             <p class="text-center">Improve patient care with a solution built with your urology practice in mind.</p>
-                            <button class="button-cards" >Explore</button>
+                            <a href="{{url('urology')}}"><button class="button-cards" >Explore</button></a>
                         </div>
                     </div>
                 </div>
@@ -244,7 +243,7 @@
                         <p class="text-grey text-center pt-4">Otolaryngology </p>
                         <div class="content">
                             <p class="text-center">We can help chart sinusitis or a deviated septum following surgery.</p>
-                            <button class="button-cards" >Explore</button>
+                            <a href="{{url('otolaryngology')}}"><button class="button-cards" >Explore</button></a>
                         </div>
                     </div>
                 </div>
@@ -254,7 +253,7 @@
                         <p class="text-grey text-center pt-4">Rheumatology </p>
                         <div class="content">
                             <p class="text-center">Our goal is to help rheumatologists focus entirely on their patients.</p>
-                            <button class="button-cards " >Explore</button>
+                            <a href="{{url('rheumatology')}}"><button class="button-cards" >Explore</button></a>
                         </div>
                     </div>
                 </div>
@@ -262,110 +261,5 @@
         </div>
     </section>
 
-    <section class="title-blue py-lg-5">
 
-    </section>
-
-<section class="tab py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-3">
-                <h5 class="text-center py-lg-2 fw-bold">Speciality Solution</h5>
-                <div class="all-services">
-                    <ul class="tab-list ps-0 mt-3">
-                        <li class="text-grey my-2 p-1
-                         fw-bold"><a href="#" class="d-block text-center">Laboratory Services</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold "><a href="#" class="d-block text-center">General Surgery</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold"><a href="#" class="d-block text-center">Gastroenterology</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold"><a href="#" class="d-block text-center">Neurology</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold"><a href="#" class="d-block text-center">Pain Managment</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold "><a href="#" class="d-block text-center">Orthopedics</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold"><a href="#" class="d-block text-center">Allergy/Immunology</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold"><a href="#" class="d-block text-center">Cardiology</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold"><a href="#" class="d-block text-center">Chiropractic</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold"><a href="#" class="d-block text-center">Endocrinology</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold"><a href="#" class="d-block text-center">Ophthalmology</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold"><a href="#" class="d-block text-center">Family Practice</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold"><a href="#" class="d-block text-center">Dermatology</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold"><a href="#"class="d-block text-center">Nephrology</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold"><a href="#" class="d-block text-center">Podiatry</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold "><a href="#" class="d-block text-center">Urology</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold"><a href="#" class="d-block text-center">Otolaryngology</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold "><a href="#" class="d-block text-center">Rheumatology</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold"><a href="#" class="d-block text-center">Physical therapy</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold "><a href="#" class="d-block text-center">Plastic and reconstructive</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold"><a href="#" class="d-block text-center">Proctology</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold "><a href="#" class="d-block text-center">Pulmonology</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold"><a href="#" class="d-block text-center">Urgent Care</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold "><a href="#" class="d-block text-center">OB/GYN</a></li>
-                        <li class="text-grey  my23 p-1
-                         fw-bold "><a href="#" class="d-block text-center">Pathology</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold "><a href="#" class="d-block text-center">Radiology</a></li>
-                        <li class="text-grey my-2 p-1
-                         fw-bold"><a href="#" class="d-block text-center">Anesthesiology</a></li>
-                    </ul>
-                </div>
-                <div class=" contact-us-gasterology p-3 my-5">
-                    <h5 class="text-light pt-3">How can we help you?</h5>
-                    <p class="text-light pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <button class="gast-contact-button my-lg-3 fw-bold">
-                        <a href="">CONTACT US</a>
-                    </button>
-                </div>
-            </div>
-            <div class="col-lg-9 col-md-9 gasterology ps-lg-4">
-                <div class="gast-img mt-5">
-                    <img  src="{{url('public/frontend/assets/img/RCM-Specialtity/img-gastronentrology.png')}}"  alt="Image 1">
-                </div>
-                <h2 class="text-blue fw-bold pt-4">Gastroentrology</h2>
-                <hr class="gasterology-line  ">
-                <p class="text-grey">The Gastroenterology industry is one of the most competitive medical fields out there, and it's essential for practices to have
-                    a system that meets their needs. Gastroenterologists are often challenged by time constraints, high patient volume, and lack of
-                    access to the latest medical advancements.</p>
-                <p class="text-grey">Atlantis RCM is a cloud-based practice management system that helps gastroenterologists run their practice more efficiently and
-                    effectively. We make it easy for you to manage your patient flow, billing, and other day-to-day operations from anywhere in the world.</p>
-                <h3 class=" fw-bold pt-3">How Atlantis RCM Helps Gastroenterologists</h3>
-                <h5 class=" fw-bold pt-4">Configurable templates and mobile access</h5>
-                <p class="text-grey">In our experience, we&apos;ve found that the best way to do this is by creating an efficient, scalable system that allows you to quickly
-                    access critical patient information from anywhere at anytime</p>
-                <h5 class=" fw-bold">Efficient Administration</h5>
-                <p class="text-grey">We understand that every practice is different and has unique needs when it comes to administration, which is why we
-                    created Atlantis with an intuitive interface that makes it easy for anyone on your team or in your organization to use.
-                </p>
-                <h5 class=" fw-bold">Quick access to critical patient information</h5>
-                <p class="text-grey">Atlantis RCM solutions provides quick access to critical patient information such as billing details and insurance details
-                    which helps improve collections by reducing administrative costs and increasing efficiency.</p>
-                <h5 class=" fw-bold">Improve Collections</h5>
-                <p class="text-grey">Atlantis RCM helps you improve collections by identifying patients that have a high probability of insurance
-                    coverage from multiple carriers, allowing you to focus on those patients and improve collections.</p>
-            </div>
-
-        </div>
-    </div>
-    </div>
-</section>
 @endsection

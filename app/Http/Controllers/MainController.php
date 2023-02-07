@@ -59,7 +59,7 @@ class MainController extends Controller
     }
     public function unyeild_commitment()
     {
-        $data['title']= 'sOLUTION | Unyeild Commitment';
+        $data['title']= 'Large Medical Groups';
         $data['meta_description']= '';
         $data['meta_tags']= '';
         return view('frontend.unyeild_commitment', $data);
@@ -101,14 +101,14 @@ class MainController extends Controller
     }
     public function texo_about_us()
     {
-        $data['title']= '';
+        $data['title']= 'Small Medical Practices';
         $data['meta_description']= '';
         $data['meta_tags']= '';
         return view('frontend.texo_about_us', $data);
     }
     public function contact_us()
     {
-        $data['title']= 'Atlantis | Contact Us';
+        $data['title']= 'Atlantis RCM | Contact Us';
         $data['meta_description']= '';
         $data['meta_tags']= '';
         return view('frontend.contact_us', $data);
@@ -146,10 +146,178 @@ class MainController extends Controller
 /* ----------------Speciality------------- */
     public function laboratry()
     {
-        $data['title']= '';
+        $data['title']= 'Specialty | Laboratry';
         $data['meta_description']= '';
         $data['meta_tags']= '';
         return view('frontend.taxonomies.laboratory', $data);
     }
+    public function gastroentrology()
+    {
+        $data['title']= 'Specialty | Gastroentrology';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.gastroentrology', $data);
+    }
+    public function g_surgery()
+    {
+        $data['title']= 'Specialty | General Surgery';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.g_surgery', $data);
+    }
+    public function neurology()
+    {
+        $data['title']= 'Specialty | Neurology';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.neurology', $data);
+    }
+    public function internalMedicine()
+    {
+        $data['title']= 'Specialty | Otolaryngology';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.internalMedicine', $data);
+    }
+    public function nephrology()
+    {
+        $data['title']= 'Specialty | Internal Medicine';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.nephrology', $data);
+    }
+    public function dermatology()
+    {
+        $data['title']= '';
+        $data['meta_description']= 'Specialty | Dermatology';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.dermatology', $data);
+    }
+    public function familyPractice()
+        {
+            $data['title']= 'Specialty | Family Practice';
+            $data['meta_description']= '';
+            $data['meta_tags']= '';
+            return view('frontend.taxonomies.familyPractice', $data);
+        }
+    public function ophthalmology()
+        {
+            $data['title']= 'Specialty | Ophthalmology';
+            $data['meta_description']= '';
+            $data['meta_tags']= '';
+            return view('frontend.taxonomies.ophthalmology', $data);
+        }
+    public function endocrinology()
+        {
+            $data['title']= 'Specialty | Endocrinology';
+            $data['meta_description']= '';
+            $data['meta_tags']= '';
+            return view('frontend.taxonomies.endocrinology', $data);
+        }
+    public function chiropractic()
+        {
+            $data['title']= 'Specialty | Chiropractic';
+            $data['meta_description']= '';
+            $data['meta_tags']= '';
+            return view('frontend.taxonomies.chiropractic', $data);
+        }
+    public function cardiology()
+        {
+            $data['title']= 'Specialty | Cardiology';
+            $data['meta_description']= '';
+            $data['meta_tags']= '';
+            return view('frontend.taxonomies.cardiology', $data);
+        }
+    public function allergy()
+        {
+            $data['title']= 'Specialty | Allergy';
+            $data['meta_description']= '';
+            $data['meta_tags']= '';
+            return view('frontend.taxonomies.allergy', $data);
+        }
+    public function orthopedics()
+        {
+            $data['title']= 'Specialty | Orthopedics';
+            $data['meta_description']= '';
+            $data['meta_tags']= '';
+            return view('frontend.taxonomies.orthopedics', $data);
+        }
+    public function painManagement()
+        {
+            $data['title']= 'Specialty | Pain Management';
+            $data['meta_description']= '';
+            $data['meta_tags']= '';
+            return view('frontend.taxonomies.painManagement', $data);
+        }
+    public function dmeProviders()
+        {
+            $data['title']= 'Specialty | DME Providers';
+            $data['meta_description']= '';
+            $data['meta_tags']= '';
+            return view('frontend.taxonomies.dmeProviders', $data);
+        }
+    public function podiatry()
+        {
+            $data['title']= 'Specialty | Podiatry';
+            $data['meta_description']= '';
+            $data['meta_tags']= '';
+            return view('frontend.taxonomies.podiatry', $data);
+        }
+    public function urology()
+        {
+            $data['title']= 'Specialty | Urology';
+            $data['meta_description']= '';
+            $data['meta_tags']= '';
+            return view('frontend.taxonomies.urology', $data);
+        }
+    public function gyn()
+        {
+            $data['title']= 'Specialty | Obstetrics & Gynecology';
+            $data['meta_description']= '';
+            $data['meta_tags']= '';
+            return view('frontend.taxonomies.gyn', $data);
+        }
+    public function physicaltherapy()
+        {
+            $data['title']= 'Specialty | Physical Therapy';
+            $data['meta_description']= '';
+            $data['meta_tags']= '';
+            return view('frontend.taxonomies.physicaltherapy', $data);
+        }
+    public function radiology()
+        {
+            $data['title']= 'Specialty | Radiology';
+            $data['meta_description']= '';
+            $data['meta_tags']= '';
+            return view('frontend.taxonomies.radiology', $data);
+        }
+    public function urgentCare()
+        {
+            $data['title']= 'Specialty | Urgent Care';
+            $data['meta_description']= '';
+            $data['meta_tags']= '';
+            return view('frontend.taxonomies.urgentCare', $data);
+        }
+    public function homehealth()
+        {
+            $data['title']= 'Specialty | Home Health';
+            $data['meta_description']= '';
+            $data['meta_tags']= '';
+            return view('frontend.taxonomies.homehealth', $data);
+        }
+    public function rheumatology()
+        {
+            $data['title']= 'Specialty | Rheumatology';
+            $data['meta_description']= '';
+            $data['meta_tags']= '';
+            return view('frontend.taxonomies.rheumatology', $data);
+        }
+    public function otolaryngology()
+        {
+            $data['title']= 'Specialty | Otolaryngology';
+            $data['meta_description']= '';
+            $data['meta_tags']= '';
+            return view('frontend.taxonomies.otolaryngology', $data);
+        }
 
 }

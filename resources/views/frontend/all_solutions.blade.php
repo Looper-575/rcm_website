@@ -6,9 +6,8 @@
             <div class="container h-100">
                 <div class="d-flex flex-column justify-content-center h-100">
                     <div class="header_content">
-                        <h1 class="text-light Sec1-MB-hea1  fs-2 lh-base">Contact a Atlantis RCM Expert<br>
-                            to learn how we serve<br>
-                            Nearly Every Specialty <br>
+                        <h1 class="text-light Sec1-MB-hea1 ">Improve, Streamline &
+                            Accelerate Cash Flow
                         </h1>
                         <div class="hdr_btn my-3 strtBtn_home">
                             <a href="#connectUs">
@@ -78,9 +77,7 @@
                             </div>
                             <div class="card-body text-center">
                                 <h4 class="card-title text-seafoam onclick-card-hea mt-3">Medical Billing</h4>
-                                <p class="card-text text-grey onclick-card-para py-2">Boost profitability by streamlining cash flow,
-                                    decreasing administrative burdens and
-                                    better denial management</p>
+                                <p class="card-text text-grey onclick-card-para py-2">Reducing errors with complete transparency to improve profitability for healthcare providers. </p>
                                 <a href="{{url('medical_billing')}}" class="btn  onclick-card-button">Learn More</a>
                             </div>
                         </div>
@@ -93,9 +90,8 @@
                             </div>
                             <div class="card-body text-center">
                                 <h4 class="card-title text-seafoam onclick-card-hea mt-3">Patient Experience</h4>
-                                <p class="card-text text-grey onclick-card-para py-2">Boost profitability by streamlining cash flow,
-                                    decreasing administrative burdens and
-                                    better denial management</p>
+                                <p class="card-text text-grey onclick-card-para py-2">Making healthcare accessible, and improving interaction with healthcare eventually create a better patient experience management operation.
+                                </p>
                                 <a href="{{url('patient_experience')}}" class="btn  onclick-card-button">Learn More</a>
                             </div>
                         </div>
@@ -139,9 +135,7 @@
                             </div>
                             <div class="card-body text-center">
                                 <h4 class="card-title text-seafoam onclick-card-hea mt-3">Workforce Extension</h4>
-                                <p class="card-text text-grey onclick-card-para py-2">Boost profitability by streamlining cash flow,
-                                    decreasing administrative burdens and
-                                    better denial management</p>
+                                <p class="card-text text-grey onclick-card-para py-2">Increase healthcare turnover by extending workforce and automation to help you get more sustainable profitability</p>
                                 <a href="{{url('workforce')}}" class="btn  onclick-card-button">Learn More</a>
                             </div>
                         </div>

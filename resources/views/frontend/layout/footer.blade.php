@@ -108,6 +108,13 @@
         $('#contact_form_id')[0].reset();
     }});
     });
+
+
+    $(document).ready(function () {
+        $('html, body').animate({
+            scrollTop: $('#tex_content').offset().top
+        }, 'slow');
+    });
 </script>
 </body>
 </html>

@@ -6,13 +6,10 @@
             <div class="container h-100">
                 <div class="d-flex flex-column justify-content-center h-100">
                     <div class="header_content">
-                        <h1 class="text-light Sec1-MB-hea1 fw-bold fs-2 lh-base">HELPING<br>
-                            SMALL PRACTICE<br>
-                            MAXIMIZE REVENUE?<br>
-                        </h1>
-                        <div class="hdr_btn d-flex">
+                        <h1 class="text-light Sec1-MB-hea1 lh-base">Atlantis RCM For Small Medical Groups</h1>
+                        <div class="hdr_btn my-5 strtBtn_home">
                             <a href="#connectUs">
-                                <button class="btn strtBtn1 mt-2">
+                                <button class="btn">
                                     Get Started
                                 </button>
                             </a>

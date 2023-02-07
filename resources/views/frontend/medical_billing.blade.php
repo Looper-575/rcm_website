@@ -345,9 +345,6 @@
         <div class="container">
             <div class="cus_love-title">
                 <h2 class="text-light pt-5">Why Our Customers Loves Us</h2>
-                <p class="text-light pt-3 fs-5">During the course of the handling of my case by Atlantis RCM, I was
-                    extremely satisfied with their approach. Throughout the entire process, they were professional and
-                    efficient, and most importantly, they helped me go through it in a painless and quick manner.</p>
             </div>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">

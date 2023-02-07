@@ -94,7 +94,7 @@
                             services to the healthcare industry, improving patient experience, and reducing
                             revenue loss. </p>
                     </div>
-                    <div class="col-12 col-md-6 col-sm-12 pt-md-5">
+                    <div class="col-12 col-md-6 col-sm-12">
                         <img src="{{url('public/frontend/assets/img/medical_billing/img_section_2_build_trust.jpg')}}" alt=image class=" thrd-sec-PE-img">
                     </div>
                 </div>
@@ -386,7 +386,6 @@
             <div class="container">
                 <div class="cus_love-title">
                     <h2 class="text-light pt-5">Why Our Customers Loves Us</h2>
-                    <p class="text-light pt-3 fs-5">During the course of the handling of my case by Atlantis RCM, I was extremely satisfied with their approach. Throughout the entire process, they were professional and efficient, and most importantly, they helped me go through it in a painless and quick manner.</p>
                 </div>
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner py-5">
@@ -401,7 +400,6 @@
                                         <div class="Cus_love_testimonial_user">
                                             <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}" alt="">
                                             <span class="text-white">Dr. Shaun Daniel</span>
-                                            <span class="text-white">Institute of Cardiology</span>
                                         </div>
                                     </div>
                                 </div>
@@ -418,7 +416,6 @@
                                         <div class="Cus_love_testimonial_user">
                                             <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}" alt="">
                                             <span class="text-white">Dr. Shaun Daniel</span>
-                                            <span class="text-white">Institute of Cardiology</span>
                                         </div>
                                     </div>
                                 </div>

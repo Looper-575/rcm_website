@@ -5,9 +5,7 @@
             <div class="container h-100">
                 <div class="d-flex flex-column justify-content-center h-100">
                     <div class="header_content">
-                        <h1 class="text-light my-3">Our Unyielding Commitment <br>
-                            To Deliver Results!
-                        </h1>
+                        <h1 class="text-light my-3">Atlantis RCM For Large Medical Groups</h1>
 
                         <div class="hdr_btn d-flex">
                             <a href="#connectUs">
@@ -69,11 +67,11 @@
             </div>
         </div>
     </section>
-    <section class="thrd-sec-PE">
+    <section class="thrd-sec-PE py-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 col-sm-12  thrd-sec-PE-data">
-                    <h2 class="thrd-sec-PE-hea text-blue">Large Medical Groups</h2>
+                    <h2 class="thrd-sec-PE-hea text-blue">Our Unyielding Commitment To Deliver Results!</h2>
                     <p class="thrd-sec-PE-para text-grey pt-3">When medical practices do not collect up front as they should they rely on post
                         payment methods such as chargebacks payment plans and negotiated
                         discounts which end up costing to collect properly prior to services rendered.
@@ -122,7 +120,7 @@
         </div>
     </section>
 
-    <section class="thrd-sec-PE">
+    <section class="thrd-sec-PE py-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 col-sm-12  thrd-sec-PE-data">
@@ -176,7 +174,7 @@
     </section>
 
 
-    <section class="thrd-sec-PE">
+    <section class="thrd-sec-PE py-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 col-sm-12  thrd-sec-PE-data">

@@ -58,13 +58,14 @@
                         <li><a class="dropdown-item text-center {{ (request()->is('workforce')) ? 'active' : '' }} " href="{{url('workforce')}}">Work Force Extension</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item text-center {{ (request()->is('all_solutions')) ? 'active' : '' }} " href="{{url('all_solutions')}}">View All Solutions</a></li>
+                        <li><a class="dropdown-item text-center {{ (request()->is('tailored_solution')) ? 'active' : '' }} " href="{{url('tailored_solution')}}">View All Specialties</a></li>
                     </ul>
                 </div>
                 <li class="nav-item d-none d-lg-block" id="solution_menu">
                     <a class="nav-link text-center {{ (request()->is('workforce')) ? 'active' : '' }}"  href="javascript:">Solutions <i class="fas fa-angle-down"></i></a>
                     <div class="sub_menu_solution">
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col-9">
                                 <div class="bg-sol-sb-menu">
                                     <img class="polygon_arrow"  src="{{url('public/frontend/assets/img/menu/polygon-1.png')}}" alt="">
                                     <div class="row py-5 my-2 px-3">
@@ -72,7 +73,7 @@
                                             <a href="{{url('absolute_revenue')}}">
                                                 <div class="d-flex align-items-center m-3 my-4">
                                                     <img src="{{url('public/frontend/assets/img/menu/1-icon_rcm.png')}}" alt="">
-                                                    <div class="mx-4">
+                                                    <div class="mx-2">
                                                         <p class="text-light m-0 sub_menu_title">Revenue Cycle Management</p>
                                                         <p class="text-light m-0 sub_menu_descrip">Emphasis on accurate data</p>
                                                     </div>
@@ -81,7 +82,7 @@
                                             <a href="{{url('practice_manage')}}">
                                                 <div class="d-flex align-items-center m-3 my-4">
                                                     <img src="{{url('public/frontend/assets/img/menu/2-icon_practise_management.png')}}" alt="">
-                                                    <div class="mx-4">
+                                                    <div class="mx-2">
                                                         <p class="text-light m-0 sub_menu_title">Practice Management</p>
                                                         <p class="text-light m-0 sub_menu_descrip">Coordinated and improved workflow</p>
                                                     </div>
@@ -90,7 +91,7 @@
                                             <a href="{{url('healthC_analytics')}}">
                                                 <div class="d-flex align-items-center m-3 my-4">
                                                     <img src="{{url('public/frontend/assets/img/menu/3-icon_telehealth.png')}}" alt="">
-                                                    <div class="mx-4">
+                                                    <div class="mx-2">
                                                         <p class="text-light m-0 sub_menu_title">Health Care Analytics</p>
                                                         <p class="text-light m-0 sub_menu_descrip">Reducing errors with accurate data</p>
                                                     </div>
@@ -101,7 +102,7 @@
                                             <a href="{{url('telehealth')}}">
                                                 <div class="d-flex align-items-center m-3 my-4">
                                                     <img src="{{url('public/frontend/assets/img/menu/4-icon_health_care_analytics.png')}}" alt="">
-                                                    <div class="mx-4">
+                                                    <div class="mx-2">
                                                         <p class="text-light m-0 sub_menu_title">Telehealth</p>
                                                         <p class="text-light m-0 sub_menu_descrip">Better coordinated healthcare</p>
                                                     </div>
@@ -110,7 +111,7 @@
                                             <a href="{{url('patient_experience')}}">
                                                 <div class="d-flex align-items-center m-3 my-4">
                                                     <img src="{{url('public/frontend/assets/img/menu/5-Icon_patient_experience_management.png')}}" alt="">
-                                                    <div class="mx-4">
+                                                    <div class="mx-2">
                                                         <p class="text-light m-0 sub_menu_title">Patient Experience Management</p>
                                                         <p class="text-light m-0 sub_menu_descrip">Scores higher on patient satisfaction</p>
                                                     </div>
@@ -119,7 +120,7 @@
                                             <a href="{{url('workforce')}}">
                                                 <div class="d-flex align-items-center m-3 my-4">
                                                     <img src="{{url('public/frontend/assets/img/menu/6-icon_workforce_extension.png')}}" alt="">
-                                                    <div class="mx-4">
+                                                    <div class="mx-2">
                                                         <p class="text-light m-0 sub_menu_title">Work Force Extension</p>
                                                         <p class="text-light m-0 sub_menu_descrip">Ensures smooth operations</p>
                                                     </div>
@@ -127,34 +128,45 @@
                                             </a>
                                         </div>
                                         <a href="{{url('all_solutions')}}"><button class="sb_menu_view_all_sol">View All Solutions</button></a>
+
                                     </div>
                                     </div>
                                 </div>
-                            <div class="d-none">
-                                <div class="py-5 mt-4 grey_article_sb_menu">
+                            <div class="col-3">
+                                <div class="py-5 my-3 grey_article_sb_menu">
+
+                                    <h5  class="text-grey fw-bold  m-3">
+                                            Specialties
+                                        </h5>
+
+                                    <a href="{{url('laboratry')}}">
+                                        <p  class="text-grey sub_menu_descrip my-3">
+                                            Laboratory
+                                        </p>
+                                    </a>
+                                    <a href="{{url('homehealth')}}">
+                                        <p  class="text-grey sub_menu_descrip my-3">
+                                            Home Health
+                                        </p>
+                                    </a>
+                                    <a href="{{url('dmeProviders')}}">
+                                        <p  class="text-grey sub_menu_descrip my-3">
+                                            DME Providers
+                                        </p>
+                                    </a>
                                     <a href="{{url('tailored_solution')}}">
-                                        <p  class="text-grey sub_menu_descrip my-4">
-                                            Specialities
+                                        <p  class="text-blue sub_menu_descrip my-3">
+                                            View All Specialties
+                                        </p>
+                                    </a>
+                                    <a href="{{url('unyeild_commitment')}}">
+                                        <p  class="text-grey sub_menu_descrip my-3">
+                                            Large Medical Groups
                                         </p>
                                     </a>
                                     <a href="{{url('texo_about_us')}}">
                                         <p  class="text-grey sub_menu_descrip my-4">
-                                    Small Medical Practices
-                                    </p>
-                                    </a>
-                                    <a href="">
-                                        <p  class="text-grey sub_menu_descrip my-4">
-                                            RCM For Customers
-                                        </p>
-                                    </a>
-                                    <a href="">
-                                        <p  class="text-grey sub_menu_descrip my-4">
-                                    Large Medical Groups
-                                    </p>
-                                    </a>
-                                    <a href="">
-                                        <p  class="text-grey sub_menu_descrip my-4">
-                                        Medical Billing Companies
+                                            Small Medical Practices
                                         </p>
                                     </a>
                                 </div>
