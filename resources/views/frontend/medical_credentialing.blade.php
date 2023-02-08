@@ -6,9 +6,7 @@
             <div class="container h-100">
                 <div class="d-flex flex-column justify-content-center h-100">
                     <div class="header_content">
-                        <h1 class="text-light Sec1-MB-hea1">Credentialing Builds Trust</h1>
-                        <h2 class="text-light Sec1-MB-hea2 my-3 fw-bold">
-                            Leading to More Business</h2>
+                        <h1 class="text-light Sec1-MB-hea1">Credentialing Builds Trust Leading to More Business</h1>
                         <div class="hdr_btn d-flex">
                             <a href="#connectUs">
                                 <button class="btn strtBtn1 mt-2">
@@ -116,7 +114,7 @@
                                     <li class="nav-item pb-xl-4 pb-md-4 pb-3 position-relative" role="presentation">
                                         <button class="pro_active_button nav-link active" id="home-tab" data-bs-toggle="tab"
                                                 data-bs-target="#home"
-                                                type="button" role="tab" aria-controls="home" aria-selected="true">Provider Enrollment Services
+                                                type="button" role="tab" aria-controls="home" aria-selected="true">Enrollment Services
                                         </button>
                                         <img class="pE_pro_arr_active"
                                              src="{{url('public/frontend/assets/img/patient_experience/polygon-1.png')}}">
@@ -166,11 +164,10 @@
                                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                     <div class="">
                                         <img class="img-fluid" src="{{url('public/frontend/assets/img/medical_billing/slider_enrollment_service.jpg')}}">
-                                        <p class="text-white pt-md-4">Recredentialing is typically required every three years,
-                                            so we will notify and manage the process when the time comes
-                                            to renew a provider's credentials. Our team will review and verify
-                                            your professional credentials in conjunction with relevant criteria
-                                            and keep them on file.
+                                        <p class="text-white pt-md-4">Atlantis Rcm is the leading provider of enrollment services for physicians and
+                                            healthcare entities, offering credentialing and contracting with health plans.
+                                            Our team is equipped with experience to ensure that your practice is fully credentialed
+                                            to help you navigate the complex world of insurance contracting.
                                         </p>
                                     </div>
                                 </div>
@@ -188,8 +185,8 @@
                                     <div class="">
                                         <img class="img-fluid" src="{{url('public/frontend/assets/img/medical_billing/slider_caqh_management.jpg')}}">
                                         <p class="text-white pt-xl-4">We know that it can be a pain in the neck to get credentialed with all of your payers,
-                                            and we want to make it easier for you. However, a minor mistake could possibly delay the credentialing process.
-                                            We submit the CAQH application for providers who must use this service to credential with individual payers.
+                                            and we want to make it easier for you. However, a minor mistake could delay the credentialing process. We submit
+                                            the CAQH application for providers who must use this service to credential individual payers.
                                         </p>
                                     </div>
                                 </div>
@@ -236,14 +233,13 @@
                         <div class="corrsponding_icons">
                             <img src="{{url('public/frontend/assets/img/medical_billing/icn_credientialing_management.png')}}" alt="">
                         </div>
-                        <p class="headng mt-md-1 text-grey"> Credentialing
-                            management</p>
+                        <p class="headng mt-md-1 text-grey"> Credentialing Management</p>
                     </div>
                     <div class="mx-2 mx-md-3 what_service text-center service_hd slide_2" onclick="active_service(2)">
                         <div class="corrsponding_icons pt-3">
                             <img src="{{url('public/frontend/assets/img/medical_billing/icn_uptodate_credientials.png')}}" alt="">
                         </div>
-                        <p class="headng mt-md-1 text-grey">Update To date
+                        <p class="headng mt-md-1 text-grey">Up to Date
                             Credentials</p>
                     </div>
                     <div class="mx-md-3 what_service text-center service_hd slide_3" onclick="active_service(3)">
@@ -282,7 +278,7 @@
                             <div class="col-lg-6">
                                 <div class="text_process_what_we py-5">
                                     <p class="text-grey tag_what_we">
-                                        Credentialing management
+                                        Credentialing Management
                                     </p>
                                     <p class="text-grey text_crrspnding_blck mt-3">
                                         We understand how important it is to distinguish insurers and the companies they are enrolled with. For health plans and application collections, we manage all payer communication, complete verification, and network enrollment management.
@@ -302,7 +298,7 @@
                             <div class="col-lg-6">
                                 <div class="text_process_what_we py-5">
                                     <p class="text-grey tag_what_we">
-                                        Update to Date Credentials
+                                        Up to Date Credentials
                                     </p>
                                     <p class="text-grey text_crrspnding_blck mt-3">
                                         Our experts are familiar with and closely follow all state credentialing
@@ -385,7 +381,7 @@
         <section class="home-testimonial-section py-5">
             <div class="container">
                 <div class="cus_love-title">
-                    <h2 class="text-light pt-5">Why Our Customers Loves Us</h2>
+                    <h2 class="text-light pt-5">Why Our Customers Trust Us</h2>
                 </div>
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner py-5">
@@ -440,8 +436,9 @@
         <section class="Connect-Us py-5" id="connectUs">
             <div class="container">
                 <div>
-                    <h2 class="Connect-head text-blue ">We ensure uninterrupted patient care with our prompt response.
-                        Contact Us Today!</h2>
+                    <h2 class="Connect-head text-blue ">Experience Uninterrupted Patient Care.<br>
+                        Contact Us Today!
+                    </h2>
                     @include('frontend.contactUs.contact_us_form')
                 </div>
             </div>

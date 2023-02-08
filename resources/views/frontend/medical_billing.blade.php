@@ -7,8 +7,9 @@
             <div class="container h-100">
                 <div class="d-flex flex-column justify-content-center h-100">
                     <div class="header_content">
-                        <h1 class="text-light">Medical Billing Service<br>
-                            Reliable & Transparent</h1>
+                        <h1 class="text-light">Providing Reliable Medical Billing Service
+                            with Transparency
+                        </h1>
                         <div class="hdr_btn my-3 strtBtn_home">
                             <a href="#connectUs">
                                 <button class="btn">
@@ -36,9 +37,7 @@
 
                         <div class="card-body">
                             <h3 class="Scnd-sec-PE-card-hea text-center text-light">Analyze</h3>
-                            <p class="Scnd-sec-PE-card-para text-center text-light m-0">To determine the most beneficial
-                                priorities for your business,
-                                we use your data and desired goals.</p>
+                            <p class="Scnd-sec-PE-card-para text-center text-light m-0">Our analysis is based on long-term goals, not just day-to-day payments.</p>
                         </div>
                     </div>
                 </div>
@@ -52,10 +51,8 @@
                         </div>
 
                         <div class="card-body">
-                            <h3 class="Scnd-sec-PE-card-hea text-center text-light">Iterate and streamline</h3>
-                            <p class="Scnd-sec-PE-card-para text-center text-light m-0">Our RCM service incorporates
-                                process improvements to make things
-                                easier for every practice.</p>
+                            <h3 class="Scnd-sec-PE-card-hea text-center text-light">Streamline</h3>
+                            <p class="Scnd-sec-PE-card-para text-center text-light m-0">As your practice grows, we streamline the collection process.</p>
                         </div>
                     </div>
                 </div>
@@ -69,11 +66,8 @@
                         </div>
 
                         <div class="card-body">
-                            <h3 class="Scnd-sec-PE-card-hea text-center text-light">Report with transparency</h3>
-                            <p class="Scnd-sec-PE-card-para text-center text-light m-0">Keeping you informed about the
-                                state
-                                of your revenue cycle is one of
-                                our top priorities.</p>
+                            <h3 class="Scnd-sec-PE-card-hea text-center text-light">Report</h3>
+                            <p class="Scnd-sec-PE-card-para text-center text-light m-0">Reporting is our top priority to keep you informed about your revenue cycle.</p>
                         </div>
                     </div>
                 </div>
@@ -85,16 +79,15 @@
         <div class="container">
             <div class="row py-lg-4">
                 <div class="col-12 col-md-6 pt-lg-5">
-                    <h2 class=" text-blue">Safe, Prompt Service to
-                        Ensure Accurate & Timely Billing</h2>
+                    <h2 class=" text-blue">Safe & Prompt Service
+                        Ensuring Accurate Billing
+                    </h2>
                     <p class="text-grey py-lg-3">At Atlantis, we know that your specialty is medicine, not paperwork.
                         That's why we make it our mission to help you focus on what you do best:
-                        providing quality care.Creating a smooth and efficient process for
-                        collecting payments from patients and payers is critical. The need to
-                        manage the revenue cycle effectively is more important than ever.
-                        When the RCM company has a high success rate on out-of-the-box
-                        clearing house claims, that’s an excellent indication that billing errors are
-                        being reduced.</p>
+                        providing quality care.We create a smooth and efficient process for collecting payments from patients and payers. With ever increasing burden on health care, the need to manage the revenue cycle effectively is more important than ever.
+
+                        At Atlantis RCM, we maintain a high success rate on out-of-the-box clearinghouse claims, which is an excellent indication for reduced billing errors.
+                    </p>
                 </div>
                 <div class="col-12 col-md-6 pt-md-5 pt-lg-0">
 
@@ -109,7 +102,7 @@
     <section class="patient_exp_proactive py-5">
         <div class="container">
             <div class="proactive_title">
-                <h2 class="text-white pt-md-4">Our foolproof Billing Process Eliminates Guesswork</h2>
+                <h2 class="text-white pt-md-4">Our Foolproof Billing Process Eliminates Guesswork</h2>
                 <p class="text-white">With the help of our team of experts you will be able to maximize reimbursement
                     from your insurance company and your patients.
                     Our services are designed to let you save money and maximize the efficiency of your practice while
@@ -216,9 +209,7 @@
                             <div class="">
                                 <img class="img-fluid"
                                      src="{{url('public/frontend/assets/img/service-medical billing page/slider_patient_demographic.png')}}">
-                                <p class="text-white pt-xl-4">Our goal is to provide all the information you need in one
-                                    place as a physician to determine which treatment is best for your patients, such as
-                                    their age and ethnicity.
+                                <p class="text-white pt-xl-4">Our goal is to provide all the information you need as a physician in one place to determine which treatment is best for your patients, such as their age and ethnicity.
                                 </p>
                             </div>
                         </div>
@@ -226,9 +217,7 @@
                             <div class="">
                                 <img class="img-fluid"
                                      src="{{url('public/frontend/assets/img/service-medical billing page/slider_patient_charge_entry.png')}}">
-                                <p class="text-white pt-xl-4">RCM begins with charge entry. It's where we take all of
-                                    the information we've gathered, and create a bill to send to patients. With our
-                                    help, you can focus on running your practice smoothly
+                                <p class="text-white pt-xl-4">RCM begins with charge entry. It's where we take all of the information we've gathered, and create a bill to send to patients. With our help, you can focus on running your practice smoothly.
                                 </p>
                             </div>
                         </div>
@@ -282,9 +271,7 @@
                             <div class="">
                                 <img class="img-fluid"
                                      src="{{url('public/frontend/assets/img/service-medical billing page/slider_reporting.png')}}">
-                                <p class="text-white pt-xl-4">Whether we're tracking claims or confirming payments, our
-                                    team ensures that everything we do ensures that your office's revenue is maximized
-                                    in all that we do.
+                                <p class="text-white pt-xl-4">Whether we're tracking claims or confirming payments, our team ensures that everything we do results in maximizing your office's revenue.
                                 </p>
                             </div>
                         </div>
@@ -296,9 +283,8 @@
 
     <section class="sec5-conn-pat-exper py-5">
         <div class="container">
-            <h3 class=" sec5-conn-hea text-blue ">We Focus On Your Collections Or Claims While Reducing Costs</h3>
-            <p class="sec5-conn-para text-grey mt-4">With our revenue cycle management service, you get more than just
-                MORE REVENUE, we also give you insightful reports
+            <h3 class=" sec5-conn-hea text-blue ">We Focus On Your Collections While Reducing Costs</h3>
+            <p class="sec5-conn-para text-grey mt-4">With our revenue cycle management service, you do not just make MORE REVENUE, we also give you insightful reports
                 showing metrics, because “If you can't measure it, you can't improve it.”</p>
             <div class="row my-5 pb-3">
                 <div class="col-sm-12 col-md-6 col-lg-4">
@@ -306,7 +292,7 @@
                         <img src="{{url('public/frontend/assets/img/medical_credentialing/healthcare-business-doctor-stethoscope-coins-with-stack-cash-graph-data-business-growth.png')}}"
                              class="card-img-top">
                         <div class="sec-5-patExper-card-body text-center p-1 p-lg-2 p-xl-3">
-                            <h5 class="card-title  text-light my-2">Minimizing Claims Value</h5>
+                            <h5 class="card-title  text-light my-2">Minimizing Claims</h5>
                             <p class="card-text text-light">Our team will work with you to create a plan for
                                 improving collections and submitting more complete claims, and we'll monitor everything
                                 to make sure the plan is working as intended.</p>
@@ -318,7 +304,7 @@
                         <img src="{{url('public/frontend/assets/img/medical_credentialing/doctor-physician-with-stethoscope-calculate-medical-fee-costs-revenue-practitioner-use-calculator-clinic.png')}}"
                              class="card-img-top">
                         <div class="sec-5-patExper-card-body text-center p-1 p-lg-2 p-xl-3">
-                            <h5 class="card-title  text-light my-2">Maximizing collections</h5>
+                            <h5 class="card-title  text-light my-2">Maximizing Collections</h5>
                             <p class="card-text text-light">With medical billing services, we can proudly
                                 state that we have been able to increase our clients' revenue profit by 10-25 % by
                                 ensuring maximum claim follow-up.</p>
@@ -330,7 +316,7 @@
                         <img src="{{url('public/frontend/assets/img/medical_credentialing/doctor-accounting-department-writes-note-uses-calculator-calculate-expenses-income-hospital-staff.png')}}"
                              class="card-img-top">
                         <div class="sec-5-patExper-card-body text-center p-1 p-lg-2 p-xl-3">
-                            <h5 class="card-title text-light my-2">Reducing expenses</h5>
+                            <h5 class="card-title text-light my-2">Reducing Expenses</h5>
                             <p class="card-text text-light">Using our services will reduce all your office
                                 operational costs in your healthcare facility as well as the headaches associated with
                                 managing all the paperwork.</p>
@@ -344,7 +330,7 @@
     <section class="home-testimonial-section py-5">
         <div class="container">
             <div class="cus_love-title">
-                <h2 class="text-light pt-5">Why Our Customers Loves Us</h2>
+                <h2 class="text-light pt-5">Why Our Customers Trust Us</h2>
             </div>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -352,13 +338,7 @@
                         <div class="cus_love_main_testimonial">
                             <div class="Cus_love_testimonial_slide">
                                 <div class="Cus_love_testimonial_content">
-                                    <a href="#"><p>During the course of the handling of my case by Atlantis RCM, I was
-                                            extremely
-                                            satisfied with their approach. Throughout the entire process, they were
-                                            professional,
-                                            efficient, and most importantly, they helped me go through it in a painless
-                                            and quick
-                                            manner.</p></a>
+                                     <p>Atlantis RCM did a great job in managing my billing tasks daily. I believe it has greatly assisted us in improving the cash flow by significantly reducing the number of errors. I strongly recommend them if you are looking to outsource your medical billing service. </p>
                                     <div class="Cus_love_testimonial_user">
                                         <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}"
                                              alt="">
@@ -372,13 +352,7 @@
                         <div class="cus_love_main_testimonial">
                             <div class="Cus_love_testimonial_slide">
                                 <div class="Cus_love_testimonial_content">
-                                    <a href="#"><p>During the course of the handling of my case by Atlantis RCM, I was
-                                            extremely
-                                            satisfied with their approach. Throughout the entire process, they were
-                                            professional,
-                                            efficient, and most importantly, they helped me go through it in a painless
-                                            and quick
-                                            manner.</p></a>
+                                    <p>Atlantis RCM did a great job in managing my billing tasks daily. I believe it has greatly assisted us in improving the cash flow by significantly reducing the number of errors. I strongly recommend them if you are looking to outsource your medical billing service. </p>
                                     <div class="Cus_love_testimonial_user">
                                         <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}"
                                              alt="">

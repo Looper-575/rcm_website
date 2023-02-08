@@ -7,8 +7,8 @@
                     <div class="header_content">
                         <h1 class="text-light">Helping<br> Healthcare Providers</h1>
                         <h3 class="text-light hdr_hme_txt_bg my-4">Improve Patient Experience</h3>
-                        <p class="text-light my-2">At Atlantis RCM, we organize your revenue cycle
-                            so you, and your patients can enjoy a better experience.
+                        <p class="text-light my-2">We organize your revenue cycle.<br>
+                            So you, and your patients can enjoy a better experience.
                         </p>
                         <div class="hdr_btn my-5 d-flex strtBtn_home">
                             <a href="#connectSec">
@@ -23,9 +23,8 @@
     <section class="home-section-1">
         <div class="container">
             <div class="row py-5">
-                <div class="col-md-6">
-                    <h2 class="text-light"><span class="text-seafoam">Atlantis Revenue Cycle</span> Management, in
-                        that case, helps in managing</h2>
+                <div class="col-md-6 d-flex align-items-center">
+                    <h2 class="text-light"><span class="text-seafoam">Atlantis RCM</span> Helps You Manage</h2>
                 </div>
                 <div class="col-md-6">
                     <div class="row mt-3 mt-md-0">
@@ -80,7 +79,7 @@
     <section class="what_we_section py-5 mb-5">
         <div class="container">
             <div class="what_home_head">
-                <h2 class="text-light">Round The Clock Service Support?</h2>
+                <h2 class="text-light">Round The Clock Service Support:</h2>
                 <p class="text-light">When you are on the road to success, you need to have the right gear. With us,
                     you're guaranteed to have the most qualified
                     workforce with the relevent skills.We have gathered an expert team to enable you to save time and
@@ -93,7 +92,7 @@
                 </div>
                 <div class="mx-2 mx-md-3 what_service service_hd d-flex align-items-center justify-content-center slide_2"
                      onclick="active_service(2)">
-                    <p class="headng mt-md-1 text-grey">Billing</p>
+                    <p class="headng mt-md-1 text-grey">Medical Billing</p>
                 </div>
                 <div class="mx-md-3 what_service service_hd d-flex align-items-center justify-content-center slide_3"
                      onclick="active_service(3)">
@@ -137,7 +136,7 @@
                         <div class="col-lg-6">
                             <div class="text_process_what_we">
                                 <p class="text_light tag_what_we">
-                                    Billing
+                                    Medical Billing
                                 </p>
                                 <p class="text_light text_process_c mt-3">
                                     Complex billing solutions often overwhelm in house staff
@@ -344,7 +343,7 @@
     <section class="corresponding_section py-5 mt-5">
         <div class="container">
             <div class="what_home_head">
-                <h2 class="text-light">Corresponding benefits</h2>
+                <h2 class="text-light">Corresponding Benefits</h2>
                 <p class="text-light">Revenue cycle management allows you to cut costs and increase revenue
                     by streamlining your billing processes. It helps you to better manage patient records and
                     automate your billing process, which can save time, money, and resources.
@@ -356,25 +355,25 @@
                         <img src="{{url('/public/frontend/assets/img/home/icon-reduce-operational-expenses.png')}}"
                              alt="">
                     </div>
-                    <p class="headng mt-md-1 text-grey"> Reduce Operational expenses</p>
+                    <p class="headng mt-md-1 text-grey"> Reduces Operational Expenses</p>
                 </div>
                 <div class="mx-2 mx-md-3 what_service text-center service_hd slide_2" onclick="active_service(2)">
                     <div class="corrsponding_icons d-none d-lg-block pt-3">
                         <img src="{{url('/public/frontend/assets/img/home/icon-ensure-transparency.png')}}" alt="">
                     </div>
-                    <p class="headng mt-md-1 text-grey">Ensure Transparency</p>
+                    <p class="headng mt-md-1 text-grey">Ensures Transparency</p>
                 </div>
                 <div class="mx-md-3 what_service text-center service_hd slide_3" onclick="active_service(3)">
                     <div class="corrsponding_icons d-none d-lg-block">
                         <img src="{{url('/public/frontend/assets/img/home/vector-smart-object11.png')}}" alt="">
                     </div>
-                    <p class="headng mt-md-1 text-grey">Enhance Customer Experience </p>
+                    <p class="headng mt-md-1 text-grey">Enhances Customer Experience </p>
                 </div>
                 <div class="mx-2 mx-md-3 what_service text-center service_hd slide_4" onclick="active_service(4)">
                     <div class="corrsponding_icons d-none d-lg-block">
                         <img src="{{url('/public/frontend/assets/img/home/vector-smart-objectq.png')}}" alt="">
                     </div>
-                    <p class="headng mt-md-1 text-grey">Improved Revenue</p>
+                    <p class="headng mt-md-1 text-grey">Improves Revenue</p>
                 </div>
             </div>
             <div class="detail_process">
@@ -388,12 +387,12 @@
                         <div class="col-lg-6">
                             <div class="text_process_what_we py-md-5">
                                 <p class="text_light tag_what_we">
-                                    Reduce Operational expenses
+                                    Reduces Operational Expenses
                                 </p>
                                 <p class="text_light text_crrspnding_blck mt-3">
-                                    Atlantis is the most sophisticated revenue cycle management solution in the
-                                    industry. Our platform helps healthcare organizations reduce operational expenses,
-                                    improve patient experience, and increase revenue by automating workflows.
+                                    Atlantis is the most sophisticated revenue cycle management solution in the industry.
+                                    Our platform helps healthcare organizations reduce operational expenses,
+                                    enhances patient experience, and increases revenue by automating workflows.
                                 </p>
                             </div>
 
@@ -411,7 +410,7 @@
                         <div class="col-lg-6">
                             <div class="text_process_what_we py-md-5">
                                 <p class="text_light tag_what_we">
-                                    Ensure Transparency
+                                    Ensures Transparency
                                 </p>
                                 <p class="text_light text_crrspnding_blck mt-3">
                                     Atlantis provides a full suite of revenue cycle management services for healthcare
@@ -435,7 +434,7 @@
                         <div class="col-lg-6">
                             <div class="text_process_what_we py-md-5">
                                 <p class="text_light tag_what_we">
-                                    Enhance Customer Experience
+                                    Enhances Customer Experience
                                 </p>
                                 <p class="text_light text_crrspnding_blck mt-3">
                                     Atlantis is the most sophisticated revenue cycle management solution in the
@@ -459,14 +458,12 @@
                         <div class="col-lg-6">
                             <div class="text_process_what_we py-md-5">
                                 <p class="text_light tag_what_we">
-                                    Improved Revenue
+                                    Improves Revenue
                                 </p>
                                 <p class="text_light text_crrspnding_blck mt-3">
-                                    Atlantis' revenue cycle management provides a flexible and powerful solution for
-                                    healthcare providers to improve their revenue. Our services are designed to increase
-                                    collections on a per-claim basis, as well as maximize total receivables by reducing
-                                    bad debt.
-
+                                    Atlantis' revenue cycle management provides a flexible and powerful solution
+                                    for healthcare providers to improve their revenue. Our services are designed
+                                    for increased collections on a per-claim basis, as well as maximize total receivables by reducing bad debt.
                                 </p>
                             </div>
                         </div>
@@ -491,12 +488,6 @@
         <div class="container">
             <div>
                 <h2 class="text-light pt-5">Why Our Customers Trust Us</h2>
-                <p class="text-light pt-3 fs-5">With more than a decade of industry-leading experience, Atlantis has
-                    been
-                    continually recognized for exceptional performance, customer service, employee training, and
-                    stringent
-                    cybersecurity standards. However, the greatest recognition we receive is the satisfaction of our
-                    customers.</p>
             </div>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -530,10 +521,12 @@
                                 </div>
                             </div>
                             <div class="testimonial_slide">
-                                <div class="testimonial_content"><a href="#"><p>During the course of the handling of my case by Atlantis RCM, I was extremely
-                                            satisfied with their approach. Throughout the entire process, they were professional,
-                                            efficient, and most importantly, they helped me go through it in a painless and quick
-                                            manner.</p></a>
+                                <div class="testimonial_content"><a href="#">
+                                        <p>They helped me enroll with providers and negotiate contracts with insurance companies on my behalf.
+                                            They have a thorough understanding of how these companies operate. This team understands the process
+                                            from start to finish. Their customer service is outstanding.
+                                        </p>
+                                    </a>
                                 </div>
                                 <div class="testemonial_user"><img
                                             src="{{url('/public/frontend/assets/img/home/img-0-8-v-2.png')}}" alt="">
@@ -559,10 +552,8 @@
                                 </div>
                             </div>
                             <div class="testimonial_slide  d-none d-md-block">
-                                <div class="testimonial_content"><a href="#"><p>During the course of the handling of my case by Atlantis RCM, I was extremely
-                                            satisfied with their approach. Throughout the entire process, they were professional,
-                                            efficient, and most importantly, they helped me go through it in a painless and quick
-                                            manner.</p></a>
+                                <div class="testimonial_content"><a href="#"><p>They helped me enroll with providers and negotiate contracts with insurance companies on my behalf. They have a thorough understanding of how these companies operate. This team understands the process from start to finish. Their customer service is outstanding.
+                                        </p></a>
                                 </div>
                                 <div class="testemonial_user"><img
                                             src="{{url('/public/frontend/assets/img/home/img-0-8-v-2.png')}}" alt="">
@@ -588,10 +579,8 @@
                                 </div>
                             </div>
                             <div class="testimonial_slide">
-                                <div class="testimonial_content"><a href="#"><p>During the course of the handling of my case by Atlantis RCM, I was extremely
-                                            satisfied with their approach. Throughout the entire process, they were professional,
-                                            efficient, and most importantly, they helped me go through it in a painless and quick
-                                            manner.</p></a>
+                                <div class="testimonial_content"><a href="#"><p>They helped me enroll with providers and negotiate contracts with insurance companies on my behalf. They have a thorough understanding of how these companies operate. This team understands the process from start to finish. Their customer service is outstanding.
+                                        </p></a>
                                 </div>
                                 <div class="testemonial_user"><img
                                             src="{{url('/public/frontend/assets/img/home/img-0-8-v-2.png')}}" alt="">
@@ -617,10 +606,8 @@
                                 </div>
                             </div>
                             <div class="testimonial_slide">
-                                <div class="testimonial_content"><a href="#"><p>During the course of the handling of my case by Atlantis RCM, I was extremely
-                                            satisfied with their approach. Throughout the entire process, they were professional,
-                                            efficient, and most importantly, they helped me go through it in a painless and quick
-                                            manner.</p></a>
+                                <div class="testimonial_content"><a href="#"><p>They helped me enroll with providers and negotiate contracts with insurance companies on my behalf. They have a thorough understanding of how these companies operate. This team understands the process from start to finish. Their customer service is outstanding.
+                                        </p></a>
                                 </div>
                                 <div class="testemonial_user"><img
                                             src="{{url('/public/frontend/assets/img/home/img-0-8-v-2.png')}}" alt="">

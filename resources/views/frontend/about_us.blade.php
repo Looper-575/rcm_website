@@ -5,9 +5,7 @@
                 <div class="container h-100">
                     <div class="d-flex flex-column justify-content-center h-100">
                         <div class="header_content">
-                            <h1 class="text-light fw-bold">Accessible
-                                & comprehensive
-                               RCM Solutions</h1>
+                            <h1 class="text-light">COMPREHENSIVE REVENUE CYCLE MANAGEMENT SOLUTIONS</h1>
                             <div class="hdr_btn d-flex mt-5">
                                 <a href="#connectSec">
                                     <button class="btn strtBtn1">Get Started</button>
@@ -25,8 +23,9 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12 py-3 py-md-4 py-xl-5">
                         <div class="the_charges_content">
-                            <h3 class="text-light py-2">Family Health Care Cost are Never-Ending!</h3>
-                            <p class="text-light">What if you could save a little but still get the care you expect?</p>
+                            <h2 class="text-light py-2">Achieving Family Health Care is Priceless<br>
+                                What If You Could Save a Little While Doing So
+                            </h2>
                         </div>
                     </div>
                 </div>
@@ -40,11 +39,11 @@
                 <div class="row py-lg-5">
                     <div class="col-lg-6 col-sm-12">
                         <div class="thrd-sec-PE-data pt-lg-5">
-                            <h3 class="text-blue thrd-sec-PE-hea">Health Care practices are able to reduce administrative over head cost by 60% or more with our help.</h3>
+                            <h2 class="text-blue thrd-sec-PE-hea">With our help, healthcare practices were able to reduce overhead administrative costs by 60%</h2>
                             <p class="text-grey thrd-sec-PE-para pt-lg-3">Atlantis provides experience, expertise, and
                                 technology to help you be
                                 successful for years to come!</p>
-                            <p class="text-grey thrd-sec-PE-para pt-lg-3">The rapid changes in Healthcare should not
+                            <p class="text-grey thrd-sec-PE-para pt-lg-3">The rapid changes in healthcare should not
                                 threaten the foundation of
                                 RCM. It’s a professional art and science to support proper recovery
                                 even amid an increasingly complex rich-client landscape.</p>
@@ -76,27 +75,31 @@
                     </div>
                     <div class="col-lg-6 col-sm-12">
                         <div class="our_values_content pt-3">
-                            <h3 class="text-light">Our values</h3>
+                            <h3 class="text-light">Our Values</h3>
                             <p class="text-light">Our mission is to help your healthcare company with any administrative,
                                 clinical, billing, or marketing service that is needed, so that
                                 your staff can devote more time to patient care.</p>
+
                             <h6 class="text-light">Reduce Operational Expenditures</h6>
                             <p class="text-light">We provide end-to-end services and a specialized back-office team
                                 to meet all your needs through flexible, consultative approaches.
                                 Whether you are a medical group or hospital, you can rely on us to
                                 improve profitability and eliminate administrative burdens for your
                                 medical practice.</p>
+
                             <h6 class="text-light">Increase Collection Rates</h6>
                             <p class="text-light">By partnering with our specialized back-office team, your revenue
                                 cycle will be handled by a team of professionals who will manage
                                 critical parts of the revenue cycle from claims submissions to A/R
                                 follow-ups, resulting in a decrease in staffing costs.</p>
-                            <h6 class="text-light">Improving patient experience</h6>
+
+                            <h6 class="text-light">Improving Patient Experience</h6>
                             <p class="text-light">Your Practice Management, and Tele Health Records will be
                                 seamlessly integrated with your patient registration and intake systems.
                                 Your patient interaction time will be significantly reduced if you do this in
                                 order to reduce the time you spend with your patients.</p>
-                            <h6 class="text-light">Reform their practices</h6>
+
+                            <h6 class="text-light">Reform Practices</h6>
                             <p class="text-light">By enhancing practice efficiency and driving better financial
                                 results,
                                 we help practices run more smoothly. With the Atlantis RCM suite of
@@ -116,8 +119,8 @@
                 <div class="row py-lg-5">
                     <div class="col-md-6 col-sm-12">
                         <div class="thrd-sec-PE-data pt-xl-5">
-                            <h3 class="text-blue thrd-sec-PE-hea">Our financial Services Cover<br>
-                                you against any monetary Losses</h3>
+                            <h3 class="text-blue thrd-sec-PE-hea">Our financial services cover you against any monetary losses.
+                            </h3>
                             <p class="text-grey thrd-sec-PE-para pt-md-3">Our team is made up of experienced professionals
                                 who are dedicated to helping you achieve your goals in record-keeping, billing, and claims
                                 processing.</p>
@@ -137,8 +140,7 @@
         <section class="home-testimonial-section py-3">
             <div class="container">
                 <div class="cus_love-title">
-                    <h2 class="text-light pt-lg-5">Why Our Customers Loves Us</h2>
-                    <p class="text-light pt-3 fs-5">During the course of the handling of my case by Atlantis RCM, I was extremely satisfied with their approach. Throughout the entire process, they were professional and efficient, and most importantly, they helped me go through it in a painless and quick manner.</p>
+                    <h2 class="text-light pt-lg-5">Why Our Customers Trust Us</h2>
                 </div>
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner py-lg-5">
