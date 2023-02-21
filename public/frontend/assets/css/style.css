@@ -100,7 +100,7 @@ p{
 }
 .atlantis_rcm_nav .navbar-brand > img  {
     width: 200px;
-    margin-top: 15px;
+    margin: 5px;
 }
 
 .atlantis_rcm_nav button.navbar-toggler:focus {
