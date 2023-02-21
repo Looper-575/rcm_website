@@ -5,14 +5,8 @@
             <div class="container h-100">
                 <div class="d-flex flex-column justify-content-center h-100">
                     <div class="header_content">
-                        <h1 class="text-light Sec1-MB-hea1">Atlantis RCM</h1>
-                        <h1 class="text-light Sec1-MB-hea2 fw-bold">Custom solutions <br>
-                            for your specialty</h1>
-                        {{--<div class="hdr_btn d-flex">
-                            <button class="btn strtBtn1 mt-2">
-                                Get Started
-                            </button>
-                        </div>--}}
+                        <h1 class="text-light Sec1-MB-hea1">Atlantis RCM Custom Solutions <br>
+                            For Your Specialty</h1>
                     </div>
                 </div>
             </div>
@@ -26,13 +20,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-3">
-                    <h4 class="pt-3 text-center d-none d-md-block">Speciality Solution</h4>
+                    <h4 class="pt-3 text-center d-none d-md-block">Specialty Solution</h4>
                     <div class="dropdown d-block d-md-none">
-                        <button class="btn btn-primary dropdown-toggle w-100" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                            Speciality Solutions List
+                        <button class="btn btn-primary dropdown-toggle w-100 mt-5" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Specialty Solutions List
                         </button>
                         <ul class="dropdown-menu dropdown-menu-light w-100 text-center" aria-labelledby="dropdownMenuButton2">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
                             <li class="dropdown-item {{ (request()->is('laboratry')) ? 'tex_li_active' : '' }}">
                                 <a href="{{url('laboratry')}}">laboratory Services</a>
                             </li>
@@ -47,6 +40,9 @@
                             </li>
                             <li class="dropdown-item {{ (request()->is('gastroentrology')) ? 'tex_li_active' : '' }}">
                                 <a href="{{url('gastroentrology')}}">Gastroenterology</a>
+                            </li>
+                            <li class="dropdown-item {{ (request()->is('internalMedicine')) ? 'tex_li_active' : '' }}">
+                                <a href="{{url('internalMedicine')}}">Internal Medicine</a>
                             </li>
                             <li class="dropdown-item {{ (request()->is('neurology')) ? 'tex_li_active' : '' }}">
                                 <a href="{{url('neurology')}}">Neurology</a>
@@ -120,6 +116,9 @@
                             </li>
                             <li class="mt-3 p-1 {{ (request()->is('gastroentrology')) ? 'tex_li_active' : '' }}">
                                 <a href="{{url('gastroentrology')}}">Gastroenterology</a>
+                            </li>
+                            <li class="mt-3 p-1 {{ (request()->is('internalMedicine')) ? 'tex_li_active' : '' }}">
+                                <a href="{{url('internalMedicine')}}">Internal Medicine</a>
                             </li>
                             <li class="mt-3 p-1 {{ (request()->is('neurology')) ? 'tex_li_active' : '' }}">
                                 <a href="{{url('neurology')}}">Neurology</a>

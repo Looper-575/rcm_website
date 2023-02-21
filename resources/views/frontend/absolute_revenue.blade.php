@@ -8,7 +8,7 @@
                     <div class="header_content">
                         <h1 class="text-light fw-bold">ABSOLUTE REVENUE <br>
                             <span class="fw-bold">CYCLE MANAGEMENT</span></h1>
-                        <p class="text-light pt-md-4">From on-Boarding to the collection, we manage everything.</p>
+                        <p class="text-light pt-md-4">From on-boarding to collection, we manage everything.</p>
                         <div class="hdr_btn my-3 strtBtn_home">
                             <a href="#connectUs">
                                 <button class="btn">
@@ -55,7 +55,7 @@
                         </div>
 
                         <div class="card-body">
-                            <h3 class="Scnd-sec-PE-card-hea text-center text-light">Less Time on Admin Tasks</h3>
+                            <h3 class="Scnd-sec-PE-card-hea text-center text-light">Smooth Administration</h3>
                             <p class="Scnd-sec-PE-card-para text-center text-light m-0">Your time is better spent doing
                                 what
                                 makes your business grow than dealing
@@ -93,7 +93,7 @@
             <div class="row py-lg-4">
                 <div class="col-md-6 col-sm-12">
                     <div class="thrd-sec-PE-data pt-lg-5">
-                        <h3 class="text-blue thrd-sec-PE-hea">Complete Revenue Cycle Management, Managed by Experts</h3>
+                        <h3 class="text-blue thrd-sec-PE-hea">Complete Revenue Cycle Management<br> Managed by Experts</h3>
                         <p class="text-grey thrd-sec-PE-para pt-md-3">With our team of professionals and sophisticated
                             workflow,
                             we anchor the transformation of your revenue cycle into a profitable one.
@@ -118,7 +118,7 @@
     <section class="patient_exp_proactive py-3">
         <div class="container">
             <div class="proactive_title">
-                <h2 class="text-white pt-md-4">Accelerating Patient care with Actionable Insights</h2>
+                <h2 class="text-white pt-md-4">Accelerating Patient Care with Actionable Insights</h2>
                 <p class="text-white">Through Revenue Cycle Management, not only is the workflow simplified, but the
                     likelihood of denials is decreased as well.
                     This will ultimately improve your collection rate and enable you to stay in a better financial
@@ -187,6 +187,7 @@
                             <div class="">
                                 <img class="img-fluid"
                                      src="{{url('public/frontend/assets/img/absolute_revenue/slider_strategic_approach.jpg')}}">
+
                                 <p class="text-white pt-md-4">We analyze the situation, develop a customized plan that
                                     fulfills your customer
                                     needs and improves your profitability.</p>
@@ -195,7 +196,7 @@
                         <div class="tab-pane fade" id="Primary" role="tabpanel" aria-labelledby="Primary-tab">
                             <div class="">
                                 <img class="img-fluid"
-                                     src="{{url('public/frontend/assets/img/absolute_revenue/slider_transparency.jpg')}}">
+                                     src="{{url('public/frontend/assets/img/absolute_revenue/slider_transparency_.jpg')}}">
                                 <p class="text-white pt-xl-4">We offer 100% transparency on all data pertaining to the
                                     process from intake to payment. Every patient's status will always be clear to you,
                                     so you can make informed decisions.
@@ -205,7 +206,7 @@
                         <div class="tab-pane fade" id="CAQH" role="tabpanel" aria-labelledby="CAQH-tab">
                             <div class="">
                                 <img class="img-fluid"
-                                     src="{{url('public/frontend/assets/img/absolute_revenue/slider_expert_advice.png')}}">
+                                     src="{{url('public/frontend/assets/img/absolute_revenue/slider_expert_advice.jpg')}}">
                                 <p class="text-white pt-xl-4">RCM is a hectic and cumbersome job involving a lot of
                                     paperwork. We make sure it’s done by experienced professionals to avoid failures.
                                 </p>

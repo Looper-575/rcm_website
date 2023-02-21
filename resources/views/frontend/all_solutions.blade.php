@@ -24,7 +24,7 @@
 
 
 
-    <!-- #####################################   second-section-Page-view-all-solution-on-click-  #############################-->
+    <!-- #####################################   second-section-Page-view-all-solutions-  #############################-->
     <div class="scnd-sec-taxanmy py-5">
         <div class="container">
             <h3 class="text-center text-light">Atlantis RCM Custom Solutions</h3>
@@ -33,7 +33,7 @@
     </div>
 
 
-    <!-- #####################################   third-section-Page-view-all-solution-on-click-  #############################-->
+    <!-- #####################################   third-section-Page-view-all-solutions-  #############################-->
     <section class="all_sol_cards py-5">
         <h3 class="text-center text-grey py-3">Maximize Your Business Potential with the Assistance of a Skilled Team</h3>
         <div class="container">
@@ -42,7 +42,7 @@
                     <div class="col-md-6">
                         <div class="solutions_card d-flex flex-column justify-content-center align-items-center my-3 h-100 mx-auto p-3">
                             <div class="card-img-onclick">
-                                <img src="{{url('public/frontend/assets/img/all-solution-on-click/icon-menu-rcm.png')}}" class="card-img-top " alt="image">
+                                <img src="{{url('public/frontend/assets/img/all-solutions/icon-menu-rcm.png')}}" class="card-img-top " alt="image">
                             </div>
                             <div class="card-body text-center">
                                 <h4 class="card-title text-seafoam onclick-card-hea mt-3">Revenue Cycle Management</h4>
@@ -57,7 +57,7 @@
                     <div class="col-md-6 py-4 py-lg-0 py-md-0">
                         <div class="solutions_card d-flex flex-column justify-content-center align-items-center my-lg-3 mt-3 h-100 mx-auto p-3">
                             <div class="card-img-onclick">
-                                <img src="{{url('public/frontend/assets/img/all-solution-on-click/card-img-onclck-2.png')}}" class="card-img-top " alt="image">
+                                <img src="{{url('public/frontend/assets/img/all-solutions/card-img-onclck-2.png')}}" class="card-img-top " alt="image">
                             </div>
                             <div class="card-body text-center">
                                 <h4 class="card-title text-seafoam onclick-card-hea mt-3">Credentialing</h4>
@@ -73,7 +73,7 @@
                     <div class="col-md-6 py-lg-4 py-md-4">
                         <div class="solutions_card d-flex flex-column justify-content-center align-items-center my-3 h-100 mx-auto p-3">
                             <div class="card-img-onclick">
-                                <img src="{{url('public/frontend/assets/img/all-solution-on-click/onclick-card-3.png')}}" class="card-img-top " alt="image">
+                                <img src="{{url('public/frontend/assets/img/all-solutions/onclick-card-3.png')}}" class="card-img-top " alt="image">
                             </div>
                             <div class="card-body text-center">
                                 <h4 class="card-title text-seafoam onclick-card-hea mt-3">Medical Billing</h4>
@@ -86,7 +86,7 @@
                     <div class="col-md-6 py-4">
                         <div class="solutions_card d-flex flex-column justify-content-center align-items-center my-3 h-100 mx-auto p-3">
                             <div class="card-img-onclick">
-                                <img src="{{url('public/frontend/assets/img/all-solution-on-click/icon-menu-pem.png')}}" class="card-img-top " alt="image">
+                                <img src="{{url('public/frontend/assets/img/all-solutions/icon-menu-pem.png')}}" class="card-img-top " alt="image">
                             </div>
                             <div class="card-body text-center">
                                 <h4 class="card-title text-seafoam onclick-card-hea mt-3">Patient Experience</h4>
@@ -100,7 +100,7 @@
                     <div class="col-md-6  py-lg-0">
                         <div class="solutions_card d-flex flex-column justify-content-center align-items-center my-3 h-100 mx-auto p-3">
                             <div class="card-img-onclick">
-                                <img src="{{url('public/frontend/assets/img/all-solution-on-click/icon-menu-practice-management.png')}}" class="card-img-top " alt="image">
+                                <img src="{{url('public/frontend/assets/img/all-solutions/icon-menu-practice-management.png')}}" class="card-img-top " alt="image">
                             </div>
                             <div class="card-body text-center">
                                 <h4 class="card-title text-seafoam onclick-card-hea mt-3">Practice Management</h4>
@@ -116,7 +116,7 @@
                     <div class="col-md-6 py-4 py-lg-0 py-md-0">
                         <div class="solutions_card d-flex flex-column justify-content-center align-items-center my-3 h-100 mx-auto p-3">
                             <div class="card-img-onclick">
-                                <img src="{{url('public/frontend/assets/img/all-solution-on-click/icon-menu-ehr.png')}}" class="card-img-top " alt="image">
+                                <img src="{{url('public/frontend/assets/img/all-solutions/icon-menu-ehr.png')}}" class="card-img-top " alt="image">
                             </div>
                             <div class="card-body text-center">
                                 <h4 class="card-title text-seafoam onclick-card-hea mt-3">Healthcare analytics</h4>
@@ -131,7 +131,7 @@
                     <div class="col-md-6 py-lg-4 py-md-4">
                         <div class="solutions_card d-flex flex-column justify-content-center align-items-center my-3 h-100 mx-auto p-3">
                             <div class="card-img-onclick">
-                                <img src="{{url('public/frontend/assets/img/all-solution-on-click/icon-menu-workforce-extension.png')}}" class="card-img-top " alt="image">
+                                <img src="{{url('public/frontend/assets/img/all-solutions/icon-menu-workforce-extension.png')}}" class="card-img-top " alt="image">
                             </div>
                             <div class="card-body text-center">
                                 <h4 class="card-title text-seafoam onclick-card-hea mt-3">Workforce Extension</h4>
@@ -144,7 +144,7 @@
                     <div class="col-md-6 py-4">
                         <div class="solutions_card d-flex flex-column justify-content-center align-items-center my-3 h-100 mx-auto p-3">
                             <div class="card-img-onclick">
-                                <img src="{{url('public/frontend/assets/img/all-solution-on-click/icon-menu-telehealth.png')}}" class="card-img-top " style="width:25px; margin-left: 5px" alt="image">
+                                <img src="{{url('public/frontend/assets/img/all-solutions/icon-menu-telehealth.png')}}" class="card-img-top " style="width:25px; margin-left: 5px" alt="image">
                             </div>
                             <div class="card-body text-center">
                                 <h4 class="card-title text-seafoam onclick-card-hea mt-3">Telehealth</h4>
@@ -159,7 +159,7 @@
                     <div class="col-md-6">
                         <div class="solutions_card d-flex flex-column justify-content-center align-items-center my-3 h-100 mx-auto p-3">
                             <div class="card-img-onclick">
-                                <img src="{{url('public/frontend/assets/img/all-solution-on-click/icon-digital-health.png')}}" class="card-img-top " alt="image">
+                                <img src="{{url('public/frontend/assets/img/all-solutions/icon-digital-health.png')}}" class="card-img-top " alt="image">
                             </div>
                             <div class="card-body text-center">
                                 <h4 class="card-title text-seafoam onclick-card-hea mt-3">Digital Health</h4>
@@ -167,7 +167,7 @@
                                     digital healthcare solutions such as CRMs
                                     and incorporated telehealth to
                                     streamline workflow</p>
-                                <a href="#" class="btn  onclick-card-button">Learn More</a>
+                                <a href="{{url('e_health')}}" class="btn  onclick-card-button">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -182,7 +182,7 @@
     <section class="Connect-Us py-xl-5 pt-3" id="connectUs">
         <div class="container">
             <div>
-                <h2 class="Connect-head text-blue ">For Adaptable Solutions, Contact Us Today!</h2>
+                <h2 class="Connect-head text-blue ">Discover a Better Way Forward</h2>
                 @include('frontend.contactUs.contact_us_form')
             </div>
         </div>

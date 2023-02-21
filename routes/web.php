@@ -31,6 +31,7 @@ Route::get('/practice_manage', [App\Http\Controllers\MainController::class,'prac
 Route::get('/absolute_revenue', [App\Http\Controllers\MainController::class,'absolute_revenue'])->name('absolute_revenue');
 Route::get('/unyeild_commitment', [App\Http\Controllers\MainController::class,'unyeild_commitment'])->name('unyeild_commitment');
 Route::get('/healthC_analytics', [App\Http\Controllers\MainController::class,'healthC_analytics'])->name('healthC_analytics');
+Route::get('/e_health', [App\Http\Controllers\MainController::class,'e_health'])->name('e_health');
 Route::get('/tailored_solution', [App\Http\Controllers\MainController::class,'tailored_solution'])->name('tailored_solution');
 Route::get('/all_solutions', [App\Http\Controllers\MainController::class,'all_solutions'])->name('all_solutions');
 Route::get('/texo_about_us', [App\Http\Controllers\MainController::class,'texo_about_us'])->name('texo_about_us');

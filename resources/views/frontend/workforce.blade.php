@@ -6,9 +6,8 @@
             <div class="container h-100">
                 <div class="d-flex flex-column justify-content-center h-100">
                     <div class="header_content">
-                        <h1 class="text-light Sec1-MB-hea1">Specialized Support</h1>
-                        <h2 class="text-light Sec1-MB-hea2 my-3 fw-bold">
-                            Dedicated For Growth</h2>
+                        <h1 class="text-light Sec1-MB-hea1">Specialized Support
+                            Dedicated For Growth</h1>
                         <div class="hdr_btn my-5 strtBtn_home">
                             <a href="#connectUs">
                                 <button class="btn">
@@ -280,8 +279,7 @@
     <section class="home-testimonial-section py-5">
         <div class="container">
             <div class="cus_love-title">
-                <h2 class="text-light pt-5">Why Our Customers Loves Us</h2>
-                <p class="text-light pt-3 fs-5">During the course of the handling of my case by Atlantis RCM, I was extremely satisfied with their approach. Throughout the entire process, they were professional and efficient, and most importantly, they helped me go through it in a painless and quick manner.</p>
+                <h2 class="text-light pt-5">Why Our Customers Trust Us</h2>
             </div>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner py-lg-5">
@@ -289,26 +287,16 @@
                         <div class="cus_love_main_testimonial">
                             <div class="Cus_love_testimonial_slide">
                                 <div class="Cus_love_testimonial_content">
-                                    <a href="#"><p>“I was very pleased with the services I received from Atlantis RCM. They were always quick to respond and made sure that my needs were met. My questions were answered in a timely manner, and they answered all of my concerns. The staff was very friendly, knowledgeable, and professional. I would highly recommend them to anyone</p></a>
+                                    <p>“I was very pleased with the services I received from Atlantis RCM. They were always quick to respond and made sure that my needs were met. My questions were answered in a timely manner, and they answered all of my concerns. The staff was very friendly, knowledgeable, and professional. I would highly recommend them to anyone</p>
                                     <div class="Cus_love_testimonial_user">
-                                        <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}" alt="">
-                                        <span class="text-white">Theresa M., Patient</span>
+                                        <img src="{{url('public/frontend/assets/img/patient_experience/Artboard 1.jpg')}}" alt="">
+                                        <span class="text-white">Theresa M. Patient</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
     </section>
@@ -316,7 +304,7 @@
     <section class="Connect-Us py-5" id="connectUs">
         <div class="container">
             <div>
-                <h2 class="Connect-head text-blue ">Connect with Us</h2>
+                <h2 class="Connect-head text-blue ">Discover a Better Way Forward</h2>
                 <p class="Connect-para text-grey">Our mission is to eliminate repetitive administrative tasks in healthcare organizations and individual practices so that
                     they can exceed revenue and growth. </p>
                 @include('frontend.contactUs.contact_us_form')

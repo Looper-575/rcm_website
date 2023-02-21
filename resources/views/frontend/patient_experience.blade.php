@@ -5,7 +5,7 @@
             <div class="container h-100">
                 <div class="d-flex flex-column justify-content-center h-100">
                     <div class="header_content">
-                        <h1 class="text-light">Atlantis RCM—Creates the Ultimate Patient Financial Experience</h1>
+                        <h1 class="text-light">Atlantis RCM <br>Creates Ultimate Patient Financial Experience</h1>
                         <div class="hdr_btn my-3 strtBtn_home">
                             <a href="#connectUs">
                                 <button class="btn">
@@ -82,8 +82,7 @@
         <div class="container">
             <div class="row py-lg-5">
                 <div class="col-12 col-md-6  thrd-sec-PE-data pt-lg-5">
-                    <h2 class=" text-blue">Provide Patients with a Seamless
-                        & Pain-Free Experience</h2>
+                    <h2 class=" text-blue">Seamless & Pain-Free Experience<br> For Your Patients</h2>
                     <p class="text-grey py-lg-3">How can organisations provide a patient experience that drives
                         convenience,
                         loyalty, and revenue regardless of how reimbursements are paid?</p>
@@ -93,7 +92,7 @@
                 </div>
                 <div class="col-12 col-md-6 py-md-5 py-lg-0">
 
-                    <img src="{{url('public/frontend/assets/img/patient_experience/group-5.png')}}" alt="image"
+                    <img src="{{url('public/frontend/assets/img/patient_experience/group-5.jpg')}}" alt="image"
                          class=" thrd-sec-PE-img">
                 </div>
             </div>
@@ -163,7 +162,7 @@
     <!-- #####################################    five-section-connection-patient-experience  #############################-->
     <section class="sec5-conn-pat-exper py-lg-5 py-3">
         <div class="container">
-            <h3 class=" sec5-conn-hea text-blue "> Maintain Stronger Connections with your patients using Atlantis
+            <h3 class=" sec5-conn-hea text-blue "> Maintain Stronger Connections With Your Patients Using Atlantis
                 RCM</h3>
             <p class="sec5-conn-para text-grey mt-lg-4">With Atlantis RCM, you and your patients will be experiencing a
                 better user experience one which believes in open and
@@ -175,7 +174,7 @@
                              class="card-img-top">
                         <div class="sec-5-patExper-card-body p-1 p-lg-2 p-xl-3">
                             <h5 class="card-title  text-center text-light">Open Communication</h5>
-                            <p class="card-text text-start text-light">Our team will work with you to create a plan for
+                            <p class="card-text text-center text-light">Our team will work with you to create a plan for
                                 improving collections and submitting more complete claims, and we'll monitor everything
                                 to make sure the plan is working as intended.</p>
                         </div>
@@ -187,7 +186,7 @@
                              class="card-img-top">
                         <div class="sec-5-patExper-card-body p-1 p-lg-2 p-xl-3">
                             <h5 class="card-title  text-center text-light">Stronger Connections</h5>
-                            <p class="card-text text-start text-light">With medical billing services, we can proudly
+                            <p class="card-text text-center text-light">With medical billing services, we can proudly
                                 state that we have been able to increase our clients' revenue profit by
                                 10-25 % by ensuring maximum claim follow-up.</p>
                         </div>
@@ -199,7 +198,7 @@
                              class="card-img-top">
                         <div class="sec-5-patExper-card-body p-1 p-lg-2 p-xl-3">
                             <h5 class="card-title  text-center text-light">Better Transperancy</h5>
-                            <p class="card-text text-start text-light">An integrated patient experience management
+                            <p class="card-text text-center text-light">An integrated patient experience management
                                 system provides patients with information about their health and treatment options.
                                 Providing them with information on their health insurance coverage, payment options,
                                 etc.</p>
@@ -215,8 +214,7 @@
     <section class="home-testimonial-section py-5">
         <div class="container">
             <div class="cus_love-title">
-                <h2 class="text-light pt-5">Why Our Customers Loves Us</h2>
-                <p class="text-light pt-3 fs-5">During the course of the handling of my case by Atlantis RCM, I was extremely satisfied with their approach. Throughout the entire process, they were professional and efficient, and most importantly, they helped me go through it in a painless and quick manner.</p>
+                <h2 class="text-light pt-5">Why Our Customers Trust Us</h2>
             </div>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner py-5">
@@ -224,47 +222,20 @@
                         <div class="cus_love_main_testimonial">
                             <div class="Cus_love_testimonial_slide">
                                 <div class="Cus_love_testimonial_content">
-                                    <a href="#"><p>During the course of the handling of my case by Atlantis RCM, I was extremely
-                                            satisfied with their approach. Throughout the entire process, they were professional,
-                                            efficient, and most importantly, they helped me go through it in a painless and quick
-                                            manner.</p></a>
+                                    <p>
+                                        During the course of the handling of my case by Atlantis RCM, I was extremely
+                                        satisfied with their approach. Throughout the entire process, they were professional,
+                                        efficient, and most importantly, they helped me go through it in a painless and quick manner.
+                                    </p>
                                     <div class="Cus_love_testimonial_user">
                                         <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}" alt="">
                                         <span class="text-white">Dr. Shaun Daniel</span>
-                                        <span class="text-white">Institute of Cardiology</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item py-5">
-                        <div class="cus_love_main_testimonial">
-                            <div class="Cus_love_testimonial_slide">
-                                <div class="Cus_love_testimonial_content">
-                                    <a href="#"><p>During the course of the handling of my case by Atlantis RCM, I was extremely
-                                            satisfied with their approach. Throughout the entire process, they were professional,
-                                            efficient, and most importantly, they helped me go through it in a painless and quick
-                                            manner.</p></a>
-                                    <div class="Cus_love_testimonial_user">
-                                        <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}" alt="">
-                                        <span class="text-white">Dr. Shaun Daniel</span>
-                                        <span class="text-white">Institute of Cardiology</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
     </section>

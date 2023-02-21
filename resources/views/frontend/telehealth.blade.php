@@ -6,8 +6,10 @@
             <div class="container h-100">
                 <div class="d-flex flex-column justify-content-center h-100">
                     <div class="header_content">
-                        <h1 class="text-light">We Use Technology
-                            <h2 class="fw-bold text-light">To Improve Healthcare Services</h2></h1>
+                        <h1 class="text-light">
+                            Improving Healthcare Services <br>
+                            By Using Technology
+                        </h1>
                         <div class="hdr_btn my-5 strtBtn_home">
                             <a href="#connectUs">
                                 <button class="btn">
@@ -91,7 +93,7 @@
             <div class="row py-md-4">
                 <div class="col-md-6 col-sm-12">
                     <div class="thrd-sec-PE-data">
-                        <h3 class="text-blue thrd-sec-PE-hea">Overview about Telehealth</h3>
+                        <h3 class="text-blue thrd-sec-PE-hea">Telehealth Overview</h3>
                         <p class="text-grey thrd-sec-PE-para pt-md-3">Atlantis RCM is a leading provider of Telehealth
                             solutions and services to
                             healthcare organisations and providers.</p>
@@ -118,7 +120,7 @@
         <div class="container">
             <div class="proactive_title">
                 <h2 class="text-white pt-md-4">How Technology Improves Healthcare Services?</h2>
-                <p class="text-white">Our bespoke TeleHealth solutions are tailored to meet your needs and offer
+                <p class="text-white">Our bespoke Telehealth solutions are tailored to meet your needs and offer
                     exceptional value for money compared to traditional
                     face-to-face consultations.</p>
             </div>
@@ -162,8 +164,8 @@
                             <div class="">
                                 <img class="img-fluid"
                                      src="{{url('public/frontend/assets/img/telehealth/slider_email_alert.jpg')}}">
-                                <h5 class="text-light my-2 my-md-0 pt-xl-4">Email Alerts</h5>
-                                <p class="text-white pt-md-4">Patients eligible for our email alerts receive information
+                                <h5 class="text-light my-2 py-xl-3">Email Alerts</h5>
+                                <p class="text-white ">Patients eligible for our email alerts receive information
                                     about upcoming appointments and other important updates every week. This method is
                                     also used to remind patients about upcoming appointments when they have not
                                     responded within 24-36 hours of being contacted via phone or text message.</p>
@@ -173,8 +175,8 @@
                             <div class="">
                                 <img class="img-fluid"
                                      src="{{url('public/frontend/assets/img/telehealth/slider_texting.jpg')}}">
-                                <h5 class="text-light my-2 my-md-0 pt-xl-4">Text Messaging</h5>
-                                <p class="text-white pt-xl-4">Our platform allows you to manage your text messages from
+                                <h5 class="text-light my-2 py-xl-3">Text Messaging</h5>
+                                <p class="text-white">Our platform allows you to manage your text messages from
                                     a single location, allowing you to send automated messages and reminders about
                                     upcoming appointments, and more. We can also help you create surveys or other
                                     questions that are sent out to patients through the text messaging platform.
@@ -186,8 +188,8 @@
                             <div class="">
                                 <img class="img-fluid"
                                      src="{{url('public/frontend/assets/img/telehealth/slider_social_media.jpg')}}">
-                                <h5 class="text-light my-2 my-md-0 pt-xl-4">Social Media Channels</h5>
-                                <p class="text-white pt-xl-4">Our team of experts will help you set up a Facebook
+                                <h5 class="text-light my-2 py-xl-3">Social Media Channels</h5>
+                                <p class="text-white">Our team of experts will help you set up a Facebook
                                     page,Twitter,
                                     instagram, or any other social media channel that works best for your
                                     needs, and make sure it’s up-to-date with relevant content on a
@@ -323,7 +325,7 @@
     <section class="home-testimonial-section py-5">
         <div class="container">
             <div class="cus_love-title">
-                <h2 class="text-light pt-5">Why Our Customers Loves Us</h2>
+                <h2 class="text-light pt-5">Why Our Customers Trust Us</h2>
                 <p class="text-light pt-3 fs-5">With more than a decade of industry-leading experience,
                     Atlantis has been continually recognized for exceptional performance, customer service, employee training,
                     and stringent cybersecurity standards. However, the greatest recognition we receive is the satisfaction of our customers.</p>
@@ -334,30 +336,20 @@
                         <div class="cus_love_main_testimonial">
                             <div class="Cus_love_testimonial_slide">
                                 <div class="Cus_love_testimonial_content">
-                                    <a href="#"><p>"TeleHealth by Atlantis is the best thing that has ever happened to
+                                    <p>"Telehealth by Atlantis is the best thing that has ever happened to
                                             my practice. I was able to manage my practice more promptly and respond
                                             every time my patient needed my help. The team is so responsive and helpful,
                                             and they really know their stuff. I could not recommend them more
-                                            highly."</p></a>
+                                            highly."</p>
                                     <div class="Cus_love_testimonial_user">
                                         <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}" alt="">
-                                        <span class="text-white">Dr. JonesDermatologist</span>
+                                        <span class="text-white">Dr. Shaun Daniel</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
     </section>
@@ -367,7 +359,7 @@
     <section class="Connect-Us py-5" id="connectUs">
         <div class="container">
             <div>
-                <h2 class="Connect-head text-blue ">Connect with Us</h2>
+                <h2 class="Connect-head text-blue ">Discover a Better Way Forward</h2>
                 <p class="Connect-para text-grey">Our mission is to eliminate repetitive administrative tasks in healthcare organizations and individual practices so that
                     they can exceed revenue and growth. </p>
                 @include('frontend.contactUs.contact_us_form')

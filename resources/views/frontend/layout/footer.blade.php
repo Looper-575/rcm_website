@@ -20,10 +20,7 @@
                             <div class="col-md-6">
                                 <a href="{{url('workforce')}}" class="p-1 text-light d-block">Workforce Extention</a>
                                 <a href="{{url('healthC_analytics')}}" class="p-1 text-light d-block">Health Care Analytics</a>
-                                {{--<a href=""></a>
-                                <a href=""></a>
-                                <a href=""></a>
-                                <a href=""></a>--}}
+                                <a href="{{url('e_health')}}" class="p-1 text-light d-block">Digital Health</a>
                             </div>
                         </div>
                     </div>

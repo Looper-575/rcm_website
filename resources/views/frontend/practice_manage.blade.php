@@ -5,7 +5,8 @@
             <div class="container h-100">
                 <div class="d-flex flex-column justify-content-center h-100">
                     <div class="header_content">
-                        <h1 class="text-light Sec1-MB-hea1 fw-bold fs-2">Ensure smooth operations-<br>Fix revenue leaks!</h1>
+                        <h1 class="text-light Sec1-MB-hea1">Fix Revenue Leaks <br>
+                            By Ensuring Smooth Operations</h1>
                         <div class="hdr_btn my-3 strtBtn_home">
                             <a href="#connectUs">
                                 <button class="btn">
@@ -83,13 +84,10 @@
         <div class="container">
             <div class="row py-lg-4">
                 <div class="col-12 col-md-6 col-sm-12  thrd-sec-PE-data">
-                    <h3 class="thrd-sec-PE-hea text-blue fs-4">As a medical practitioner, it is hard to
-                        plan, organize, and direct!</h3>
-                    <p class="thrd-sec-PE-para text-grey pt-3">With all of the things you have to manage—patients,
-                        staff, documentation,
-                        insurance payments, you need the right support system in place.
-                        That's why Atlantis RCM offers Practice Management services to make it
-                        easier for you.
+                    <h3 class="thrd-sec-PE-hea text-blue fs-4">Making Planning Easier for Medical Practitioners.</h3>
+                    <p class="thrd-sec-PE-para text-grey pt-3">With all of the things you have to manage—patients, staff, documentation,
+                        and insurance payments, you need the right support system in place. That's why Atlantis RCM offers
+                        practice management services to make it easier for you.
                     </p>
                     <p class="thrd-sec-PE-para text-grey">
                         We take a holistic approach to revenue cycle management. We don't just look
@@ -154,7 +152,7 @@
                                 <button class="nav-link pro_active_button" id="Recredentialing-tab" data-bs-toggle="tab"
                                         data-bs-target="#Recredentialing"
                                         type="button" role="tab" aria-controls="Recredentialing" aria-selected="false">
-                                    Reporting
+                                    Structured Reporting
                                 </button>
                                 <img class="pE_pro_arr_active"
                                      src="{{url('public/frontend/assets/img/patient_experience/polygon-1.png')}}">
@@ -168,7 +166,7 @@
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                             <div class="">
                                 <img class="img-fluid"
-                                     src="{{url('public/frontend/assets/img/practice_management/slider_appoint_scheduling.jpg')}}">
+                                     src="{{url('public/frontend/assets/img/practice_manage/sec3/slider_appoint_scheduling.jpg')}}">
                                 <p class="text-white pt-md-4">Atlantis offers appointment scheduling services that help
                                     practices manage their schedules
                                     and patient flow. We help you book and confirm appointments across locations, verify
@@ -180,7 +178,7 @@
                         <div class="tab-pane fade" id="Primary" role="tabpanel" aria-labelledby="Primary-tab">
                             <div class="">
                                 <img class="img-fluid"
-                                     src="{{url('public/frontend/assets/img/practice_management/slider_organizing_patient_data.jpg')}}">
+                                     src="{{url('public/frontend/assets/img/practice_manage/sec3/slider_organizing_patient_data.jpg')}}">
                                 <p class="text-white pt-xl-4">Atlantis RCM experts can help you organize patient data so
                                     that you can see the entire picture at a glance by viewing the entire patient chart. This makes it easy to find
                                     information about your patients, including their insurance status, payment history,
@@ -191,7 +189,7 @@
                         <div class="tab-pane fade" id="CAQH" role="tabpanel" aria-labelledby="CAQH-tab">
                             <div class="">
                                 <img class="img-fluid"
-                                     src="{{url('public/frontend/assets/img/practice_management/slider_patient_data.jpg')}}">
+                                     src="{{url('public/frontend/assets/img/practice_manage/sec3/slider_patient_data.jpg')}}">
                                 <p class="text-white pt-xl-4">Billing and claims are the most important step in managing the practice management
                                     process. To help you manage your practice effectively, our billing team adjusts invoice
                                     errors, contacts insurance companies about unpaid bills, and reminds patients about
@@ -203,7 +201,7 @@
                              aria-labelledby="Recredentialing-tab">
                             <div class="">
                                 <img class="img-fluid"
-                                     src="{{url('public/frontend/assets/img/practice_management/slider_reporting_doctor.jpg')}}">
+                                     src="{{url('public/frontend/assets/img/practice_manage/sec3/slider_reporting_doctor.jpg')}}">
                                 <p class="text-white pt-xl-4">Our team will review your current billing methods and suggest improvements based on
                                     what they see as being most effective in your practice. In this way, you can focus on other
                                     aspects of running your practice while they handle all aspects of your billing.
@@ -366,8 +364,7 @@
     <section class="home-testimonial-section py-5">
         <div class="container">
             <div class="cus_love-title">
-                <h2 class="text-light pt-5">Why Our Customers Loves Us</h2>
-                <p class="text-light pt-3 fs-5">During the course of the handling of my case by Atlantis RCM, I was extremely satisfied with their approach. Throughout the entire process, they were professional and efficient, and most importantly, they helped me go through it in a painless and quick manner.</p>
+                <h2 class="text-light pt-5">Why Our Customers Trust Us</h2>
             </div>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner py-5">
@@ -375,47 +372,19 @@
                         <div class="cus_love_main_testimonial">
                             <div class="Cus_love_testimonial_slide">
                                 <div class="Cus_love_testimonial_content">
-                                    <a href="#"><p>During the course of the handling of my case by Atlantis RCM, I was extremely
-                                            satisfied with their approach. Throughout the entire process, they were professional,
-                                            efficient, and most importantly, they helped me go through it in a painless and quick
-                                            manner.</p></a>
-                                    <div class="Cus_love_testimonial_user">
-                                        <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}" alt="">
-                                        <span class="text-white">Dr. Shaun Daniel</span>
-                                        <span class="text-white">Institute of Cardiology</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item py-5">
-                        <div class="cus_love_main_testimonial">
-                            <div class="Cus_love_testimonial_slide">
-                                <div class="Cus_love_testimonial_content">
-                                    <a href="#"><p>During the course of the handling of my case by Atlantis RCM, I was extremely
-                                            satisfied with their approach. Throughout the entire process, they were professional,
-                                            efficient, and most importantly, they helped me go through it in a painless and quick
-                                            manner.</p></a>
-                                    <div class="Cus_love_testimonial_user">
-                                        <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}" alt="">
-                                        <span class="text-white">Dr. Shaun Daniel</span>
-                                        <span class="text-white">Institute of Cardiology</span>
-                                    </div>
+                                    <p>
+                                        "We have been using Atlantis for over a year now, and it's a no-brainer. They have saved us so much time and money in the past few years. It has helped us to get our
+                                        revenue cycle back on track after being bogged down by paper-based forms and intense processes. We are now able to focus on what's most important: our patients."
+                                    </p>
+                                        <div class="Cus_love_testimonial_user">
+                                            <img src="{{url('/public/frontend/assets/img/home/img-0-8-v-2.png')}}" alt="dr-img">
+                                            <span class="text-white">Dr.Mark Staris</span>
+                                        </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
     </section>
@@ -423,7 +392,7 @@
     <section class="Connect-Us py-xl-5 pt-3" id="connectUs">
         <div class="container">
             <div>
-                <h2 class="Connect-head text-blue ">Improve profitability of your practice through analysis and innovation</h2>
+                <h2 class="Connect-head text-blue ">Discover a Better Way Forward</h2>
                 @include('frontend.contactUs.contact_us_form')
             </div>
         </div>

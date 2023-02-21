@@ -65,7 +65,7 @@
                     <img src="{{url('public/frontend/assets/img/taxanomy-about-us/img-section-3-taxa.png')}}" alt=image class=" thrd-sec-PE-img">
                 </div>
                 <div class="col-12 col-md-6 col-sm-12  thrd-sec-PE-data pt-lg-5 pt-3">
-                    <h3 class="thrd-sec-PE-hea text-light fs-4">Increased efficient & reduced errors</h3>
+                    <h3 class="thrd-sec-PE-hea text-light fs-4">Increased Efficient & Reduced Errors</h3>
                     <p class="thrd-sec-PE-para text-light pt-3"> Effective RCM helps practices to maximize the revenue they receive from
                         patients and payers, improving their cash flow. This can be particularly
                         important for small practices that may be more vulnerable to financial challenges.
@@ -89,7 +89,7 @@
         <div class="container">
             <div class=" row py-lg-4 ">
                 <div class="col-12 col-md-6 col-sm-12  thrd-sec-PE-data pt-lg-4">
-                    <h3 class="thrd-sec-PE-hea text-blue fs-4">Improved patient satisfaction</h3>
+                    <h3 class="thrd-sec-PE-hea text-blue fs-4">Improved Patient Satisfaction</h3>
                     <p class="thrd-sec-PE-para text-grey pt-3"> When the billing and payment process is efficient and easy
                         to understand, patients are more likely to be satisfied with
                         their experience. Having repeat business and referrals can
@@ -121,7 +121,7 @@
                     <img src="{{url('public/frontend/assets/img/taxanomy-about-us/img-section-5-taxa.png')}}" alt=image class=" thrd-sec-PE-img">
                 </div>
                 <div class="col-12 col-md-6 col-sm-12  thrd-sec-PE-data pt-lg-5 pt-3">
-                    <h3 class="thrd-sec-PE-hea text-light fs-4">Reduced reliance on outside funding</h3>
+                    <h3 class="thrd-sec-PE-hea text-light fs-4">Reduced Reliance On Outside Funding</h3>
                     <p class="thrd-sec-PE-para text-light pt-3">Small businesses typically suffer from an over reliance on a single loan
                         process and lack innovative business loans that would solve their most
                         pressing needs.
@@ -147,7 +147,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 col-sm-12  thrd-sec-PE-data pt-lg-5">
-                    <h3 class="thrd-sec-PE-hea text-blue fs-4">Enhanced data analytics</h3>
+                    <h3 class="thrd-sec-PE-hea text-blue fs-4">Enhanced Data Analytics</h3>
                     <p class="thrd-sec-PE-para text-grey pt-3">We constantly hear from doctors and dentists about how they would like
                         to focus on providing excellent patient care instead of worrying about
                         insurance and reimbursement procedures.
@@ -178,7 +178,7 @@
                     <img src="{{url('public/frontend/assets/img/taxanomy-about-us/img-7-taxa.png')}}" alt=image class=" thrd-sec-PE-img">
                 </div>
                 <div class="col-12 col-md-6 col-sm-12  thrd-sec-PE-data pt-lg-5 pt-3">
-                    <h3 class="thrd-sec-PE-hea text-light fs-4">Greater control over operations</h3>
+                    <h3 class="thrd-sec-PE-hea text-light fs-4">Greater Control Over Operations</h3>
                     <p class="thrd-sec-PE-para text-light pt-3">How prepared are you for financial management in your practice, from
                         collecting claim payments, interfering with insurance carriers, and
                         helping patients with insurance-related questions?

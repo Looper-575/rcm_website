@@ -84,9 +84,20 @@ p{
 }
 
 .atlantis_rcm_nav_bg {
-    background: var(--seafoam-blue) !important;
+    background: var(--bg_blue) !important;
 }
-
+#nav_div {
+    opacity: 0;
+    width: 100%;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+.nav_div_desk {
+    background-color: #1e6fe0;
+    opacity: 1 !important;
+}
 .atlantis_rcm_nav .navbar-brand > img  {
     width: 200px;
     margin-top: 15px;
@@ -96,9 +107,9 @@ p{
     box-shadow: none;
 }
 .atlantis_rcm_nav li.nav-item {
-    margin: 0px 10px;
-    height: 40px;
-    padding: 10px 5px;
+    margin: 0px 5px;
+    height: 45px;
+    padding: 8px 5px;
     font-size: 18px;
 }
 
@@ -138,6 +149,7 @@ p{
     right: -422px;
     border-radius: 15px;
     height: 400px;
+    border: 1px solid var(--grey);
     transition: all 0.6s ease-in-out;
 }
 #solution_menu:hover .sub_menu_solution {
@@ -187,13 +199,21 @@ p{
 .grey_article_sb_menu {
     width: 100%;
 }
+.dot_menu_special {
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+
+
 .grey_article_sb_menu p.sub_menu_descrip {
     margin-left: 20px !important;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 1px;
     line-height: 1;
 }
-
+.fa-angles-right {
+    color: var(--seafoam-blue);
+}
 
 .btn_mbl_drpdown {
     color: #fff !important;
@@ -240,12 +260,38 @@ p{
     display: none;
 }
 .hdr_hme_txt_bg {
-    width: fit-content;
-    padding:  8px;
-    font-weight: 700;
-    text-shadow: 0px 1px 1px rgba(42, 125, 184, 0.88);
+    height: 60px;
+    padding: 0px 8px;
     background: linear-gradient(90deg, rgba(17,102,225,1) 0%, rgba(74,200,202,1) 37%, rgba(68,190,204,0) 100%);
 }
+
+.changebox{
+    overflow: hidden !important;
+    transition: .5s;
+    white-space: nowrap;
+}
+.hdr_hme_txt_bg h2{
+    color: white;
+    font-weight: 700;
+    text-shadow: 0px 1px 1px rgba(42, 125, 184, 0.88);
+    line-height: 1.7em;
+    text-transform: uppercase;
+}
+#textSlider_home {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.slide_text_home {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
 .strtBtn_home button {
     background-color: transparent;
     color: white;
@@ -422,6 +468,7 @@ p{
 
 .Connect-Us{
     background-image: url(../img/home/section2bg.png);
+    background-size: cover;
 }
 .Connect-Us col-7 , .Connect-Us col-5 {
     padding: 0;
@@ -521,7 +568,6 @@ p{
 .testimonial_content:hover{
     color: var(--light);
     background-color: var(--seafoam-blue);
-    border: 2px solid white;
 }
 .testimonial_slide{
     width: 40%;
@@ -531,7 +577,8 @@ p{
     background-color: #fff;
     padding: 30px;
     border-radius: 9px;
-    height: 200px;
+    height: fit-content;
+    border: 2px solid white;
 }
 .testemonial_user{
     padding-left: 35px;
@@ -607,8 +654,8 @@ p{
 
 /*****************Atlantis Patient Experience Page Style Start**********************/
 .header_patient_exp {
-    background-image: url("../img/patienteXp/patient_exp_hd.png");
-    height: 776px;
+    background-image: url("../img/patient_experience/patient_exp_hd.jpg");
+    height: 80vh;
 }
 
 
@@ -616,52 +663,6 @@ p{
 /*****************Atlantis Patient Experience Page Style End**********************/
 
 
-
-/*****************Atlantis RCM Footer**********************/
-
-.footer_contact {
-    background-image: url("../img/footer/footer-bg-image.jpg");
-    background-size: cover;
-}
-.footer_contact > div > div.row {
-    border-bottom: 1px solid #fff;
-}
-.footer_contact > div > div > div.border_left {
-    border-left: 1px solid #fff;
-}
-.copyright_line {
-    background-color: var(--seafoam-blue);
-}
-.copyright_line p {
-    font-size: 13px;
-    margin: 0;
-    letter-spacing: 1.5px;
-}
-.contact_us_footer {
-    padding: 10px 25px;
-    background-color: var(--seafoam-blue);
-    border-radius: 25px;
-    border: 2px solid #fff;
-    width: fit-content;
-    transition: background-color 0.5s ;
-    cursor: pointer;
-}
-.contact_us_footer:hover {
-   background-color: transparent;
-}
-.contact_us_footer a{
-    color: #fff;
-}
-a.getintouch:hover {
-    color: var(--seafoam-blue) !important;
-    transition:all 0.4s ease-in-out;
-}
-
-.footer_solutions_side a:hover , .footer_quick_side a:hover  {
-    color: var(--seafoam-blue) !important;
-    transition: all .4s ease-in-out;
-}
-/*****************Atlantis RCM Footer**********************/
 
 /*********************************Patient-Experience-Umar CSS **************************/
 
@@ -924,6 +925,15 @@ a.getintouch:hover {
 /* #######################              Medical Billing Style End       #######################################*/
 
 
+/* #######################              E Health Style Start       #######################################*/
+.e_health_header {
+    background-image: url(../img/e_health/img_header_e_health.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+
 
 
 
@@ -931,7 +941,7 @@ a.getintouch:hover {
 
 
 .header_unyeild {
-    background-image: url(../img/Unyeild_commit/img-header.png);
+    background-image: url(../img/Unyeild_commit/img-header.jpg);
     height: 776px;
 }
 
@@ -941,3 +951,51 @@ a.getintouch:hover {
 
 
 
+
+
+
+/*****************Atlantis RCM Footer**********************/
+
+.footer_contact {
+    background-image: url("../img/footer/footer-bg-image.jpg");
+    background-size: cover;
+}
+.footer_contact > div > div.row {
+    border-bottom: 1px solid #fff;
+}
+.footer_contact > div > div > div.border_left {
+    border-left: 1px solid #fff;
+}
+.copyright_line {
+    background-color: var(--seafoam-blue);
+}
+.copyright_line p {
+    font-size: 13px;
+    margin: 0;
+    letter-spacing: 1.5px;
+}
+.contact_us_footer {
+    padding: 10px 25px;
+    background-color: var(--seafoam-blue);
+    border-radius: 25px;
+    border: 2px solid #fff;
+    width: fit-content;
+    transition: background-color 0.5s ;
+    cursor: pointer;
+}
+.contact_us_footer:hover {
+    background-color: transparent;
+}
+.contact_us_footer a{
+    color: #fff;
+}
+a.getintouch:hover {
+    color: var(--seafoam-blue) !important;
+    transition:all 0.4s ease-in-out;
+}
+
+.footer_solutions_side a:hover , .footer_quick_side a:hover  {
+    color: var(--seafoam-blue) !important;
+    transition: all .4s ease-in-out;
+}
+/*****************Atlantis RCM Footer**********************/

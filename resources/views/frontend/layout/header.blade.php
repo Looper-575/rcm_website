@@ -20,31 +20,19 @@
 </head>
 <body>
 <nav class="navbar atlantis_rcm_nav navbar-light navbar-expand-lg">
-    <div class="container-fluid container">
-        <a class="navbar-brand" href="{{'/'}}"><img src="{{url('public/frontend/assets/img/home/head_logo.png')}}" alt=""></a>
-        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul id="nav" class="navbar-nav justify-content-end w-100">
+    <div class="container-fluid container" id="nav_div">
+            <a class="navbar-brand" href="{{'/'}}"><img src="{{url('public/frontend/assets/img/home/head_logo.png')}}" alt=""></a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul id="nav" class="navbar-nav justify-content-end align-items-center w-100">
                 <li class="nav-item">
                     <a class="nav-link text-center {{ (request()->is('/')) ? 'active' : '' }}" aria-current="page" href="{{url('/')}}">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-center {{ (request()->is('about_us')) ? 'active' : '' }}" href="{{url('about_us')}}">About Atlantis</a>
                 </li>
-           {{--<div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown button
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                        <li><a class="dropdown-item active" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Separated link</a></li>
-                    </ul>
-                </div>--}}
                 <div class="nav-item dropdown d-block d-lg-none">
                   <button class="btn mt-2 btn_mbl_drpdown w-100 dropdown-toggle {{ (request()->is('absolute_revenue')) ? 'btn_mbl_drpdown_active' : '' }} " type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
                         Solutions
@@ -58,11 +46,20 @@
                         <li><a class="dropdown-item text-center {{ (request()->is('workforce')) ? 'active' : '' }} " href="{{url('workforce')}}">Work Force Extension</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item text-center {{ (request()->is('all_solutions')) ? 'active' : '' }} " href="{{url('all_solutions')}}">View All Solutions</a></li>
-                        <li><a class="dropdown-item text-center {{ (request()->is('tailored_solution')) ? 'active' : '' }} " href="{{url('tailored_solution')}}">View All Specialties</a></li>
+                        <li><a class="dropdown-item text-center {{ (request()->is('tailored_solution')) ? 'active' : '' }} " href="{{url('laboratry')}}">View All Specialties</a></li>
                     </ul>
                 </div>
                 <li class="nav-item d-none d-lg-block" id="solution_menu">
-                    <a class="nav-link text-center {{ (request()->is('workforce')) ? 'active' : '' }}"  href="javascript:">Solutions <i class="fas fa-angle-down"></i></a>
+                    <a class="nav-link text-center
+                    {{ (request()->is('workforce')) ? 'active' : '' }}
+                    {{ (request()->is('absolute_revenue')) ? 'active' : '' }}
+                    {{ (request()->is('practice_manage')) ? 'active' : '' }}
+                    {{ (request()->is('healthC_analytics')) ? 'active' : '' }}
+                    {{ (request()->is('telehealth')) ? 'active' : '' }}
+                    {{ (request()->is('patient_experience')) ? 'active' : '' }}
+                    {{ (request()->is('all_solutions')) ? 'active' : '' }}
+                    {{ (request()->is('texo_about_us')) ? 'active' : '' }}
+                    " href="javascript:">Solutions <i class="fas fa-angle-down"></i></a>
                     <div class="sub_menu_solution">
                         <div class="row">
                             <div class="col-9">
@@ -127,40 +124,39 @@
                                                 </div>
                                             </a>
                                         </div>
-                                        <a href="{{url('all_solutions')}}"><button class="sb_menu_view_all_sol">View All Solutions</button></a>
+                                        <a href="{{url('all_solutions')}}"><button class="sb_menu_view_all_sol mx-5">View All Solutions</button></a>
 
                                     </div>
                                     </div>
                                 </div>
                             <div class="col-3">
-                                <div class="py-5 my-3 grey_article_sb_menu">
-
-                                    <h5  class="text-grey fw-bold  m-3">
+                                <div class="py-4 my-2 grey_article_sb_menu">
+                                    <h6 class="text-grey fw-bold m-3">
                                             Specialties
-                                        </h5>
-
+                                        </h6>
                                     <a href="{{url('laboratry')}}">
-                                        <p  class="text-grey sub_menu_descrip my-3">
+                                        <p  class="text-grey sub_menu_descrip">
                                             Laboratory
                                         </p>
                                     </a>
                                     <a href="{{url('homehealth')}}">
-                                        <p  class="text-grey sub_menu_descrip my-3">
+
+                                        <p  class="text-grey sub_menu_descrip">
                                             Home Health
                                         </p>
                                     </a>
                                     <a href="{{url('dmeProviders')}}">
-                                        <p  class="text-grey sub_menu_descrip my-3">
+                                        <p  class="text-grey sub_menu_descrip">
                                             DME Providers
                                         </p>
                                     </a>
-                                    <a href="{{url('tailored_solution')}}">
-                                        <p  class="text-blue sub_menu_descrip my-3">
-                                            View All Specialties
+                                    <a href="{{url('laboratry')}}">
+                                        <p  class="text-seafoam sub_menu_descrip">
+                                            View All<i class="fa fa-angles-right"></i>
                                         </p>
                                     </a>
                                     <a href="{{url('unyeild_commitment')}}">
-                                        <p  class="text-grey sub_menu_descrip my-3">
+                                        <p  class="text-grey sub_menu_descrip mt-5">
                                             Large Medical Groups
                                         </p>
                                     </a>
@@ -184,19 +180,21 @@
                     <a class="nav-link text-center {{ (request()->is('contact_us')) ? 'active' : '' }}" href="{{url('contact_us')}}">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-center {{ (request()->is('login')) ? 'active' : '' }}" href="https://portal.atlantisrcm.com/" target="_blank">Login</a>
+                    <a class="nav-link text-center {{ (request()->is('login')) ? 'active' : '' }}" href="https://portal2.atlantisrcm.com/" target="_blank">Login</a>
                 </li>
             </ul>
         </div>
     </div>
+
 </nav>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 <script>
 
     $(document).ready(function(){
         $('#layer_1').addClass('layer_1_active');
-        setInterval(function(){$('.header_content').fadeIn('3000')}, 1600);
+        setInterval(function(){$('.header_content').fadeIn('1500')}, 1500);
     });
 
 
@@ -209,6 +207,9 @@
         if(window.location.href.match('/comming_soon')){
             $(".atlantis_rcm_nav").addClass("atlantis_rcm_nav_bg");
         }
+    });
+    $(document).ready(function() {
+        setInterval(function(){$("#nav_div").addClass("nav_div_desk").fadeIn('1500')}, 1500);
     });
 
     $(document).ready(function(){

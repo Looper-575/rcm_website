@@ -197,36 +197,36 @@
                 <div class="col-12 col-md-6">
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            <div class="">
+                            <div class="pt-md-4">
                                 <img class="img-fluid"
-                                     src="{{url('public/frontend/assets/img/service-medical billing page/slider_insurance_verification.png')}}">
+                                     src="{{url('public/frontend/assets/img/service-medical billing page/slider_insurance_verification.jpg')}}">
                                 <p class="text-white pt-md-4">We act as a bridge between scheduling and admission. Upon
                                     appointment confirmation, we verify patient insurance information, get copay,
                                     deductible, and out-of-pocket information.</p>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="Primary" role="tabpanel" aria-labelledby="Primary-tab">
-                            <div class="">
+                            <div class="pt-md-4">
                                 <img class="img-fluid"
-                                     src="{{url('public/frontend/assets/img/service-medical billing page/slider_patient_demographic.png')}}">
-                                <p class="text-white pt-xl-4">Our goal is to provide all the information you need as a physician in one place to determine which treatment is best for your patients, such as their age and ethnicity.
+                                     src="{{url('public/frontend/assets/img/service-medical billing page/slider_patient_demographic.jpg')}}">
+                                <p class="text-white pt-md-4">Our goal is to provide all the information you need as a physician in one place to determine which treatment is best for your patients, such as their age and ethnicity.
                                 </p>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="CAQH" role="tabpanel" aria-labelledby="CAQH-tab">
-                            <div class="">
+                            <div class="pt-md-4">
                                 <img class="img-fluid"
-                                     src="{{url('public/frontend/assets/img/service-medical billing page/slider_patient_charge_entry.png')}}">
-                                <p class="text-white pt-xl-4">RCM begins with charge entry. It's where we take all of the information we've gathered, and create a bill to send to patients. With our help, you can focus on running your practice smoothly.
+                                     src="{{url('public/frontend/assets/img/service-medical billing page/slider_patient_charge_entry.jpg')}}">
+                                <p class="text-white pt-md-4">RCM begins with charge entry. It's where we take all of the information we've gathered, and create a bill to send to patients. With our help, you can focus on running your practice smoothly.
                                 </p>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="Recredentialing" role="tabpanel"
                              aria-labelledby="Recredentialing-tab">
-                            <div class="">
+                            <div class="pt-md-4">
                                 <img class="img-fluid"
-                                     src="{{url('public/frontend/assets/img/service-medical billing page/slider_claim_submission.png')}}">
-                                <p class="text-white pt-xl-4">The back office process begins after the patient visit. By
+                                     src="{{url('public/frontend/assets/img/service-medical billing page/slider_claim_submission.jpg')}}">
+                                <p class="text-white pt-md-4">The back office process begins after the patient visit. By
                                     submitting claims, you can weed out any error that could delay the revenue process
                                     and result in denied claims. It includes charge capture and claim submission.
                                 </p>
@@ -234,10 +234,10 @@
                         </div>
                         <div class="tab-pane fade" id="payment" role="tabpanel"
                              aria-labelledby="payment-tab">
-                            <div class="">
+                            <div class="pt-md-4">
                                 <img class="img-fluid"
-                                     src="{{url('public/frontend/assets/img/service-medical billing page/slider_payment.png')}}">
-                                <p class="text-white pt-xl-4">Upon successful submission and review, the payment is
+                                     src="{{url('public/frontend/assets/img/service-medical billing page/slider_payment.jpg')}}">
+                                <p class="text-white pt-md-4">Upon successful submission and review, the payment is
                                     posted and ready for your patient to pay. Atlantis RCM can provide assistance both
                                     in generating billing statements and in the collection process.
                                 </p>
@@ -245,10 +245,10 @@
                         </div>
                         <div class="tab-pane fade" id="Denial" role="tabpanel"
                              aria-labelledby="Denial-tab">
-                            <div class="">
+                            <div class="pt-md-4">
                                 <img class="img-fluid"
-                                     src="{{url('public/frontend/assets/img/service-medical billing page/slider_denial_management.png')}}">
-                                <p class="text-white pt-xl-4">We have recovered revenues that would otherwise go
+                                     src="{{url('public/frontend/assets/img/service-medical billing page/slider_denial_management.jpg')}}">
+                                <p class="text-white pt-md-4">We have recovered revenues that would otherwise go
                                     unrecovered by using our denial management approach. In cases where revenue has been
                                     low due to problematic claims, we helped our clients to boost profit.
                                 </p>
@@ -256,10 +256,10 @@
                         </div>
                         <div class="tab-pane fade" id="AR-followup" role="tabpanel"
                              aria-labelledby="AR-followup-tab">
-                            <div class="">
+                            <div class="pt-md-4">
                                 <img class="img-fluid"
-                                     src="{{url('public/frontend/assets/img/service-medical billing page/slider_AR_Follow_up.png')}}">
-                                <p class="text-white pt-xl-4">We've helped healthcare organizations like yours boost
+                                     src="{{url('public/frontend/assets/img/service-medical billing page/slider_AR_Follow_up.jpg')}}">
+                                <p class="text-white pt-md-4">We've helped healthcare organizations like yours boost
                                     their AR collections by 10-20% on average. If a claim is denied, we reopen it to
                                     receive the rightful reimbursement.
 
@@ -268,10 +268,10 @@
                         </div>
                         <div class="tab-pane fade" id="Reporting" role="tabpanel"
                              aria-labelledby="Reporting-tab">
-                            <div class="">
+                            <div class="pt-md-4">
                                 <img class="img-fluid"
-                                     src="{{url('public/frontend/assets/img/service-medical billing page/slider_reporting.png')}}">
-                                <p class="text-white pt-xl-4">Whether we're tracking claims or confirming payments, our team ensures that everything we do results in maximizing your office's revenue.
+                                     src="{{url('public/frontend/assets/img/service-medical billing page/slider_reporting.jpg')}}">
+                                <p class="text-white pt-md-4">Whether we're tracking claims or confirming payments, our team ensures that everything we do results in maximizing your office's revenue.
                                 </p>
                             </div>
                         </div>
@@ -348,31 +348,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item py-5">
-                        <div class="cus_love_main_testimonial">
-                            <div class="Cus_love_testimonial_slide">
-                                <div class="Cus_love_testimonial_content">
-                                    <p>Atlantis RCM did a great job in managing my billing tasks daily. I believe it has greatly assisted us in improving the cash flow by significantly reducing the number of errors. I strongly recommend them if you are looking to outsource your medical billing service. </p>
-                                    <div class="Cus_love_testimonial_user">
-                                        <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}"
-                                             alt="">
-                                        <span class="text-white">Dr. Shaun Daniel</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
     </section>
@@ -380,7 +356,7 @@
     <section class="Connect-Us py-xl-5 pt-3" id="connectUs">
         <div class="container">
             <div>
-                <h2 class="Connect-head text-blue ">Atlantis RCM simplifies charge entry and eliminates costly mistakes</h2>
+                <h2 class="Connect-head text-blue ">Discover a Better Way Forward</h2>
                 @include('frontend.contactUs.contact_us_form')
             </div>
         </div>

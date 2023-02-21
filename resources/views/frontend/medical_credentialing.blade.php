@@ -174,7 +174,7 @@
                                 <div class="tab-pane fade" id="Primary" role="tabpanel" aria-labelledby="Primary-tab">
                                     <div class="">
                                         <img class="img-fluid" src="{{url('public/frontend/assets/img/medical_billing/slider_source_verification.jpg')}}">
-                                        <p class="text-white pt-xl-4">At Atlantis, we believe that you deserve a seamless
+                                        <p class="text-white pt-md-4">At Atlantis, we believe that you deserve a seamless
                                             credentialing experience. We guide your practice administrators and providers in gathering the required
                                             demographics and background information. Our process is streamlined, so we can help you meet your timelines
                                             and provide a seamless experience for all involved.
@@ -184,7 +184,7 @@
                                 <div class="tab-pane fade" id="CAQH" role="tabpanel" aria-labelledby="CAQH-tab">
                                     <div class="">
                                         <img class="img-fluid" src="{{url('public/frontend/assets/img/medical_billing/slider_caqh_management.jpg')}}">
-                                        <p class="text-white pt-xl-4">We know that it can be a pain in the neck to get credentialed with all of your payers,
+                                        <p class="text-white pt-md-4">We know that it can be a pain in the neck to get credentialed with all of your payers,
                                             and we want to make it easier for you. However, a minor mistake could delay the credentialing process. We submit
                                             the CAQH application for providers who must use this service to credential individual payers.
                                         </p>
@@ -193,7 +193,7 @@
                                 <div class="tab-pane fade" id="Recredentialing" role="tabpanel" aria-labelledby="Recredentialing-tab">
                                     <div class="">
                                         <img class="img-fluid" src="{{url('public/frontend/assets/img/medical_billing/img_recredientialing.jpg')}}">
-                                        <p class="text-white pt-xl-4">Recredentialing is typically required every three years,
+                                        <p class="text-white pt-md-4">Recredentialing is typically required every three years,
                                             so we will notify and manage the process when the time comes to renew a provider's credentials.
                                             Our team will review and verify your professional credentials in conjunction
                                             with relevant criteria and keep them on file.
@@ -205,7 +205,7 @@
                                 <div class="tab-pane fade" id="Appeals" role="tabpanel" aria-labelledby="Appeals-tab">
                                     <div class="">
                                         <img class="img-fluid" src="{{url('public/frontend/assets/img/medical_billing/slider_credientialing_apperals.jpg')}}">
-                                        <p class="text-white pt-xl-4"> As soon as we have all the required documentation,
+                                        <p class="text-white pt-md-4"> As soon as we have all the required documentation,
                                             we prepare and submit the required Submit credentialing appeals for providers or
                                             organizations (hospitals, clinics) when insurances are almost in-network
                                             with the provider or organization.
@@ -389,26 +389,10 @@
                             <div class="cus_love_main_testimonial">
                                 <div class="Cus_love_testimonial_slide">
                                     <div class="Cus_love_testimonial_content">
-                                        <a href="#"><p>During the course of the handling of my case by Atlantis RCM, I was extremely
+                                            <p>During the course of the handling of my case by Atlantis RCM, I was extremely
                                                 satisfied with their approach. Throughout the entire process, they were professional,
                                                 efficient, and most importantly, they helped me go through it in a painless and quick
-                                                manner.</p></a>
-                                        <div class="Cus_love_testimonial_user">
-                                            <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}" alt="">
-                                            <span class="text-white">Dr. Shaun Daniel</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item py-5">
-                            <div class="cus_love_main_testimonial">
-                                <div class="Cus_love_testimonial_slide">
-                                    <div class="Cus_love_testimonial_content">
-                                        <a href="#"><p>During the course of the handling of my case by Atlantis RCM, I was extremely
-                                                satisfied with their approach. Throughout the entire process, they were professional,
-                                                efficient, and most importantly, they helped me go through it in a painless and quick
-                                                manner.</p></a>
+                                                manner.</p>
                                         <div class="Cus_love_testimonial_user">
                                             <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}" alt="">
                                             <span class="text-white">Dr. Shaun Daniel</span>
@@ -418,16 +402,6 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                            data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                            data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </div>
         </section>
@@ -436,9 +410,7 @@
         <section class="Connect-Us py-5" id="connectUs">
             <div class="container">
                 <div>
-                    <h2 class="Connect-head text-blue ">Experience Uninterrupted Patient Care.<br>
-                        Contact Us Today!
-                    </h2>
+                    <h2 class="Connect-head text-blue ">Discover a Better Way Forward</h2>
                     @include('frontend.contactUs.contact_us_form')
                 </div>
             </div>

@@ -1,4 +1,7 @@
 @media only screen and (min-width: 1400px) {
+    #content_home_header {
+        width: 55%;
+    }
     .header_content {
         width: 40%;
     }
@@ -13,6 +16,9 @@
 @media only screen and (min-width: 1201px) and (max-width:1399px) {
     .seven-form {
         height: 97.1%;
+    }
+    #content_home_header {
+        width: 55%;
     }
     .header_content {
         width: 50%;
@@ -62,7 +68,12 @@
     .bg-sol-sb-menu .polygon_arrow {
         right : 250px;
     }
-
+    #nav {
+        opacity: 1
+    }
+    .nav_div_desk {
+        background-color: transparent;
+    }
     }
 @media only screen and (max-width: 992px)  {
     .atlantis_rcm_nav li.nav-item > a {
@@ -171,6 +182,13 @@
     .Cus_love_testimonial_user {
      right: 10%;
     }
+    .hdr_hme_txt_bg h2 {
+        font-size: 19px;
+    }
+    .hdr_hme_txt_bg {
+        height: 35px;
+    }
+
 }
 
 

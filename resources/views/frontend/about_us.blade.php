@@ -70,7 +70,7 @@
                 <div class="row py-3">
                     <div class="col-lg-6 col-sm-12">
                         <div class="our_values_img">
-                            <img src="{{('public/frontend/assets/img/About_Us/about_us_our_values.png')}}" alt="image">
+                            <img src="{{('public/frontend/assets/img/About_Us/about_us_our_values.jpg')}}" alt="image">
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-12">
@@ -135,68 +135,14 @@
             </div>
         </section>
 
-{{--        <!--***************************About_Us_sec_customers_love*************************************-->--}}
 
-        <section class="home-testimonial-section py-3">
-            <div class="container">
-                <div class="cus_love-title">
-                    <h2 class="text-light pt-lg-5">Why Our Customers Trust Us</h2>
-                </div>
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner py-lg-5">
-                        <div class="carousel-item active py-5">
-                            <div class="cus_love_main_testimonial">
-                                <div class="Cus_love_testimonial_slide">
-                                    <div class="Cus_love_testimonial_content">
-                                        <a href="#"><p>During the course of the handling of my case by Atlantis RCM, I was extremely
-                                                satisfied with their approach. Throughout the entire process, they were professional,
-                                                efficient, and most importantly, they helped me go through it in a painless and quick
-                                                manner.</p></a>
-                                        <div class="Cus_love_testimonial_user">
-                                            <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}" alt="">
-                                            <span class="text-white">Dr. Shaun Daniel</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item py-5">
-                            <div class="cus_love_main_testimonial">
-                                <div class="Cus_love_testimonial_slide">
-                                    <div class="Cus_love_testimonial_content">
-                                        <a href="#"><p>During the course of the handling of my case by Atlantis RCM, I was extremely
-                                                satisfied with their approach. Throughout the entire process, they were professional,
-                                                efficient, and most importantly, they helped me go through it in a painless and quick
-                                                manner.</p></a>
-                                        <div class="Cus_love_testimonial_user">
-                                            <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}" alt="">
-                                            <span class="text-white">Dr. Shaun Daniel</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                            data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                            data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-        </section>
 
 {{--        ********************************About_us_sec_improve_profitability*************************************--}}
 
         <section class="Connect-Us py-xl-5 pt-3" id="connectSec">
             <div class="container">
                 <div>
-                    <h2 class="Connect-head text-blue ">Improve profitability of your practice through analysis and innovation</h2>
+                    <h2 class="Connect-head text-blue ">Discover a Better Way Forward</h2>
                     @include('frontend.contactUs.contact_us_form')
                 </div>
             </div>

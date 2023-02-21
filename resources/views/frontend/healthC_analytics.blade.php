@@ -5,9 +5,10 @@
             <div class="container h-100">
                 <div class="d-flex flex-column justify-content-center h-100">
                     <div class="header_content">
-                        <h1 class="text-light Sec1-MB-hea1 fw-bold fs-2">Healthcare Analytics: </h1>
-                            <h2 class="text-light">Analyze Trends<br>
-                                & Improve Outreach</h2>
+                        <h1 class="text-light Sec1-MB-hea1">
+                            Healthcare Analytics:
+                            Improving Outreach
+                            <br>By Analyzing Trends</h1>
 
                         <div class="hdr_btn my-3 strtBtn_home">
                             <a href="#connectUs">
@@ -231,7 +232,7 @@
     <section class="med_bil_sec5  py-5">
         <div class="container">
             <div class="what_home_head">
-                <h2 class="text-blue">Provide patient Safety by Reducing Medical Errors</h2>
+                <h2 class="text-blue">Provide Patient Safety by Reducing Medical Errors</h2>
                 <p class="text-grey">We have a team of experts who have years of experience navigating Medicare and Medicaid enrollment, commercial
                     insurance enrollment, and other credentialing processes for healthcare providers.
                 </p>
@@ -358,8 +359,8 @@
     <section class="home-testimonial-section py-5">
         <div class="container">
             <div class="cus_love-title">
-                <h2 class="text-light pt-5">Why Our Customers Loves Us</h2>
-                <p class="text-light pt-3 fs-5">   With more than a decade of industry-leading experience, Atlantis has been continually recognized for exceptional performance, customer service, employee training, and stringent cybersecurity standards. However, the greatest recognition we receive is the satisfaction of our customers.</p>
+                <h2 class="text-light pt-5">Why Our Customers Trust Us</h2>
+                <p class="text-light pt-3 fs-5"> With more than a decade of industry-leading experience, Atlantis has been continually recognized for exceptional performance, customer service, employee training, and stringent cybersecurity standards. However, the greatest recognition we receive is the satisfaction of our customers.</p>
             </div>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner py-5">
@@ -367,28 +368,18 @@
                         <div class="cus_love_main_testimonial">
                             <div class="Cus_love_testimonial_slide">
                                 <div class="Cus_love_testimonial_content">
-                                    <a href="#"><p>"Atlantis is a great platform that allows us to get real-time insights into our patient population.
+                                    <p>"Atlantis is a great platform that allows us to get real-time insights into our patient population.
                                             This enables us to make more informed decisions about where we want to focus our
-                                            efforts and how we want to deliver the most efficient and effective care possible."</p></a>
+                                            efforts and how we want to deliver the most efficient and effective care possible."</p>
                                     <div class="Cus_love_testimonial_user">
-                                        <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}" alt="">
-                                        <span class="text-white">Dr. Shaun Daniel</span>
+                                        <img src="{{url('public/frontend/assets/img/e_health/Artboard 2.jpg')}}" alt="dr-img">
+                                        <span class="text-white">Dr. Issac Harvey</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
     </section>
@@ -396,7 +387,7 @@
     <section class="Connect-Us py-xl-5 pt-3" id="connectUs">
         <div class="container">
             <div>
-                <h2 class="Connect-head text-blue ">For Adaptable Solutions, Contact Us Today!</h2>
+                <h2 class="Connect-head text-blue ">Discover a Better Way Forward</h2>
                 @include('frontend.contactUs.contact_us_form')
             </div>
         </div>

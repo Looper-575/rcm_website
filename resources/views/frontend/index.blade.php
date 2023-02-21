@@ -1,12 +1,19 @@
 @extends('frontend.layout.master')
 @section('content')
+
     <section class="header_home">
         <div class="h-100" id="layer_1">
             <div class="container h-100">
                 <div class="d-flex flex-column justify-content-center h-100">
-                    <div class="header_content">
+                    <div class="header_content" id="content_home_header">
                         <h1 class="text-light">Helping<br> Healthcare Providers</h1>
-                        <h3 class="text-light hdr_hme_txt_bg my-4">Improve Patient Experience</h3>
+                        <div class="hdr_hme_txt_bg my-4">
+                            <div id="textSlider_home">
+                                <h2 class="slide_text_home text-light">Improve Patient Experience</h2>
+                                <h2 class="slide_text_home text-light">Control Operational Expenses</h2>
+                                <h2 class="slide_text_home text-light">Enhance Revenue Management</h2>
+                            </div>
+                        </div>
                         <p class="text-light my-2">We organize your revenue cycle.<br>
                             So you, and your patients can enjoy a better experience.
                         </p>
@@ -302,7 +309,7 @@
                                      alt="Image 6">
                                 <p class="text-grey text-center">E-Health Records</p>
                                 <button class="button-card" style="margin-top: 0px;"><a
-                                            href="{{url('')}}">Explore</a></button>
+                                            href="{{url('e_health')}}">Explore</a></button>
                                 <div class="content text-center">
                                     <p>Enhanced efficiency by clean and well managed health records. </p>
                                 </div>
@@ -314,8 +321,7 @@
                                      src="{{url('/public/frontend/assets/img/home/vector-smart-object6.png')}}"
                                      alt="Image 7">
                                 <p class="text-grey text-center">Healthcare Analytics</p>
-                                <button class="button-card" style="margin-top: 0px;"><a
-                                            href="{{url('healthC_analytics')}}">Explore</a></button>
+                                <button class="button-card" style="margin-top: 0px;"><a href="{{url('healthC_analytics')}}">Explore</a></button>
                                 <div class="content text-center">
                                     <p>Manage schedules and track patient satisfaction and outcomes. </p>
                                 </div>
@@ -323,9 +329,7 @@
                         </div>
                         <div class="col-sm-6 col-lg-3">
                             <div class="card justify-content-center">
-                                <img class="vector"
-                                     src="{{url('/public/frontend/assets/img/home/vector-smart-object7.png')}}"
-                                     alt="Image 8">
+                                <img class="vector" src="{{url('/public/frontend/assets/img/home/vector-smart-object7.png')}}" alt="Image 8">
                                 <p class="text-grey text-center">Workforce Extension</p>
                                 <button class="button-card" style="margin-top: 0px;"><a
                                             href="{{url('workforce')}}">Explore</a></button>
@@ -355,7 +359,7 @@
                         <img src="{{url('/public/frontend/assets/img/home/icon-reduce-operational-expenses.png')}}"
                              alt="">
                     </div>
-                    <p class="headng mt-md-1 text-grey"> Reduces Operational Expenses</p>
+                    <p class="headng mt-md-1 text-grey">Reduces Operational Expenses</p>
                 </div>
                 <div class="mx-2 mx-md-3 what_service text-center service_hd slide_2" onclick="active_service(2)">
                     <div class="corrsponding_icons d-none d-lg-block pt-3">
@@ -403,8 +407,7 @@
                     <div class="row px-3">
                         <div class="col-lg-6 d-none d-lg-block">
                             <div class="what_we_img">
-                                <img src="{{url('/public/frontend/assets/img/home/image-ensure-transparency.png')}}"
-                                     alt="">
+                                <img src="{{url('/public/frontend/assets/img/home/image-ensure-transparency.png')}}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -427,8 +430,7 @@
                     <div class="row px-3">
                         <div class="col-lg-6 d-none d-lg-block">
                             <div class="what_we_img">
-                                <img src="{{url('/public/frontend/assets/img/home/img_enhance_customer_experience.jpg')}}"
-                                     alt="">
+                                <img src="{{url('/public/frontend/assets/img/home/img_enhance_customer_experience.jpg')}}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -440,8 +442,6 @@
                                     Atlantis is the most sophisticated revenue cycle management solution in the
                                     industry. Our platform helps healthcare organizations reduce operational expenses,
                                     improve patient experience, and increase revenue by automating workflows.
-
-
                                 </p>
                             </div>
 
@@ -472,11 +472,10 @@
             </div>
         </div>
     </section>
-
     <section class="Connect-Us py-5" id="connectSec">
         <div class="container">
             <div>
-                <h2 class="Connect-head text-blue ">Connect with Us</h2>
+                <h2 class="Connect-head text-blue ">Discover a Better Way Forward</h2>
                 <p class="Connect-para text-grey">Our mission is to eliminate repetitive administrative tasks in
                     healthcare organizations and individual practices so that
                     they can exceed revenue and growth. </p>
@@ -497,40 +496,33 @@
                     <button id="slide_button" type="button" data-bs-target="#carouselExampleIndicators"
                             data-bs-slide-to="1"
                             aria-label="Slide 2"></button>
-                    <button id="slide_button" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    <button id="slide_button" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide-to="3"
-                            aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner py-5">
                     <div class="carousel-item active">
                         <div class="main_testimonial">
                             <div class="testimonial_slide d-none d-md-block">
-                                <div class="testimonial_content"><a href="#"><p>“We have been working with Atlantis RCM
+                                <div class="testimonial_content"><p>“We have been working with Atlantis RCM
                                             for
                                             a year now and we couldn't be happier with the results. They have helped us
                                             improve our
                                             collection process, which resulted in a 20% increase in our cash flow”.</p>
-                                    </a>
+
                                 </div>
                                 <div class="testemonial_user"><img
-                                            src="{{url('/public/frontend/assets/img/home/img-0-7-v-1.png')}}" alt="">
-                                    <span class="text-white">Alina John</span>
+                                            src="{{url('/public/frontend/assets/img/patient_experience/Artboard 3.jpg')}}" alt="">
+                                    <span class="text-white">Dr.Alina John</span>
                                 </div>
                             </div>
                             <div class="testimonial_slide">
-                                <div class="testimonial_content"><a href="#">
+                                <div class="testimonial_content">
                                         <p>They helped me enroll with providers and negotiate contracts with insurance companies on my behalf.
                                             They have a thorough understanding of how these companies operate. This team understands the process
                                             from start to finish. Their customer service is outstanding.
                                         </p>
-                                    </a>
                                 </div>
                                 <div class="testemonial_user"><img
                                             src="{{url('/public/frontend/assets/img/home/img-0-8-v-2.png')}}" alt="">
-                                    <span class="text-white">Mark Staris</span>
+                                    <span class="text-white">Dr.Mark Staris</span>
                                 </div>
                             </div>
 
@@ -539,79 +531,26 @@
                     <div class="carousel-item">
                         <div class="main_testimonial">
                             <div class="testimonial_slide">
-                                <div class="testimonial_content"><a href="#"><p>“We have been working with Atlantis RCM
-                                            for
-                                            a year now
-                                            and we couldn't be happier with the results. They have helped us improve our
-                                            collection process, which resulted in a 20% increase in our cash flow”.</p>
-                                    </a>
+                                <div class="testimonial_content">
+                                    <p>During the course of the handling of my case by Atlantis RCM, I was extremely
+                                        satisfied with their approach. Throughout the entire process, they were professional,
+                                        efficient, and most importantly, they helped me go through it in a painless and quick manner.</p>
                                 </div>
-                                <div class="testemonial_user"><img
-                                            src="{{url('/public/frontend/assets/img/home/img-0-7-v-1.png')}}" alt="">
-                                    <span class="text-white">Alina John</span>
+                                <div class="testemonial_user">
+                                    <img src="{{url('public/frontend/assets/img/patient_experience/img-0-7-v-1.png')}}" alt="">
+                                    <span class="text-white">Dr. Shaun Daniel</span>
                                 </div>
                             </div>
                             <div class="testimonial_slide  d-none d-md-block">
-                                <div class="testimonial_content"><a href="#"><p>They helped me enroll with providers and negotiate contracts with insurance companies on my behalf. They have a thorough understanding of how these companies operate. This team understands the process from start to finish. Their customer service is outstanding.
-                                        </p></a>
+                                <div class="testimonial_content">
+                                    <p>"Atlantis is a great platform that allows us to get real-time insights into our patient population.
+                                        This enables us to make more informed decisions about where we want to focus our efforts and how we
+                                        want to deliver the most efficient and effective care possible."
+                                    </p>
                                 </div>
-                                <div class="testemonial_user"><img
-                                            src="{{url('/public/frontend/assets/img/home/img-0-8-v-2.png')}}" alt="">
-                                    <span class="text-white">Mark Staris</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="main_testimonial">
-                            <div class="testimonial_slide  d-none d-md-block">
-                                <div class="testimonial_content"><a href="#"><p>“We have been working with Atlantis RCM
-                                            for
-                                            a year now
-                                            and we couldn't be happier with the results. They have helped us improve our
-                                            collection process, which resulted in a 20% increase in our cash flow”.</p>
-                                    </a>
-                                </div>
-                                <div class="testemonial_user"><img
-                                            src="{{url('/public/frontend/assets/img/home/img-0-7-v-1.png')}}" alt="">
-                                    <span class="text-white">Alina John</span>
-                                </div>
-                            </div>
-                            <div class="testimonial_slide">
-                                <div class="testimonial_content"><a href="#"><p>They helped me enroll with providers and negotiate contracts with insurance companies on my behalf. They have a thorough understanding of how these companies operate. This team understands the process from start to finish. Their customer service is outstanding.
-                                        </p></a>
-                                </div>
-                                <div class="testemonial_user"><img
-                                            src="{{url('/public/frontend/assets/img/home/img-0-8-v-2.png')}}" alt="">
-                                    <span class="text-white">Mark Staris</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="main_testimonial">
-                            <div class="testimonial_slide  d-none d-md-block">
-                                <div class="testimonial_content"><a href="#"><p>“We have been working with Atlantis RCM
-                                            for
-                                            a year now
-                                            and we couldn't be happier with the results. They have helped us improve our
-                                            collection process, which resulted in a 20% increase in our cash flow”.</p>
-                                    </a>
-                                </div>
-                                <div class="testemonial_user"><img
-                                            src="{{url('/public/frontend/assets/img/home/img-0-7-v-1.png')}}" alt="">
-                                    <span class="text-white">Alina John</span>
-                                </div>
-                            </div>
-                            <div class="testimonial_slide">
-                                <div class="testimonial_content"><a href="#"><p>They helped me enroll with providers and negotiate contracts with insurance companies on my behalf. They have a thorough understanding of how these companies operate. This team understands the process from start to finish. Their customer service is outstanding.
-                                        </p></a>
-                                </div>
-                                <div class="testemonial_user"><img
-                                            src="{{url('/public/frontend/assets/img/home/img-0-8-v-2.png')}}" alt="">
-                                    <span class="text-white">Mark Staris</span>
+                                <div class="Cus_love_testimonial_user">
+                                    <img src="{{url('public/frontend/assets/img/e_health/Artboard 2.jpg')}}" alt="">
+                                    <span class="text-white">Dr. Issac Harvey</span>
                                 </div>
                             </div>
 
@@ -631,9 +570,6 @@
             </div>
         </div>
     </section>
-
-
-
     <section class="Recent-News my-5 ">
         <div class="container">
             <h2 class=" text-blue mb-5">Blogs</h2>
@@ -752,6 +688,36 @@
             current_process = e;
             next_process()
         }
+        $(document).ready(function () {
+        $("#text_slide_show > h2:gt(0)").hide();
+
+        setInterval(function() {
+            $('#text_slide_show > h2:first')
+                .fadeOut(3000)
+                .next()
+                .fadeIn(3000)
+                .end()
+                .appendTo('#text_slide_show');
+        }, 4000);
+        });
+
+
+
+        $(document).ready(function(){
+            var currentSlide = 0;
+            var slides = $("#textSlider_home .slide_text_home");
+            var numSlides = slides.length;
+
+            slides.eq(currentSlide).show();
+
+            setInterval(function(){
+                slides.eq(currentSlide).slideUp(500, function(){
+                    $(this).hide();
+                    currentSlide = (currentSlide + 1) % numSlides;
+                    slides.eq(currentSlide).slideDown(500);
+                });
+            }, 3500);
+        });
 
     </script>
 @endsection

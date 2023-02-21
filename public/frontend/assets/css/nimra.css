@@ -67,7 +67,7 @@
     border: 2px solid white;
 }
 .header_Work-Force{
-    background-image: url("../img/workforce/happy-medical.png");
+    background-image: url("../img/workforce/happy-medical.jpg");
     background-repeat: no-repeat;
     height: 80vh;
 }
@@ -75,7 +75,7 @@
     height: 316px !important;
 }
 .header_Practice-managment{
-    background-image: url("../img/practice_manage/img-header-PM.png");
+    background-image: url("../img/practice_manage/img-header-PM.jpg");
     background-repeat: no-repeat;
     height: 80vh;
 }
@@ -103,12 +103,12 @@
 }
 
 .header_Health-Care{
-    background-image: url("../img/healthCare/gradient-fill-1-HC.png");
+    background-image: url("../img/healthCare/healthCare-header.jpg");
     background-repeat: no-repeat;
     height: 80vh;
 }
 .header_taxanomy-about-us{
-    background-image: url("../img/taxanomy-about-us/gradient-fill-1-taxa-about.png");
+    background-image: url("../img/taxanomy-about-us/gradient-fill-1-taxa-about.jpg");
     background-repeat: no-repeat;
     height: 80vh;
 }
@@ -182,7 +182,7 @@
 /* #######################             page_view_all_solution_on_click CSS   ###########################  */
 
 .header_all-solution{
-    background-image: url("../img/all-solution-on-click/img-header-all-solution.png");
+    background-image: url("../img/all-solutions/img-header-all-solution.jpg");
     background-repeat: no-repeat;
     height: 80vh;
 }
