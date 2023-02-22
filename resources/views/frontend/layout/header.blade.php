@@ -14,11 +14,23 @@
     <link rel="stylesheet" href="{{url('/public/frontend/assets/css/nimra.css')}}">
     <link rel="stylesheet" href="{{url('/public/frontend/assets/css/queries.css')}}">
 
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KPBKZVM');</script>
+    <!-- End Google Tag Manager -->
+
     <script src="{{url('public/frontend/assets/bootstrap-5.2.3-dist/js/bootstrap.bundle.js')}}"></script>
     <link rel="shortcut icon" type="image/x-icon" href="{{url('/public/frontend/assets/img/fav_icon_1x_16x16_.png')}}"/>
     <title>{{ $title }}</title>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPBKZVM"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <nav class="navbar atlantis_rcm_nav navbar-light navbar-expand-lg">
     <div class="container-fluid container" id="nav_div">
             <a class="navbar-brand" href="{{'/'}}"><img src="{{url('public/frontend/assets/img/home/head_logo.png')}}" alt=""></a>
@@ -33,6 +45,18 @@
                 <li class="nav-item">
                     <a class="nav-link text-center {{ (request()->is('about_us')) ? 'active' : '' }}" href="{{url('about_us')}}">About Atlantis</a>
                 </li>
+           {{--<div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown button
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                        <li><a class="dropdown-item active" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                </div>--}}
                 <div class="nav-item dropdown d-block d-lg-none">
                   <button class="btn mt-2 btn_mbl_drpdown w-100 dropdown-toggle {{ (request()->is('absolute_revenue')) ? 'btn_mbl_drpdown_active' : '' }} " type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
                         Solutions
