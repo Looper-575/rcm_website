@@ -24,6 +24,33 @@
 
     <script src="{{url('public/frontend/assets/bootstrap-5.2.3-dist/js/bootstrap.bundle.js')}}"></script>
     <link rel="shortcut icon" type="image/x-icon" href="{{url('/public/frontend/assets/img/fav_icon_1x_16x16_.png')}}"/>
+    
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Atlantis RCM",
+          "alternateName": "Atlantis Revenue Cycle Management",
+          "url": "https://www.atlantisrcm.com/",
+          "logo": "https://www.atlantisrcm.com/public/frontend/assets/img/home/head_logo.png",
+          "sameAs": [
+            "https://www.facebook.com/atlantisrcm/",
+            "https://twitter.com/AtlantisRcm",
+            "https://www.instagram.com/atlantisrcmusa/",
+            "https://www.linkedin.com/company/atlantis-rcm/",
+            "https://www.atlantisrcm.com/"
+          ]
+        }
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZN8CEY29TP"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-ZN8CEY29TP');
+    </script>
+    
     <title>{{ $title }}</title>
 </head>
 <body>
@@ -204,7 +231,7 @@
                     <a class="nav-link text-center {{ (request()->is('contact_us')) ? 'active' : '' }}" href="{{url('contact_us')}}">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-center {{ (request()->is('login')) ? 'active' : '' }}" href="https://portal2.atlantisrcm.com/" target="_blank">Login</a>
+                    <a class="nav-link text-center {{ (request()->is('login')) ? 'active' : '' }}" href="https://customer.atlantisrcm.com/" target="_blank">Login</a>
                 </li>
             </ul>
         </div>

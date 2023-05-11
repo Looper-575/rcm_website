@@ -70,6 +70,9 @@
                                 <input type="text" class="form-control text-grey" name="name" id="name_id" placeholder="Your Name" required>
                             </div>
                             <div class="form-group">
+                                <input type="email" class="form-control text-grey" name="email" id="email_id" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
                                 <input type="text" class="form-control text-grey" name="service" id="service_id" placeholder="Your Specialty" required>
                             </div>
                             <div class="form-group">
@@ -81,6 +84,15 @@
                             </div>
                             <div class="form-group">
                                 <input type="time" class="form-control text-grey" id="time_id" name="time" placeholder="Choose Time" required>
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control text-grey" name="time_zone" required>
+                                    <option selected disabled value="">Select Time Zone</option>
+                                    <option value="Eastern Standard Time">Eastern Standard Time</option>
+                                    <option value="Central Standard Time">Central Standard Time</option>
+                                    <option value="Mountain Standard Time">Mountain Standard Time</option>
+                                    <option value="Pecific Standard Time">Pecific Standard Time</option>
+                                </select>
                             </div>
                             <p class=" required mt-2">All the fields are required</p>
                             <div class="d-flex justify-content-center">

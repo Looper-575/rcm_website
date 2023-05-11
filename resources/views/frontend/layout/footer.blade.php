@@ -51,27 +51,6 @@
                     </div>
                 </div>
             </div>
-            {{--<div class="menu_footer pt-3">
-                <div class="row">
-                    <div class="col-md-9 d-none d-lg-block">
-                        <div class="d-flex flex-wrap justify-content-around w-75  menu_li_footer">
-                            <a href="" class="p-1 mx-1 text-light d-block">Home</a>
-                            <a href="" class="p-1 mx-1 text-light d-block">Credentialing</a>
-                            <a href="" class="p-1 mx-1 text-light d-block">Medical Billing</a>
-                            <a href="" class="p-1 mx-1 text-light d-block">About us</a>
-                            <a href="" class="p-1 mx-1 text-light d-block">Contact us</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="icons_social">
-                            <a href="" class="text-light"><i class="fab fa-facebook-f mx-2"></i></a>
-                        </div>
-                        <div class="icons_social mx-3">
-                            <a href="" class="text-light"><i class="fab fa-linkedin-in mx-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>--}}
         </div>
     </section>
     <div class="copyright_line py-1">
@@ -89,24 +68,23 @@
 </footer>
 <script>
     $("#contact_form_id").submit(function (event) {
-    event.preventDefault();
-    let formData = new FormData($('#contact_form_id')[0]);
-    $.ajax({
-    type: "POST",
-    url: "{{ route('contact_us_form') }}",
-    processData: false,
-    data: formData,
-    contentType: false,
-    beforeSend: function (msg) {
-    },
-    success: function (msg) {
-        $('#frm_smt_alrt').html("Submitted!");
-        $('#frm_smt_alrt').css({"background-color": '#1166e1'});
-        $('#contact_form_id')[0].reset();
-    }});
+        event.preventDefault();
+        let formData = new FormData($('#contact_form_id')[0]);
+        $.ajax({
+            type: "POST",
+            url: "{{ route('contact_us_form') }}",
+            processData: false,
+            data: formData,
+            contentType: false,
+            beforeSend: function (msg) {
+            },
+            success: function (msg) {
+                $('#frm_smt_alrt').html("Submitted!");
+                $('#frm_smt_alrt').css({"background-color": '#1166e1'});
+                $('#contact_form_id')[0].reset();
+            }
+        });
     });
-
-
     $(document).ready(function () {
         $('html, body').animate({
             scrollTop: $('#tex_content').offset().top

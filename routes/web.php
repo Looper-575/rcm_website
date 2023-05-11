@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Route;
 
@@ -16,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/route-cache', function() {
     Cache::flush();
+    Artisan::call('optimize:clear');
     Route::clearResolvedInstances();
     return 'Routes cache cleared';
 });

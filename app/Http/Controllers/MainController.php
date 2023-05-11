@@ -9,7 +9,7 @@ class MainController extends Controller
 {
     public function index()
     {
-        $data['title']= 'Atlantis Revenue Cycle Management System';
+        $data['title']= 'Revenue Cycle Management | Medical Billing & Credentialing Services in USA';
         $data['meta_description']= 'We provide insurance verification, RCM billing, patient billing, and a wide range of medical billing services to make your medical practice a gold mine';
         $data['meta_tags']= 'insurance verification, insurance verification specialist, insurance verification form, dental insurance verification , rcm , rcm billing services, rcm medical billing , rcm billing , patient billing services , rcm services';
         return view('frontend.index', $data);
@@ -17,42 +17,42 @@ class MainController extends Controller
 
     public function patient_experience()
     {
-        $data['title']= 'Atlantis Patient Engagement Through Revenue Cycle Management';
+        $data['title']= 'Improved Patient Engagement Through Revenue Cycle Management';
         $data['meta_description']= "Our patient management services and patient care management are designed to improve the quality of your patient's care at Atlantis RCM";
         $data['meta_tags']= 'patient management, patient management software, patient care management, patient management softwares, patient access management';
         return view('frontend.patient_experience', $data);
     }
     public function medical_billing()
     {
-        $data['title']= 'Atlantis Medical Billing Service Provider';
+        $data['title']= 'Convenient Medical Billing with Atlantis RCM';
         $data['meta_description']= 'You can outsource medical billing whether you are interested in dental billing outsourcing or any other; it all depends on your specialty';
         $data['meta_tags']= 'outsourcing medical billing, aps medical billing, medical billing specialist, medical billing service, medical billing lawyer, medical billing work from home, radiology medical billing, outsource medical billing, individual healthcare ';
         return view('frontend.medical_billing', $data);
     }
     public function telehealth()
     {
-        $data['title']= 'Atlantis Telehealth solutions and services Provider';
+        $data['title']= 'Atlantis Leader in Telehealth Solutions and Services Provider';
         $data['meta_description']= 'There is a need for VA telehealth outsourcing in order to streamline telehealth outpatient programs in the telehealth urgent care sector.';
         $data['meta_tags']= 'telehealth service, telehealth urgent care, va telehealth, telehealth nurse practitioner , anthem telehealth, us telehealth';
         return view('frontend.telehealth', $data);
     }
     public function workforce()
     {
-        $data['title']= 'Atlantis Workforce Extension Service';
+        $data['title']= 'Atlantis Workforce Extension Service Provider in USA';
         $data['meta_description']= 'As one of the leading hospital billing outsourcing companies, Atlantis RCM is at the forefront of helping doctors outsource medical billing services.';
         $data['meta_tags']= 'outsource medical billing, bill gosling outsourcing, dental billing outsourcing, medical billing outsourcing, outsource medical billing services, hospital billing outsourcing companies, outsource billing, outsourced medical billing services';
         return view('frontend.workforce', $data);
     }
     public function practice_manage()
     {
-        $data['title']= 'Atlantis Medical Practice Management Service';
+        $data['title']= 'Atlantis Medical Practice Management Services in USA';
         $data['meta_description']= 'Atlantis RCM provides comprehensive dental practice management solutions, including best practice change management, so that you can focus on your passion.';
         $data['meta_tags']= 'practice management, practice management system, physicians practice management, physician practice management , dental practice management, best practice management , rcm practice management';
         return view('frontend.practice_manage', $data);
     }
     public function absolute_revenue()
     {
-        $data['title']= 'Atlantis Complete Revenue Cycle Management';
+        $data['title']= 'Complete Revenue Cycle Management Service Provider | Atlantis RCM';
         $data['meta_description']= 'Our rcm medical billing and patient billing services aim to improve revenue cycle management and profitability for our clients';
         $data['meta_tags']= 'rcm billing services, rcm medical billing company, rcm medical billing, rcm billing, medical billing and revenue cycle management services, patient billing services, outbound revenue cycle management solutions, rcm website, medical billing rcm, rcm medicine, rcm services, billing rcm, enter health billing revenue, medical billing services, specialized revenue cycle management, cloud billing service,rcm in medical billing, complete revenue cycle, rcm medical coding company, billing service medical, medical billing service, patient billing cycle, revenue cycle management medical billing, medical billing strategic plan, rcm health';
         return view('frontend.absolute_revenue', $data);
@@ -73,7 +73,7 @@ class MainController extends Controller
     }
     public function healthC_analytics()
     {
-        $data['title']= 'Atlantis Health Care Analytics Service';
+        $data['title']= 'The Best Health Care Analytics Service Provider in USA';
         $data['meta_description']= 'Atlantis RCM improves financial outcomes in healthcare. Offers healthcare analytics solutions to measure, manage and report on the metrics that matter.';
         $data['meta_tags']= 'rcm healthcare, healthcare analytics, predictive analytics in healthcare , big data analytics in healthcare, healthcare analytics companies, business analytics in healthcare, healthcare analytics jobs, big data analytics for healthcare, data analytics healthcare, healthcare analytics certificate, healthcare data analytics companies, healthcare analytics certification, certificate in healthcare analytics';
         return view('frontend.healthC_analytics', $data);
@@ -94,14 +94,14 @@ class MainController extends Controller
     }
     public function all_solutions()
     {
-        $data['title']= 'Atlantis RCM Custom Solutions Service';
+        $data['title']= 'Experience Custom Healthcare Solutions with Atlantis RCM';
         $data['meta_description']= '';
         $data['meta_tags']= ' physician practice management , dental practice management, best practice management , rcm practice management, insurance verification, insurance verification specialist, digital health passport, digital health companies, health o meter digital scale, rcm healthcare, healthcare analytics, predictive analytics in healthcare , rcm billing services, rcm medical billing company, rcm medical billing, rcm billing, medical billing and revenue cycle management services,';
         return view('frontend.all_solutions', $data);
     }
     public function medical_credentialing()
     {
-        $data['title']= 'Atlantis Medical Credentialing Service Provider';
+        $data['title']= 'Your One-Stop Shop for Medical Credentialing | Atlantis RCM';
         $data['meta_description']= "We provide credentialing with insurance, medical credentials for Medicare, and medical staff credentialing, to support our clients' success";
         $data['meta_tags']= 'credentialing with aetna, credentialing with insurance, credentialing with insurance companies, credentialing for medicare, medical credentialing, medical credentialing services, medical credentialing specialist, medicaid credentialing, medical assistant credentials, credentialing in medical billing, medical billing and credentialing services, credentialing medical, medical credentialing companies, medical credentialing software, medical credentials, credentials for medical';
         return view('frontend.medical_credentialing', $data);
@@ -139,18 +139,46 @@ class MainController extends Controller
     {
         ContactUs::create([
             'name'=>$request->name,
+            'email'=>$request->email,
             'service'=>$request->service,
             'phone_number'=>$request->phone_number,
             'date'=>$request->date,
             'time'=>$request->time,
+            'time_zone'=>$request->time_zone,
         ]);
+        $text = "
+        New Lead from AtlantisRCM Website <br>
+        Name: ".$request->name." <br>
+        Email: ".$request->email." <br>
+        Service: ".$request->service." <br>
+        Phone Number: ".$request->phone_number." <br>
+        Date: ".$request->date." <br>
+        Time: ".$request->time." <br>
+        Time Zone: ".date('h:i:s a', strtotime($request->time_zone))." <br>
+        ";
+        $this->send_email($text, "danish.sheraz575@gmail.com", 'Atlantis RCM Lead Form');
+//        $this->send_email($text, "info@atlantisrcm.com", 'Atlantis RCM Lead Form');
         $response['status'] = 'Success';
         $response['message'] = 'Form Successfully Submited!';
         return $response;
     }
 
+    private function send_email($email_body, $email_address, $subject)
+    {
+        $em = "noreply@atlantisrcm.com";
+        $na = "Atlantis-RCM";
+        $from = $na . "<" . $em . ">";
+        $xheaders = 'MIME-Version: 1.0' . "\r\n";
+        $xheaders .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+        $xheaders .= 'X-Priority: 1' . "\r\n";
+        $xheaders .= "From: " . $from . "\r\n";
+        $xheaders .= "Reply-To: " . $from . "\r\n";
+        $xheaders .= "Return-Path: " . $from . "\r\n";
+        mail($email_address, $subject, $email_body, $xheaders);
+    }
 
-/* ----------------Speciality------------- */
+
+    /* ----------------Speciality------------- */
     public function laboratry()
     {
         $data['title']= 'Specialty | Laboratry';
@@ -201,130 +229,130 @@ class MainController extends Controller
         return view('frontend.taxonomies.dermatology', $data);
     }
     public function familyPractice()
-        {
-            $data['title']= 'Specialty | Family Practice';
-            $data['meta_description']= '';
-            $data['meta_tags']= '';
-            return view('frontend.taxonomies.familyPractice', $data);
-        }
+    {
+        $data['title']= 'Specialty | Family Practice';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.familyPractice', $data);
+    }
     public function ophthalmology()
-        {
-            $data['title']= 'Specialty | Ophthalmology';
-            $data['meta_description']= '';
-            $data['meta_tags']= '';
-            return view('frontend.taxonomies.ophthalmology', $data);
-        }
+    {
+        $data['title']= 'Specialty | Ophthalmology';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.ophthalmology', $data);
+    }
     public function endocrinology()
-        {
-            $data['title']= 'Specialty | Endocrinology';
-            $data['meta_description']= '';
-            $data['meta_tags']= '';
-            return view('frontend.taxonomies.endocrinology', $data);
-        }
+    {
+        $data['title']= 'Specialty | Endocrinology';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.endocrinology', $data);
+    }
     public function chiropractic()
-        {
-            $data['title']= 'Specialty | Chiropractic';
-            $data['meta_description']= '';
-            $data['meta_tags']= '';
-            return view('frontend.taxonomies.chiropractic', $data);
-        }
+    {
+        $data['title']= 'Specialty | Chiropractic';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.chiropractic', $data);
+    }
     public function cardiology()
-        {
-            $data['title']= 'Specialty | Cardiology';
-            $data['meta_description']= '';
-            $data['meta_tags']= '';
-            return view('frontend.taxonomies.cardiology', $data);
-        }
+    {
+        $data['title']= 'Specialty | Cardiology';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.cardiology', $data);
+    }
     public function allergy()
-        {
-            $data['title']= 'Specialty | Allergy';
-            $data['meta_description']= '';
-            $data['meta_tags']= '';
-            return view('frontend.taxonomies.allergy', $data);
-        }
+    {
+        $data['title']= 'Specialty | Allergy';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.allergy', $data);
+    }
     public function orthopedics()
-        {
-            $data['title']= 'Specialty | Orthopedics';
-            $data['meta_description']= '';
-            $data['meta_tags']= '';
-            return view('frontend.taxonomies.orthopedics', $data);
-        }
+    {
+        $data['title']= 'Specialty | Orthopedics';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.orthopedics', $data);
+    }
     public function painManagement()
-        {
-            $data['title']= 'Specialty | Pain Management';
-            $data['meta_description']= '';
-            $data['meta_tags']= '';
-            return view('frontend.taxonomies.painManagement', $data);
-        }
+    {
+        $data['title']= 'Specialty | Pain Management';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.painManagement', $data);
+    }
     public function dmeProviders()
-        {
-            $data['title']= 'Specialty | DME Providers';
-            $data['meta_description']= '';
-            $data['meta_tags']= '';
-            return view('frontend.taxonomies.dmeProviders', $data);
-        }
+    {
+        $data['title']= 'Specialty | DME Providers';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.dmeProviders', $data);
+    }
     public function podiatry()
-        {
-            $data['title']= 'Specialty | Podiatry';
-            $data['meta_description']= '';
-            $data['meta_tags']= '';
-            return view('frontend.taxonomies.podiatry', $data);
-        }
+    {
+        $data['title']= 'Specialty | Podiatry';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.podiatry', $data);
+    }
     public function urology()
-        {
-            $data['title']= 'Specialty | Urology';
-            $data['meta_description']= '';
-            $data['meta_tags']= '';
-            return view('frontend.taxonomies.urology', $data);
-        }
+    {
+        $data['title']= 'Specialty | Urology';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.urology', $data);
+    }
     public function gyn()
-        {
-            $data['title']= 'Specialty | Obstetrics & Gynecology';
-            $data['meta_description']= '';
-            $data['meta_tags']= '';
-            return view('frontend.taxonomies.gyn', $data);
-        }
+    {
+        $data['title']= 'Specialty | Obstetrics & Gynecology';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.gyn', $data);
+    }
     public function physicaltherapy()
-        {
-            $data['title']= 'Specialty | Physical Therapy';
-            $data['meta_description']= '';
-            $data['meta_tags']= '';
-            return view('frontend.taxonomies.physicaltherapy', $data);
-        }
+    {
+        $data['title']= 'Specialty | Physical Therapy';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.physicaltherapy', $data);
+    }
     public function radiology()
-        {
-            $data['title']= 'Specialty | Radiology';
-            $data['meta_description']= '';
-            $data['meta_tags']= '';
-            return view('frontend.taxonomies.radiology', $data);
-        }
+    {
+        $data['title']= 'Specialty | Radiology';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.radiology', $data);
+    }
     public function urgentCare()
-        {
-            $data['title']= 'Specialty | Urgent Care';
-            $data['meta_description']= '';
-            $data['meta_tags']= '';
-            return view('frontend.taxonomies.urgentCare', $data);
-        }
+    {
+        $data['title']= 'Specialty | Urgent Care';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.urgentCare', $data);
+    }
     public function homehealth()
-        {
-            $data['title']= 'Specialty | Home Health';
-            $data['meta_description']= '';
-            $data['meta_tags']= '';
-            return view('frontend.taxonomies.homehealth', $data);
-        }
+    {
+        $data['title']= 'Specialty | Home Health';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.homehealth', $data);
+    }
     public function rheumatology()
-        {
-            $data['title']= 'Specialty | Rheumatology';
-            $data['meta_description']= '';
-            $data['meta_tags']= '';
-            return view('frontend.taxonomies.rheumatology', $data);
-        }
+    {
+        $data['title']= 'Specialty | Rheumatology';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.rheumatology', $data);
+    }
     public function otolaryngology()
-        {
-            $data['title']= 'Specialty | Otolaryngology';
-            $data['meta_description']= '';
-            $data['meta_tags']= '';
-            return view('frontend.taxonomies.otolaryngology', $data);
-        }
+    {
+        $data['title']= 'Specialty | Otolaryngology';
+        $data['meta_description']= '';
+        $data['meta_tags']= '';
+        return view('frontend.taxonomies.otolaryngology', $data);
+    }
 
 }
