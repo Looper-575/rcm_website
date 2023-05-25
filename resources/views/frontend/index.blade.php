@@ -235,11 +235,12 @@
                     <div class="row text-center mt-5">
                         <div class="col-sm-6 col-lg-3 text-center">
                             <div class="card justify-content-center">
-                                <img class="vector" src="{{url('/public/frontend/assets/img/home/vector-smart-object.png')}}" alt="Image 1">
+                                <img class="vector"
+                                     src="{{url('/public/frontend/assets/img/home/vector-smart-object.png')}}"
+                                     alt="Image 1">
                                 <p class="text-grey text-center">Revenue Cycle Management</p>
-                                <button class="button-card" style="margin-top: 0px;">
-                                    <a href="{{url('absolute_revenue')}}">Explore</a>
-                                </button>
+                                <button class="button-card" style="margin-top: 0px;"><a
+                                            href="{{url('absolute_revenue')}}">Explore</a></button>
                                 <div class="content text-center">
                                     <p>From initial diagnosis to eventual payment & everything in between.</p>
                                 </div>

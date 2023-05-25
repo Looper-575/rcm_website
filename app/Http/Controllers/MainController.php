@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\ContactUs;
+use App\Mail\ContactUsMail;
+use Illuminate\Http\JsonResponse;
+use Illuminate\Support\Facades\Mail;
 
 class MainController extends Controller
 {
@@ -137,7 +140,7 @@ class MainController extends Controller
 
     public function contact_us_form(Request $request)
     {
-        ContactUs::create([
+        $contact_us = ContactUs::create([
             'name'=>$request->name,
             'email'=>$request->email,
             'service'=>$request->service,
@@ -146,21 +149,26 @@ class MainController extends Controller
             'time'=>$request->time,
             'time_zone'=>$request->time_zone,
         ]);
-        $text = "
-        New Lead from AtlantisRCM Website <br>
-        Name: ".$request->name." <br>
-        Email: ".$request->email." <br>
-        Service: ".$request->service." <br>
-        Phone Number: ".$request->phone_number." <br>
-        Date: ".$request->date." <br>
-        Time: ".$request->time." <br>
-        Time Zone: ".date('h:i:s a', strtotime($request->time_zone))." <br>
-        ";
-        $this->send_email($text, "danish.sheraz575@gmail.com", 'Atlantis RCM Lead Form');
-//        $this->send_email($text, "info@atlantisrcm.com", 'Atlantis RCM Lead Form');
-        $response['status'] = 'Success';
-        $response['message'] = 'Form Successfully Submited!';
-        return $response;
+
+        $email = 'info@atlantisrcm.com';
+        if($contact_us){
+            Mail::to($email)->send(new ContactUsMail($request));
+            return new JsonResponse(
+                [
+                    'success' => true,
+                    'status' => 'Success',
+                    'message' => "Form Successfully Submitted!"
+                ], 200
+            );
+        } else {
+            return new JsonResponse(
+                [
+                    'success' => false,
+                    'status' => 'failure',
+                    'message' => "Something went wrong!"
+                ], 200
+            );
+        }
     }
 
     private function send_email($email_body, $email_address, $subject)
